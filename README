@@ -1,0 +1,21 @@
+Steps to clone and setup your git respository:
+==============================================
+1. vagrant up, vagrant ssh (like in labs)
+
+2. In introHCI directory, run following command:
+git clone https://github.com/tedtkim/readbymood.git
+
+3. cd readbymood
+
+4. Run each of the following in prompt:
+git config --add branch.master.rebase true
+git config --add branch.autosetuprebase always 
+
+5. Open readbymood/.git/config file and add the following lines to bottom of file:
+[alias]  
+           st = status  
+           co = checkout  
+           br = branch  
+           lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+
+6. 
