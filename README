@@ -1,6 +1,12 @@
-Steps to clone and setup your git respository:
-==============================================
+==========================================
+* To clone and setup your git respository:
+==========================================
 1. vagrant up, vagrant ssh (like in labs)
+
+1a. (Only need to do this once, to make sure commits have your name and not 'vagrant')
+Run the following command, replace your_name and your_email with yours:
+git config --global user.name <your_name>  
+git config --global user.email <your_email>  
 
 2. In introHCI directory, run following command:
 git clone https://github.com/tedtkim/readbymood.git
@@ -18,4 +24,12 @@ git config --add branch.autosetuprebase always
            br = branch  
            lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
 
-6. 
+Notes: The rebase makes it so that we have a clear and easy way to merge and commit with minimal conflicts.
+
+===============================
+* Editing and commit procedure:
+===============================
+1. Edit, git add, and git commit your changes as needed
+2. git pull (if there are conflicts, follow steps on screen to resolve them)
+3. git lg (to check that no funky mergers happened - it should be nice and linear with your changes on top)
+4. git push
