@@ -33,4 +33,3 @@ Notes: The rebase makes it so that we have a clear and easy way to merge and com
 2. git pull (if there are conflicts, follow steps on screen to resolve them)
 3. git lg (to check that no funky mergers happened - it should be nice and linear with your changes on top)
 4. git push
-5. 
