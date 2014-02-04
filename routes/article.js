@@ -17,9 +17,9 @@ exports.view = function(req, res){
 	];
 
 	res.render('article', {
-    'id': id,
-    'title': title,
-    'headline': headline,
-    'contents': contents,	
+		'id': id,
+		'title': title,
+		'headline': headline,
+		'contents': contents,	
 	});
 };
