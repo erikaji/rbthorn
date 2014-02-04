@@ -68,22 +68,13 @@ p.desc {
 	text-decoration: none;
 }
 
-.mood {
-	border-radius:15px;
-	border: 1px solid #dcdcdc;
-	display:inline-block;
+h1 {
 	font-size: 36pt;
+}
+
+.mood {
+	color: #000080;
 	font-weight: 900;
-	font-style:normal;
-	text-decoration:none;
-	text-align:center;
-	padding: 10px;
-	vertical-align:center;
-}
-.mood:after {
-	content:" x";
-}
-.mood:hover {
-	color:#666666;
-	text-decoration:none;
+	text-decoration: none;
+	pointer-events: none;
 }
