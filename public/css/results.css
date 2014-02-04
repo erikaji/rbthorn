@@ -1,12 +1,3 @@
-.moods {
-	font-size: 36pt;
-	font-weight: 900;
-}
-
-.moods:hover{
-	text-decoration: line-through;
-}
-
 p.name {
 	font-size: 13pt;
 	font-weight: bold;
@@ -33,7 +24,7 @@ p.desc {
 	padding: 2px;
 }
 
-/* The button below was generated using CSSButtonGenerator.com */
+/* The buttons below were generated using CSSButtonGenerator.com */
 
 .article {
 	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
@@ -59,7 +50,6 @@ p.desc {
 	border:1px solid #dcdcdc;
 	display:inline-block;
 	color:#333333;
-	font-family:Arial;
 	font-size:16px;
 	font-style:normal;
 	padding: 15px;
@@ -76,4 +66,24 @@ p.desc {
 	background-color:#e9e9e9;
 	color:#666666;
 	text-decoration: none;
+}
+
+.mood {
+	border-radius:15px;
+	border: 1px solid #dcdcdc;
+	display:inline-block;
+	font-size: 36pt;
+	font-weight: 900;
+	font-style:normal;
+	text-decoration:none;
+	text-align:center;
+	padding: 10px;
+	vertical-align:center;
+}
+.mood:after {
+	content:" x";
+}
+.mood:hover {
+	color:#666666;
+	text-decoration:none;
 }
