@@ -1,11 +1,8 @@
 exports.viewResults = function(req, res) {
-	var list = [];
-	for (var key in req.query) {
-		list.push(key);
-	}
-	var last = list.pop();
+	var tags = req.query.tags;
+	var last = tags.pop();
 	res.render('results', {
-	    'resultsName': list,
+	    'resultsName': tags,
 	    'last': last,
 	    'query': req.query
 	});

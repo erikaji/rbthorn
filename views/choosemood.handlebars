@@ -171,7 +171,7 @@
   		var query='';
   		var key;
   		for (key in post)
-  			query=query+key+'='+key+'&';
+  			query=query+'tags[]='+key+'&';
   		query = query.slice(0,-1);
   		$(".submit").attr("href","/results?"+query);
   	});
