@@ -163,11 +163,22 @@
   	<script src="https://code.jquery.com/jquery.js"></script>
   	<script src="/js/bootstrap.min.js"></script>
   	<script type="text/javascript">
-  	var post={}
+
   	$(".tag").click(function () {
   		$(this).toggleClass("btn-success");
-  		var tag = $(this).text();
-  		post[tag]= tag;
+  		var tagList =  $(".btn-success");
+  		var submitButton = $(".submit button");
+  		if(tagList.length == 0){
+  			submitButton.attr("disabled", true);
+  			submitButton.attr("href", "#");
+  		}
+  		else
+  			submitButton.attr("disabled", false);
+  	});
+
+  	$(".submit").click(function(){
+  		var post = {};
+ 		$(".btn-success").each(function(){post[$(this).text()] = true;});
   		var query='';
   		var key;
   		for (key in post)
