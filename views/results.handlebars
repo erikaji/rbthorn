@@ -19,7 +19,12 @@
   <body>
 	<!-- this is a comment in HTML -->
 	<div class="container">
-    <h1>Read <a class="mood">career</a> + <a class="mood">inspirational</a> articles</h1>
+    <h1>Read
+      {{#each resultsName}}
+        <a class="mood">{{this}}</a> +
+      {{/each}}
+      <a class="mood">{{last}}</a>
+      articles </h1>
 
     <ul class="articles">
       <li><a href="linkhere" class="article">
@@ -39,7 +44,7 @@
       </a></li>
     </ul>
 
-    <h3><a href="index.html">&laquo; Back</a></h3>
+    <h3><a href="choosemood">&laquo; Back</a></h3>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://code.jquery.com/jquery.js"></script>
