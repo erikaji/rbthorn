@@ -27,21 +27,15 @@
       articles </h1>
 
     <ul class="articles">
-      <li class="articles"><a href="article/1" class="btn btn-default btn-lg btn-block" role="button">
-        <p class="name">How to Do What You Love</p>
-        <p class="src">paulgraham.com</p>
-        <p class="desc">To do something well you have to like it. That idea is not exactly novel. We've got it down to just four words...</p>
-      </a></li>
-      <li class="articles"><a href="article/1" class="btn btn-default btn-lg btn-block" role="button">
-        <p class="name">The Asian American Quarter-Life Crisis</p>
-        <p class="src">mynameiselizabeth.com</p>
-        <p class="desc">In the 10 years since I graduated from college, I’ve had the same conversation hundreds of times...</p>
-      </a></li>
-      <li class="articles"><a href="article/1" class="btn btn-default btn-lg btn-block" role="button">
-        <p class="name">Why I Left Google</p>
-        <p class="src">medium.com</p>
-        <p class="desc">Thoughts on trading in pride and security for authenticity. About 6 months ago, I decided to quit...</p>
-      </a></li>
+      {{#each articles}}
+        <li class="articles">
+          <a href="article/{{id}}" class="btn btn-default btn-lg btn-block" role="button">
+            <p class="name">{{title}}</p>
+            <p class="src">{{src}}</p>
+            <p class="desc">{{headline}}</p>
+          </a>
+        </li>
+      {{/each}}
     </ul>
 
     <h3><a href="/">&laquo; Back</a></h3>

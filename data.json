@@ -1,0 +1,28 @@
+{
+	"articles": [
+		{
+			"id": "1",
+			"title": "How to Do What You Love",
+			"headline": "To do something well you have to like it. That idea is not exactly novel. We've got it down to just four words",
+			"contents": "",
+			"src": "paulgraham.com",
+			"url": ""
+		},
+		{
+			"id": "2",
+			"title": "The Asian American Quarter-Life Crisis",
+			"headline": "In the 10 years since I graduated from college, I’ve had the same conversation hundreds of times",
+			"contents": "",
+			"src": "mynameiselizabeth.com",
+			"url": ""
+		},
+		{
+			"id": "3",
+			"title": "Why I Left Google",
+			"headline": "Thoughts on trading in pride and security for authenticity. About 6 months ago, I decided to quit",
+			"contents": "",
+			"src": "medium.com",
+			"url": ""
+		}
+	]
+}
