@@ -5,6 +5,7 @@ exports.view = function(req, res){
 
 	res.render('choosemood', {
 		'tags': db_data.tags,
+		'articles': db_data.articles,
 		'selected_tag': tag
 	});
 };

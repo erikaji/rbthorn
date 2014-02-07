@@ -34,132 +34,13 @@
         {{#each tags}}
           <button class="btn btn-lg tag" id="tag{{this.id}}">{{this.name}}</button>
         {{/each}}
-        <!--
-  			<button class="btn btn-lg tag" id="test0">Mon</button>
-  			<button class="btn btn-lg tag" id="test1">Tue</button>
-  			<button class="btn btn-lg tag" id="test2">Wed</button>
-  			<button class="btn btn-lg tag" id="test3">Thu</button>
-  			<button class="btn btn-lg tag" id="test4">Fri</button>
-  			<button class="btn btn-lg tag" id="test5">Sat</button>
-  			<button class="btn btn-lg tag" id="test6">Sun</button>
-  			<button class="btn btn-lg tag" id="test0">Mon</button>
-  			<button class="btn btn-lg tag" id="test1">Tue</button>
-  			<button class="btn btn-lg tag" id="test2">Wed</button>
-  			<button class="btn btn-lg tag" id="test3">Thu</button>
-  			<button class="btn btn-lg tag" id="test4">Fri</button>
-  			<button class="btn btn-lg tag" id="test5">Sat</button>
-  			<button class="btn btn-lg tag" id="test6">Sun</button>
-  			<button class="btn btn-lg tag" id="test0">Mon</button>
-  			<button class="btn btn-lg tag" id="test1">Tue</button>
-  			<button class="btn btn-lg tag" id="test2">Wed</button>
-  			<button class="btn btn-lg tag" id="test3">Thu</button>
-  			<button class="btn btn-lg tag" id="test4">Fri</button>
-  			<button class="btn btn-lg tag" id="test5">Sat</button>
-  			<button class="btn btn-lg tag" id="test6">Sun</button>
-  			<button class="btn btn-lg tag" id="test0">Mon</button>
-  			<button class="btn btn-lg tag" id="test1">Tue</button>
-  			<button class="btn btn-lg tag" id="test2">Wed</button>
-  			<button class="btn btn-lg tag" id="test3">Thu</button>
-  			<button class="btn btn-lg tag" id="test4">Fri</button>
-  			<button class="btn btn-lg tag" id="test5">Sat</button>
-  			<button class="btn btn-lg tag" id="test6">Sun</button>
-  			<button class="btn btn-lg tag" id="test0">Mon</button>
-  			<button class="btn btn-lg tag" id="test1">Tue</button>
-  			<button class="btn btn-lg tag" id="test2">Wed</button>
-  			<button class="btn btn-lg tag" id="test3">Thu</button>
-  			<button class="btn btn-lg tag" id="test4">Fri</button>
-  			<button class="btn btn-lg tag" id="test5">Sat</button>
-  			<button class="btn btn-lg tag" id="test6">Sun</button>
-  			<button class="btn btn-lg tag" id="test0">Mon</button>
-  			<button class="btn btn-lg tag" id="test1">Tue</button>
-  			<button class="btn btn-lg tag" id="test2">Wed</button>
-  			<button class="btn btn-lg tag" id="test3">Thu</button>
-  			<button class="btn btn-lg tag" id="test4">Fri</button>
-  			<button class="btn btn-lg tag" id="test5">Sat</button>
-  			<button class="btn btn-lg tag" id="test6">Sun</button>
-  			<button class="btn btn-lg tag" id="test0">Mon</button>
-  			<button class="btn btn-lg tag" id="test1">Tue</button>
-  			<button class="btn btn-lg tag" id="test2">Wed</button>
-  			<button class="btn btn-lg tag" id="test3">Thu</button>
-  			<button class="btn btn-lg tag" id="test4">Fri</button>
-  			<button class="btn btn-lg tag" id="test5">Sat</button>
-  			<button class="btn btn-lg tag" id="test6">Sun</button>
-  			<button class="btn btn-lg tag" id="test0">Mon</button>
-  			<button class="btn btn-lg tag" id="test1">Tue</button>
-  			<button class="btn btn-lg tag" id="test2">Wed</button>
-  			<button class="btn btn-lg tag" id="test3">Thu</button>
-  			<button class="btn btn-lg tag" id="test4">Fri</button>
-  			<button class="btn btn-lg tag" id="test5">Sat</button>
-  			<button class="btn btn-lg tag" id="test6">Sun</button>
-  			<button class="btn btn-lg tag" id="test0">Mon</button>
-  			<button class="btn btn-lg tag" id="test1">Tue</button>
-  			<button class="btn btn-lg tag" id="test2">Wed</button>
-  			<button class="btn btn-lg tag" id="test3">Thu</button>
-  			<button class="btn btn-lg tag" id="test4">Fri</button>
-  			<button class="btn btn-lg tag" id="test5">Sat</button>
-  			<button class="btn btn-lg tag" id="test6">Sun</button>
-  			<button class="btn btn-lg tag" id="test0">Mon</button>
-  			<button class="btn btn-lg tag" id="test1">Tue</button>
-  			<button class="btn btn-lg tag" id="test2">Wed</button>
-  			<button class="btn btn-lg tag" id="test3">Thu</button>
-  			<button class="btn btn-lg tag" id="test4">Fri</button>
-  			<button class="btn btn-lg tag" id="test5">Sat</button>
-  			<button class="btn btn-lg tag" id="test6">Sun</button>
-  			<button class="btn btn-lg tag" id="test0">Mon</button>
-  			<button class="btn btn-lg tag" id="test1">Tue</button>
-  			<button class="btn btn-lg tag" id="test2">Wed</button>
-  			<button class="btn btn-lg tag" id="test3">Thu</button>
-  			<button class="btn btn-lg tag" id="test4">Fri</button>
-  			<button class="btn btn-lg tag" id="test5">Sat</button>
-  			<button class="btn btn-lg tag" id="test6">Sun</button>
-  			<button class="btn btn-lg tag" id="test0">Mon</button>
-  			<button class="btn btn-lg tag" id="test1">Tue</button>
-  			<button class="btn btn-lg tag" id="test2">Wed</button>
-  			<button class="btn btn-lg tag" id="test3">Thu</button>
-  			<button class="btn btn-lg tag" id="test4">Fri</button>
-  			<button class="btn btn-lg tag" id="test5">Sat</button>
-  			<button class="btn btn-lg tag" id="test6">Sun</button>
-  			<button class="btn btn-lg tag" id="test0">Mon</button>
-  			<button class="btn btn-lg tag" id="test1">Tue</button>
-  			<button class="btn btn-lg tag" id="test2">Wed</button>
-  			<button class="btn btn-lg tag" id="test3">Thu</button>
-  			<button class="btn btn-lg tag" id="test4">Fri</button>
-  			<button class="btn btn-lg tag" id="test5">Sat</button>
-  			<button class="btn btn-lg tag" id="test6">Sun</button>
-  			<button class="btn btn-lg tag" id="test0">Mon</button>
-  			<button class="btn btn-lg tag" id="test1">Tue</button>
-  			<button class="btn btn-lg tag" id="test2">Wed</button>
-  			<button class="btn btn-lg tag" id="test3">Thu</button>
-  			<button class="btn btn-lg tag" id="test4">Fri</button>
-  			<button class="btn btn-lg tag" id="test5">Sat</button>
-  			<button class="btn btn-lg tag" id="test6">Sun</button>
-  			<button class="btn btn-lg tag" id="test0">Mon</button>
-  			<button class="btn btn-lg tag" id="test1">Tue</button>
-  			<button class="btn btn-lg tag" id="test2">Wed</button>
-  			<button class="btn btn-lg tag" id="test3">Thu</button>
-  			<button class="btn btn-lg tag" id="test4">Fri</button>
-  			<button class="btn btn-lg tag" id="test5">Sat</button>
-  			<button class="btn btn-lg tag" id="test6">Sun</button>
-  			<button class="btn btn-lg tag" id="test0">Mon</button>
-  			<button class="btn btn-lg tag" id="test1">Tue</button>
-  			<button class="btn btn-lg tag" id="test2">Wed</button>
-  			<button class="btn btn-lg tag" id="test3">Thu</button>
-  			<button class="btn btn-lg tag" id="test4">Fri</button>
-  			<button class="btn btn-lg tag" id="test5">Sat</button>
-  			<button class="btn btn-lg tag" id="test6">Sun</button>
-  			<button class="btn btn-lg tag" id="test0">Mon</button>
-  			<button class="btn btn-lg tag" id="test1">Tue</button>
-  			<button class="btn btn-lg tag" id="test2">Wed</button>
-  			<button class="btn btn-lg tag" id="test3">Thu</button>
-  			<button class="btn btn-lg tag" id="test4">Fri</button>
-  			<button class="btn btn-lg tag" id="test5">Sat</button>
-  			<button class="btn btn-lg tag" id="test6">Sun</button>
-        -->
   		</div>
   		<nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
   			<div class="container">
   				<div class="center">	
-  					<a class="submit center" href="#"><button class="btn btn-lg btn-primary" disabled>Go</button></a>
+  					<a class="submit center" href="#">
+              <button class="btn btn-lg btn-primary" disabled>Go</button>
+            </a>
   				</div>
   			</div>
   		</nav>
@@ -176,9 +57,13 @@
         if(tagList.length == 0){
           submitButton.attr("disabled", true);
           submitButton.attr("href", "#");
+          submitButton.text("Go");
         }
-        else
+        else {
+          // TODO: update # articles based on actual db contents
           submitButton.attr("disabled", false);
+          submitButton.text("Go: {{articles.length}} articles");
+        }
       }
 
       $(document).ready(function() {
