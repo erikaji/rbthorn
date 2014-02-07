@@ -4,25 +4,45 @@
 			"id": "1",
 			"title": "How to Do What You Love",
 			"headline": "To do something well you have to like it. That idea is not exactly novel. We've got it down to just four words",
-			"contents": "",
+			"contents": [
+				"To do something well you have to like it. That idea is not exactly novel. We've got it down to four words: \"Do what you love.\" But it's not enough just to tell people that. Doing what you love is complicated.",
+				"The very idea is foreign to what most of us learn as kids. When I was a kid, it seemed as if work and fun were opposites by definition. Life had two states: some of the time adults were making you do things, and that was called work; the rest of the time you could do what you wanted, and that was called playing. Occasionally the things adults made you do were fun, just as, occasionally, playing wasn't—for example, if you fell and hurt yourself. But except for these few anomalous cases, work was pretty much defined as not-fun.",
+				"And it did not seem to be an accident. School, it was implied, was tedious because it was preparation for grownup work."
+			],
 			"src": "paulgraham.com",
-			"url": ""
+			"url": "http://paulgraham.com/love.html"
 		},
 		{
 			"id": "2",
 			"title": "The Asian American Quarter-Life Crisis",
 			"headline": "In the 10 years since I graduated from college, I’ve had the same conversation hundreds of times",
-			"contents": "",
+			"contents": [
+				"In the 10 years since I graduated from college, I’ve had the same conversation hundreds of times:",
+				"\"What are you doing now?\"",
+				"\"I’m an engineer/a lawyer/a pharmacist/an analyst at [insert name of large bank here].\"",
+				"\"Oh, cool!  Do you like it?\"",
+				"[shrug] \"It’s work.\"",
+				"Or maybe:",
+				"\"Not really, but… I guess it’s okay for now….\"",
+				"Or maybe just:",
+				"\"No.\"",
+				"I’ve had this conversation so many times that I feel like this problem is epidemic:  So many Asian Americans I know have great jobs.  So few of them enjoy their work.",
+				"I’ve dubbed this the Asian American Quarter-Life Crisis: intelligent and hard-working twenty- and thirtysomethings in stable, well-paying jobs that they detest but don’t leave."
+			],
 			"src": "mynameiselizabeth.com",
-			"url": ""
+			"url": "http://mynameiselizabeth.com/2014/01/22/the-asian-american-quarter-life-crisis/"
 		},
 		{
 			"id": "3",
 			"title": "Why I Left Google",
 			"headline": "Thoughts on trading in pride and security for authenticity. About 6 months ago, I decided to quit",
-			"contents": "",
+			"contents": [
+				"‘It takes courage to grow up and be who you really are.’ — e.e. cummings",
+				"About 6 months ago, I decided to quit my very good job at Google to explore a different way to live life. I had a loose plan of how I wanted to spend my time, but the main reason I left was that I couldn’t stay. I couldn’t put it into words at the time, but something inside of me was telling me I shouldn’t continue down the career path I was on. I felt strongly that it wasn’t getting me closer to where I wanted to be, though that destination was largely unknown, and I had to get off that road. Each month I stayed, I grew more anxious and, in turn, resentful. I could wait until I knew exactly which exit I was supposed to take, but I knew it would be harder to turn around as time went on, and what if I never knew which exit was right? The only thing of which I was certain was that no one was going to tell me how to get there; not my manager, not my co workers, not my friends, not my parents. I envisioned an older version of myself with a wonderful husband, beautiful kids, a mortgage and a crippling sense that I had missed my opportunity to dig deeper into what I really wanted out of life. So I swerved in January 2013 and took the next exit.",
+				"When people ask me what it was like to leave, I liken my experience of leaving Google to breaking up with my college boyfriend. He was brilliant, good looking, respected, and everyone loved him — I even loved him — but he wasn’t the one. It used to catch up with me on long bus rides my senior year, staring out the window, and I’d get a knot in the pit of my stomach. Realizing that I had to let him go was a slow and difficult process, but it was the right thing to do and I eventually mustered up the courage to break both of our hearts. I wasn’t sure I would ever meet someone like him again, but leaving that relationship opened me up for so much more later on, and I continue to think of that decision as one of the most pivotal in my life. It took me several years to reach the same conclusion about corporate life at Google — it was almost unimaginable to give up a salary, a manager who treated me like family and co-workers I genuinely considered friends. I had worked so hard for it. I couldn’t let it go, even though I was in many ways unhappy."
+			],
 			"src": "medium.com",
-			"url": ""
+			"url": "https://medium.com/this-happened-to-me/c02f1ff471c6"
 		}
 	]
 }

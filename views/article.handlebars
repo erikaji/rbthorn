@@ -21,12 +21,14 @@
 <body>
 	<!-- Insert code here -->
 	<div class="container">
-		<div class="jumbotron">
-			<h1> {{title}}</h1>
-			<p>{{headline}}</p>
-		</div>
+		<a href="{{article.url}}">
+			<div class="jumbotron">
+				<h1> {{article.title}}</h1>
+				<p>{{article.headline}}</p>
+			</div>
+		</a>
 
-		{{#each contents}}
+		{{#each article.contents}}
 			<p>{{this}}</p>
 	  {{/each}}
 	 </div>
