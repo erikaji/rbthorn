@@ -1,7 +1,97 @@
 {
+	"tags": [
+		{
+			"id": 1,
+			"name": "happy"
+		},
+		{
+			"id": 2,
+			"name": "funny"
+		},
+		{
+			"id": 3,
+			"name": "casual"
+		},
+		{
+			"id": 4,
+			"name": "newsy"
+		},
+		{
+			"id": 5,
+			"name": "introspective"
+		},
+		{
+			"id": 6,
+			"name": "artsy"
+		},
+		{
+			"id": 7,
+			"name": "inspired"
+		},
+		{
+			"id": 8,
+			"name": "serious"
+		},
+		{
+			"id": 9,
+			"name": "sporty"
+		},
+		{
+			"id": 10,
+			"name": "silly"
+		},
+		{
+			"id": 11,
+			"name": "simple"
+		},
+		{
+			"id": 12,
+			"name": "feisty"
+		},
+		{
+			"id": 13,
+			"name": "groggy"
+		},
+		{
+			"id": 14,
+			"name": "serene"
+		},
+		{
+			"id": 15,
+			"name": "conflicted"
+		},
+		{
+			"id": 16,
+			"name": "upset"
+		},
+		{
+			"id": 17,
+			"name": "motivated"
+		},
+		{
+			"id": 18,
+			"name": "controversial"
+		},
+		{
+			"id": 19,
+			"name": "confused"
+		},
+		{
+			"id": 20,
+			"name": "strange"
+		},
+		{
+			"id": 21,
+			"name": "creative"
+		},
+		{
+			"id": 22,
+			"name": "studious"
+		}
+	],
 	"articles": [
 		{
-			"id": "1",
+			"id": 1,
 			"title": "How to Do What You Love",
 			"headline": "To do something well you have to like it. That idea is not exactly novel. We've got it down to just four words",
 			"contents": [
@@ -13,7 +103,7 @@
 			"url": "http://paulgraham.com/love.html"
 		},
 		{
-			"id": "2",
+			"id": 2,
 			"title": "The Asian American Quarter-Life Crisis",
 			"headline": "In the 10 years since I graduated from college, I’ve had the same conversation hundreds of times",
 			"contents": [
@@ -33,7 +123,7 @@
 			"url": "http://mynameiselizabeth.com/2014/01/22/the-asian-american-quarter-life-crisis/"
 		},
 		{
-			"id": "3",
+			"id": 3,
 			"title": "Why I Left Google",
 			"headline": "Thoughts on trading in pride and security for authenticity. About 6 months ago, I decided to quit",
 			"contents": [

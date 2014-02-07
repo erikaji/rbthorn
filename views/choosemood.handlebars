@@ -31,6 +31,10 @@
 
 
   		<div data-toggle="buttons-radio">
+        {{#each tags}}
+          <button class="btn btn-lg tag" id="tag{{this.id}}">{{this.name}}</button>
+        {{/each}}
+        <!--
   			<button class="btn btn-lg tag" id="test0">Mon</button>
   			<button class="btn btn-lg tag" id="test1">Tue</button>
   			<button class="btn btn-lg tag" id="test2">Wed</button>
@@ -150,6 +154,7 @@
   			<button class="btn btn-lg tag" id="test4">Fri</button>
   			<button class="btn btn-lg tag" id="test5">Sat</button>
   			<button class="btn btn-lg tag" id="test6">Sun</button>
+        -->
   		</div>
   		<nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
   			<div class="container">
@@ -164,28 +169,42 @@
   	<script src="/js/bootstrap.min.js"></script>
   	<script type="text/javascript">
 
-  	$(".tag").click(function () {
-  		$(this).toggleClass("btn-success");
-  		var tagList =  $(".btn-success");
-  		var submitButton = $(".submit button");
-  		if(tagList.length == 0){
-  			submitButton.attr("disabled", true);
-  			submitButton.attr("href", "#");
-  		}
-  		else
-  			submitButton.attr("disabled", false);
-  	});
+      function tag_clicked(obj) {
+        obj.toggleClass("btn-success");
+        var tagList =  $(".btn-success");
+        var submitButton = $(".submit button");
+        if(tagList.length == 0){
+          submitButton.attr("disabled", true);
+          submitButton.attr("href", "#");
+        }
+        else
+          submitButton.attr("disabled", false);
+      }
 
-  	$(".submit").click(function(){
-  		var post = {};
- 		$(".btn-success").each(function(){post[$(this).text()] = true;});
-  		var query='';
-  		var key;
-  		for (key in post)
-  			query=query+'tags[]='+key+'&';
-  		query = query.slice(0,-1);
-  		$(".submit").attr("href","/results?"+query);
-  	});
+      $(document).ready(function() {
+        {{#if selected_tag}}
+          $(".tag").each(function() {
+            if ($(this).text() == "{{selected_tag}}") {
+              tag_clicked($(this));
+            }
+          });        
+        {{/if}}
+      });
+
+    	$(".tag").click(function () {
+        tag_clicked($(this));
+    	});
+
+    	$(".submit").click(function(){
+    		var post = {};
+   		$(".btn-success").each(function(){post[$(this).text()] = true;});
+    		var query='';
+    		var key;
+    		for (key in post)
+    			query=query+'tags[]='+key+'&';
+    		query = query.slice(0,-1);
+    		$(".submit").attr("href","/results?"+query);
+    	});
   	</script>
   </body>
   </html>

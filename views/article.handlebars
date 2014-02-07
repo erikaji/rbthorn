@@ -31,7 +31,10 @@
 		{{#each article.contents}}
 			<p>{{this}}</p>
 	  {{/each}}
-	 </div>
+	  <a href="{{article.url}}">Read more...</a>
+
+	  <h3><a href="{{referer}}">&laquo; Back</a></h3>
+	</div>
 	
 	<script src="https://code.jquery.com/jquery.js"></script>
 	<script src="/js/bootstrap.min.js"></script>
