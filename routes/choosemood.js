@@ -17,3 +17,21 @@ exports.view = function(req, res){
 		'selected_tag': tag
 	});
 };
+
+
+
+exports.post = function(req, res){
+	var db_data = require("../data.json");
+	var tagList = req.body.tags;
+	var resData = {
+		number: tagList.length,
+		moods: tagList.slice(),
+	};
+	db_data.articles.forEach(function(entry){
+		console.log(entry.moods);
+	});
+ 
+	//check number of articles
+	console.log('body: ' + JSON.stringify(req.body));
+	res.send(req.body);
+};

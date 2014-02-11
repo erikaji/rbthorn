@@ -54,6 +54,15 @@
         obj.toggleClass("btn-success");
         var tagList =  $(".btn-success");
         var submitButton = $(".submit button");
+        var dataSent = {
+          tags: []
+        };
+        tagList.each(function(){
+          dataSent.tags.push($(this).text());
+        }
+        );
+        console.log(dataSent.tags);
+        var dataRetrieved;
         if(tagList.length == 0){
           submitButton.attr("disabled", true);
           submitButton.attr("href", "#");
@@ -63,7 +72,21 @@
           // TODO: update # articles based on actual db contents
           submitButton.attr("disabled", false);
           submitButton.text("Go: {{articles.length}} articles");
+
+          //retrieve number of articles and available tag list from server
+          $.ajax({
+            type: 'POST',
+            data: JSON.stringify(dataSent),
+            contentType: 'application/json',
+            url: '/choosemood',            
+            success: function(dataRetrieved) {
+              console.log('success');
+              console.log(JSON.stringify(dataRetrieved));
+            }
+          });
+
         }
+
       }
 
       $(document).ready(function() {
