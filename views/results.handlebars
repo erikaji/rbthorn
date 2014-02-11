@@ -21,9 +21,12 @@
 	<div class="container">
     <h1>Read
       {{#each resultsName}}
-        <a class="mood" href="/?tag={{this}}">{{this}}</a> +
+        {{#if @last}}
+          <a class="mood" href="/?tag={{this}}">{{this}}</a>
+        {{else}}
+          <a class="mood" href="/?tag={{this}}">{{this}}</a> +
+        {{/if}}
       {{/each}}
-      <a class="mood" href="/?tag={{last}}">{{last}}</a>
       articles </h1>
 
     <ul class="articles">
