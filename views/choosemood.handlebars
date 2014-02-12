@@ -85,10 +85,10 @@
                 submitButton.text("Go: " + dataRetrieved.articleNumber + " articles");    
                 $(".tag").each(function(){
                   if ($.inArray($(this).text(), dataRetrieved.moods) > -1)
-                    $(this).show("slow")
+                    $(this).show()
                     //$(this).attr("disabled", false);
                   else
-                    $(this).hide("slow")
+                    $(this).hide()
                     //$(this).attr("disabled", true);
 
                 })        
