@@ -65,6 +65,7 @@
           submitButton.attr("disabled", true);
           $(".submit").attr("href", "#");
           submitButton.text("Go");
+          $(".tag").show();
         }
         else {
           //retrieve number of articles and available tag list from server
@@ -85,10 +86,13 @@
                 submitButton.text("Go: " + dataRetrieved.articleNumber + " articles");    
                 $(".tag").each(function(){
                   if ($.inArray($(this).text(), dataRetrieved.moods) > -1)
-                    $(this).show()
+                    //$(this).show("slow");
+                    $(this).fadeIn("slow");
                     //$(this).attr("disabled", false);
                   else
-                    $(this).hide()
+                    //$(this).hide("slow");
+                    $(this).fadeOut("slow");
+                  
                     //$(this).attr("disabled", true);
 
                 })        
