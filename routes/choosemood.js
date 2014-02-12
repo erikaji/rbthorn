@@ -1,3 +1,5 @@
+var _ = require('../underscore-min.js');
+
 exports.view = function(req, res){
 	var tag = req.query.tag;
 	// Simulating db here - will replace with proper db later
@@ -24,14 +26,16 @@ exports.post = function(req, res){
 	var db_data = require("../data.json");
 	var tagList = req.body.tags;
 	var resData = {
-		number: tagList.length,
+		articleNumber: 0,
 		moods: tagList.slice(),
 	};
 	db_data.articles.forEach(function(entry){
-		console.log(entry.moods);
+		if (tagList.length === _.intersection(tagList, entry.moods).length){
+			resData.articleNumber++;
+			resData.moods = _.uniq(resData.moods.concat(entry.moods));
+			console.log(resData);
+		}
 	});
  
-	//check number of articles
-	console.log('body: ' + JSON.stringify(req.body));
-	res.send(req.body);
+	res.send(resData);
 };

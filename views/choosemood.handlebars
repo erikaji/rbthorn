@@ -61,18 +61,12 @@
           dataSent.tags.push($(this).text());
         }
         );
-        console.log(dataSent.tags);
-        var dataRetrieved;
         if(tagList.length == 0){
           submitButton.attr("disabled", true);
-          submitButton.attr("href", "#");
+          $(".submit").attr("href", "#");
           submitButton.text("Go");
         }
         else {
-          // TODO: update # articles based on actual db contents
-          submitButton.attr("disabled", false);
-          submitButton.text("Go: {{articles.length}} articles");
-
           //retrieve number of articles and available tag list from server
           $.ajax({
             type: 'POST',
@@ -80,13 +74,26 @@
             contentType: 'application/json',
             url: '/choosemood',            
             success: function(dataRetrieved) {
-              console.log('success');
-              console.log(JSON.stringify(dataRetrieved));
+              if (dataRetrieved.articleNumber == 0){
+                 submitButton.attr("disabled", true);
+                  $(".submit").attr("href", "#");
+                  submitButton.text("No articles for the selection");
+          
+              }
+              else{
+                submitButton.attr("disabled", false);
+                submitButton.text("Go: " + dataRetrieved.articleNumber + " articles");    
+                $(".tag").each(function(){
+                  if ($.inArray($(this).text(), dataRetrieved.moods) > -1)
+                    $(this).attr("disabled", false);
+                  else
+                    $(this).attr("disabled", true);
+
+                })        
+              }
             }
           });
-
         }
-
       }
 
       $(document).ready(function() {
