@@ -34,3 +34,14 @@
 .project a {
      text-align: center;
 }
+
+.center {
+     text-align: center;
+}
+body { padding-bottom: 70px; }
+
+/* For bottom navbar breadcrumb */
+.navbar .breadcrumb {
+     margin: 10px 0px;
+     vertical-align: center;
+}

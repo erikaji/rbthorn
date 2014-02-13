@@ -27,5 +27,6 @@ exports.viewResults = function(req, res) {
 	    'resultsName': tags,
 	    'query': req.query,
 	    'articles': articles,
+	    'referer': req.headers.referer
 	});
 }

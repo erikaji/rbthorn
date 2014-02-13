@@ -33,7 +33,6 @@ exports.post = function(req, res){
 		if (tagList.length === _.intersection(tagList, entry.moods).length){
 			resData.articleNumber++;
 			resData.moods = _.uniq(resData.moods.concat(entry.moods));
-			console.log(resData);
 		}
 	});
  
