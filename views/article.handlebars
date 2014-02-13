@@ -21,7 +21,7 @@
 <body>
 	<!-- Insert code here -->
 	<div class="container">
-		<a href="{{article.url}}">
+		<a href="{{article.url}}" target="_blank">
 			<div class="jumbotron">
 				<h1> {{article.title}}</h1>
 				<p>{{article.headline}}</p>
@@ -31,7 +31,7 @@
 		{{#each article.contents}}
 			<p>{{this}}</p>
 	  {{/each}}
-	  <a href="{{article.url}}">Read more...</a>
+	  <a href="{{article.url}}" target="_blank">Read more...</a>
 
 	  <h3><a href="{{referer}}">&laquo; Back</a></h3>
 	</div>
