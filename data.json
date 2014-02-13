@@ -78,14 +78,13 @@
 			"src": "paulgraham.com",
 			"url": "http://paulgraham.com/love.html",
 			"moods": [
-				"contemplative", 
-				"entrepreneurial", 
-				"inspired",
-				"motivated",
-				"ambitious",
-				"loved",
-				"long",
-				"career"
+				"contemplation", 
+				"inspiration",
+				"ambition",
+				"career",
+				"dream",
+				"passion",
+				"happiness"
 			]
 		},
 		{
@@ -133,18 +132,13 @@
 			"src": "mynameiselizabeth.com",
 			"url": "http://mynameiselizabeth.com/2014/01/22/the-asian-american-quarter-life-crisis/",
 			"moods": [
-				"Asian", 
-				"serious", 
-				"smart",
-				"stressed",
-				"adventurous",
-				"ambitious",
-				"long",
-				"stable",
-				"achieving",
-				"successful",
-				"bored",
-				"career"
+				"Asian",
+				"adventure",
+				"ambition",
+				"success",
+				"career",
+				"passion",
+				"happiness"
 			]
 		},
 		{
@@ -167,21 +161,14 @@
 			],
 			"src": "medium.com",
 			"url": "https://medium.com/this-happened-to-me/c02f1ff471c6",
-			"moods": [
-				"anxious", 
+			"moods": [ 
 				"career",
-				"proud",
-				"entrepreneurial",
-				"dreamy",
-				"disappointed",
-				"smart",
-				"stressed",
-				"adventurous",
-				"ambitious",
-				"long",
-				"achieving",
-				"successful",
-				"bored"
+				"dream",
+				"adventure",
+				"ambition",
+				"success",
+				"courage",
+				"happiness"
 			]
 		},
 		{
@@ -210,12 +197,11 @@
 			"src": "slate.com",
 			"url": "http://www.slate.com/articles/business/operations/2012/06/queueing_theory_what_people_hate_most_about_waiting_in_line_.single.html",
 			"moods": [
-				"curious", 
-				"efficient",
-				"cs147"
+				"efficiency",
+				"psychology"
 			]
 		},
-		{
+	{
 			"id": 5,
 			"title": "Why Women Still Can’t Have It All",
 			"headline": "It's time to stop fooling ourselves, says a woman who left a position of power: the women who have managed to be both mothers and top professionals are superhuman, rich, or self-employed. If we truly believe in equal opportunity for all women, here's what has to change.",
@@ -351,12 +337,11 @@
 			"src": "theatlantic.com",
 			"url": "http://www.theatlantic.com/magazine/archive/2012/07/why-women-still-cant-have-it-all/309020/",
 			"moods": [
-				"controversial",
-				"feminist",
+				"feminism",
 				"career",
-				"inspirational",
-				"ambitious",
-				"long"
+				"inspiration",
+				"ambition",
+				"dream"
 			]
 		},
 		{
@@ -467,11 +452,9 @@
 			"src": "lifehack.org",
 			"url": "http://www.lifehack.org/articles/productivity/100-incredible-things-learned-watching-70-hours-ted-talks-last-week.html",
 			"moods": [
-				"efficient",
-				"inspirational",
-				"pensive",
-				"self-improvement",
-				"life lessons"
+				"efficiency",
+				"inspiration",
+				"contemplation"
 			]
 		},
 		{
@@ -525,10 +508,8 @@
 			"url": "http://thoughtcatalog.com/matthew-kepnes/2013/09/18-life-lessons-learned-from-travel-the-world/",
 			"moods": [
 				"travel",
-				"adventurous",
-				"life lessons",
-				"youthful",
-				"bold"
+				"adventure",
+				"courage"
 			]
 		},
 		{
@@ -561,7 +542,6 @@
 				"art",
 				"architecture",
 				"technology",
-				"tradition",
 				"design"
 			]
 		},
@@ -745,10 +725,8 @@
 			"src": "jamesmaa.com",
 			"url": "http://www.jamesmaa.com/2012/12/02/james-maas-productivity-hacking-guide/",
 			"moods": [
-				"efficient",
-				"productivity",
-				"learning",
-				"long"
+				"efficiency",
+				"learning"
 			]
 		},
 		{
@@ -851,10 +829,8 @@
 			"url": "http://www.pinyin.info/readings/texts/moser.html",
 			"moods": [
 				"Asian",
-				"language",
 				"learning",
-				"challenge",
-				"curious"
+				"communication"
 			]
 		},
 		{
@@ -928,8 +904,9 @@
 			"url": "http://nymag.com/news/features/27840/",
 			"moods": [
 				"communication",
-				"parent-like",
-				"influential"
+				"learning",
+				"parent",
+				"psychology"
 			]
 		},
 		{
@@ -984,8 +961,11 @@
 			"src": "faculty.winthrop.edu",
 			"url": "http://faculty.winthrop.edu/martinme/Thisiswater.htm",
 			"moods": [
-				"inspirational",
-				"graduation"
+				"inspiration",
+				"graduation",
+				"contemplative",
+				"learning",
+				"happiness"
 			]
 		},
 		{
@@ -1054,7 +1034,11 @@
 			"url": "http://web.mit.edu/jmorzins/www/C-H-speech.html",
 			"moods": [
 				"graduation",
-				"inspirational"
+				"inspiration",
+				"contemplation",
+				"career",
+				"passion",
+				"happiness"
 			]
 		},
 		{
@@ -1077,7 +1061,9 @@
 			"src": "opinionator.blogs.nytimes.com",
 			"url": "http://opinionator.blogs.nytimes.com/2013/06/15/i-know-what-you-think-of-me/?_php=true&_type=blogs&_r=0",
 			"moods": [
-				"opinionated"
+				"technology",
+				"communication",
+				"friendship"
 			]
 		},
 		{
@@ -1120,8 +1106,10 @@
 			"src": "nytimes.com",
 			"url": "http://www.nytimes.com/2011/05/29/opinion/29franzen.html?pagewanted=all&_r=3&",
 			"moods": [
-				"inspirational",
-				"graduation"
+				"inspiration",
+				"passion",
+				"graduation",
+				"happiness"
 			]
 		},
 		{
@@ -1192,7 +1180,6 @@
 			"moods": [
 				"fashion",
 				"feminism",
-				"strong",
 				"design"
 			]
 		},
@@ -1259,7 +1246,8 @@
 			"url": "http://aeon.co/magazine/living-together/james-somers-web-developer-money/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%253A+AeonMagazineEssays+%2528Aeon+Magazine+Essays%2529",
 			"moods": [
 				"career",
-				"technology"
+				"technology",
+				"money"
 			]
 		},
 		{
@@ -1285,7 +1273,9 @@
 			"url": "http://www.nytimes.com/2013/06/04/opinion/brooks-the-way-to-produce-a-person.html?_r=0",
 			"moods": [
 				"career",
-				"passion"
+				"passion",
+				"technology",
+				"money"
 			]
 		},
 		{
@@ -1303,7 +1293,8 @@
 			"url": "http://thoughtcatalog.com/cody-gohl/2012/12/the-soulmate-you-deserve/",
 			"moods": [
 				"love",
-				"dream"
+				"dream",
+				"happiness"
 			]
 		},
 		{
@@ -1433,7 +1424,9 @@
 			"moods": [
 				"career",
 				"passion",
-				"inspirational"
+				"inspiration",
+				"dream",
+				"happiness"
 			]
 		},
 		{
@@ -1488,7 +1481,8 @@
 			"url": "http://www.garancedore.fr/en/2013/04/16/friends/",
 			"moods": [
 				"friendship",
-				"happy"
+				"happiness",
+				"contemplative"
 			]
 		},
 		{
@@ -1546,7 +1540,8 @@
 			"url": "http://lifehacker.com/5993267/the-psychology-of-language-why-are-some-words-more-persuasive-than-others",
 			"moods": [
 				"communication",
-				"learning"
+				"learning",
+				"psychology"
 			]
 		},
 		{
@@ -1676,7 +1671,9 @@
 			"src": "thoughtcatalog.com",
 			"url": "http://thoughtcatalog.com/nikki-garcia/2013/04/how-you-know-when-someone-cares/",
 			"moods": [
-				"caring"
+				"friendship",
+				"love",
+				"contemplation"
 			]
 		},
 		{
@@ -1698,7 +1695,7 @@
 			"moods": [
 				"feminism",
 				"career",
-				"teaching",
+				"learning",
 				"success"
 			]
 		},
@@ -1722,8 +1719,7 @@
 			"url": "http://hbr.org/2008/01/the-five-competitive-forces-that-shape-strategy/ar/1",
 			"moods": [
 				"business",
-				"strategy",
-				"serious"
+				"strategy"
 			]
 		},
 		{
@@ -1751,7 +1747,7 @@
 			"url": "http://www.bain.com/publications/articles/why-we-behave-and-decide-the-way-we-do.aspx?utm_source=Bain-Insights-March-2012&utm_medium=Newsletter&utm_campaign=why-we-behave-and-decide-the-way-we-do",
 			"moods": [
 				"business",
-				"consulting",
+				"strategy",
 				"psychology"
 			]
 		},
@@ -1836,12 +1832,293 @@
 			"url": "http://www.caseinterview.com/post-consulting-careers",
 			"moods": [
 				"business",
-				"consulting",
-				"career"
+				"ambition",
+				"career",
+				"success"
 			]
 		},
 		{
 			"id": 31,
+			"title": "For the Love of Money",
+			"headline": "In my last year on Wall Street my bonus was $3.6 million — and I was angry because it wasn't big enough.",
+			"contents": [
+"IN my last year on Wall Street my bonus was $3.6 million — and I was angry because it wasn't big enough. I was 30 years old, had no children to raise, no debts to pay, no philanthropic goal in mind. I wanted more money for exactly the same reason an alcoholic needs another drink: I was addicted.",
+"Eight years earlier, I'd walked onto the trading floor at Credit Suisse First Boston to begin my summer internship. I already knew I wanted to be rich, but when I started out I had a different idea about what wealth meant. I'd come to Wall Street after reading in the book \"Liar's Poker\" how Michael Lewis earned a $225,000 bonus after just two years of work on a trading floor. That seemed like a fortune. Every January and February, I think about that time, because these are the months when bonuses are decided and distributed, when fortunes are made.",
+"I'd learned about the importance of being rich from my dad. He was a modern-day Willy Loman, a salesman with huge dreams that never seemed to materialize. \"Imagine what life will be like,\" he'd say, \"when I make a million dollars.\" While he dreamed of selling a screenplay, in reality he sold kitchen cabinets. And not that well. We sometimes lived paycheck to paycheck off my mom's nurse-practitioner salary.",
+"Dad believed money would solve all his problems. At 22, so did I. When I walked onto that trading floor for the first time and saw the glowing flat-screen TVs, high-tech computer monitors and phone turrets with enough dials, knobs and buttons to make it seem like the cockpit of a fighter plane, I knew exactly what I wanted to do with the rest of my life. It looked as if the traders were playing a video game inside a spaceship; if you won this video game, you became what I most wanted to be — rich.",
+"IT was a miracle I'd made it to Wall Street at all. While I was competitive and ambitious — a wrestler at Columbia University — I was also a daily drinker and pot smoker and a regular user of cocaine, Ritalin and ecstasy. I had a propensity for self-destruction that had resulted in my getting suspended from Columbia for burglary, arrested twice and fired from an Internet company for fistfighting. I learned about rage from my dad, too. I can still see his red, contorted face as he charged toward me. I'd lied my way into the C.S.F.B. internship by omitting my transgressions from my résumé and was determined not to blow what seemed a final chance. The only thing as important to me as that internship was my girlfriend, a starter on the Columbia volleyball team. But even though I was in love with her, when I got drunk I'd sometimes end up with other women.",
+"Three weeks into my internship she wisely dumped me. I don't like who you've become, she said. I couldn't blame her, but I was so devastated that I couldn't get out of bed. In desperation, I called a counselor whom I had reluctantly seen a few times before and asked for help.",
+"She helped me see that I was using alcohol and drugs to blunt the powerlessness I felt as a kid and suggested I give them up. That began some of the hardest months of my life. Without the alcohol and drugs in my system, I felt like my chest had been cracked open, exposing my heart to air. The counselor said that my abuse of drugs and alcohol was a symptom of an underlying problem — a \"spiritual malady,\" she called it. C.S.F.B. didn't offer me a full-time job, and I returned, distraught, to Columbia for senior year.",
+"After graduation, I got a job at Bank of America, by the grace of a managing director willing to take a chance on a kid who had called him every day for three weeks. With a year of sobriety under my belt, I was sharp, cleareyed and hard-working. At the end of my first year I was thrilled to receive a $40,000 bonus. For the first time in my life, I didn't have to check my balance before I withdrew money. But a week later, a trader who was only four years my senior got hired away by C.S.F.B. for $900,000. After my initial envious shock — his haul was 22 times the size of my bonus — I grew excited at how much money was available.",
+"Over the next few years I worked like a maniac and began to move up the Wall Street ladder. I became a bond and credit default swap trader, one of the more lucrative roles in the business. Just four years after I started at Bank of America, Citibank offered me a \"1.75 by 2\" which means $1.75 million per year for two years, and I used it to get a promotion. I started dating a pretty blonde and rented a loft apartment on Bond Street for $6,000 a month.",
+"I felt so important. At 25, I could go to any restaurant in Manhattan — Per Se, Le Bernardin — just by picking up the phone and calling one of my brokers, who ingratiate themselves to traders by entertaining with unlimited expense accounts. I could be second row at the Knicks-Lakers game just by hinting to a broker I might be interested in going. The satisfaction wasn't just about the money. It was about the power. Because of how smart and successful I was, it was someone else's job to make me happy.",
+"Still, I was nagged by envy. On a trading desk everyone sits together, from interns to managing directors. When the guy next to you makes $10 million, $1 million or $2 million doesn't look so sweet. Nonetheless, I was thrilled with my progress.",
+"My counselor didn't share my elation. She said I might be using money the same way I'd used drugs and alcohol — to make myself feel powerful — and that maybe it would benefit me to stop focusing on accumulating more and instead focus on healing my inner wound. \"Inner wound\"? I thought that was going a little far and went to work for a hedge fund.",
+"Now, working elbow to elbow with billionaires, I was a giant fireball of greed. I'd think about how my colleagues could buy Micronesia if they wanted to, or become mayor of New York City. They didn't just have money; they had power — power beyond getting a table at Le Bernardin. Senators came to their offices. They were royalty.",
+"I wanted a billion dollars. It's staggering to think that in the course of five years, I'd gone from being thrilled at my first bonus — $40,000 — to being disappointed when, my second year at the hedge fund, I was paid \"only\" $1.5 million.",
+"But in the end, it was actually my absurdly wealthy bosses who helped me see the limitations of unlimited wealth. I was in a meeting with one of them, and a few other traders, and they were talking about the new hedge-fund regulations. Most everyone on Wall Street thought they were a bad idea. \"But isn't it better for the system as a whole?\" I asked. The room went quiet, and my boss shot me a withering look. I remember his saying, \"I don't have the brain capacity to think about the system as a whole. All I'm concerned with is how this affects our company.\"",
+"I felt as if I'd been punched in the gut. He was afraid of losing money, despite all that he had.",
+"From that moment on, I started to see Wall Street with new eyes. I noticed the vitriol that traders directed at the government for limiting bonuses after the crash. I heard the fury in their voices at the mention of higher taxes. These traders despised anything or anyone that threatened their bonuses. Ever see what a drug addict is like when he's used up his junk? He'll do anything — walk 20 miles in the snow, rob a grandma — to get a fix. Wall Street was like that. In the months before bonuses were handed out, the trading floor started to feel like a neighborhood in \"The Wire\" when the heroin runs out.",
+"I'd always looked enviously at the people who earned more than I did; now, for the first time, I was embarrassed for them, and for me. I made in a single year more than my mom made her whole life. I knew that wasn't fair; that wasn't right. Yes, I was sharp, good with numbers. I had marketable talents. But in the end I didn't really do anything. I was a derivatives trader, and it occurred to me the world would hardly change at all if credit derivatives ceased to exist. Not so nurse practitioners. What had seemed normal now seemed deeply distorted.",
+"I had recently finished Taylor Branch's three-volume series on the Rev. Dr. Martin Luther King Jr. and the civil rights movement, and the image of the Freedom Riders stepping out of their bus into an infuriated mob had seared itself into my mind. I'd told myself that if I'd been alive in the '60s, I would have been on that bus.",
+"But I was lying to myself. There were plenty of injustices out there — rampant poverty, swelling prison populations, a sexual-assault epidemic, an obesity crisis. Not only was I not helping to fix any problems in the world, but I was profiting from them. During the market crash in 2008, I'd made a ton of money by shorting the derivatives of risky companies. As the world crumbled, I profited. I'd seen the crash coming, but instead of trying to help the people it would hurt the most — people who didn't have a million dollars in the bank — I'd made money off it. I don't like who you've become, my girlfriend had said years earlier. She was right then, and she was still right. Only now, I didn't like who I'd become either.",
+"Wealth addiction was described by the late sociologist and playwright Philip Slater in a 1980 book, but addiction researchers have paid the concept little attention. Like alcoholics driving drunk, wealth addiction imperils everyone. Wealth addicts are, more than anybody, specifically responsible for the ever widening rift that is tearing apart our once great country. Wealth addicts are responsible for the vast and toxic disparity between the rich and the poor and the annihilation of the middle class. Only a wealth addict would feel justified in receiving $14 million in compensation — including an $8.5 million bonus — as the McDonald's C.E.O., Don Thompson, did in 2012, while his company then published a brochure for its work force on how to survive on their low wages. Only a wealth addict would earn hundreds of millions as a hedge-fund manager, and then lobby to maintain a tax loophole that gave him a lower tax rate than his secretary.",
+"DESPITE my realizations, it was incredibly difficult to leave. I was terrified of running out of money and of forgoing future bonuses. More than anything, I was afraid that five or 10 years down the road, I'd feel like an idiot for walking away from my one chance to be really important. What made it harder was that people thought I was crazy for thinking about leaving. In 2010, in a final paroxysm of my withering addiction, I demanded $8 million instead of $3.6 million. My bosses said they'd raise my bonus if I agreed to stay several more years. Instead, I walked away.",
+"The first year was really hard. I went through what I can only describe as withdrawal — waking up at nights panicked about running out of money, scouring the headlines to see which of my old co-workers had gotten promoted. Over time it got easier — I started to realize that I had enough money, and if I needed to make more, I could. But my wealth addiction still hasn't gone completely away. Sometimes I still buy lottery tickets.",
+"In the three years since I left, I've married, spoken in jails and juvenile detention centers about getting sober, taught a writing class to girls in the foster system, and started a nonprofit called Groceryships to help poor families struggling with obesity and food addiction. I am much happier. I feel as if I'm making a real contribution. And as time passes, the distortion lessens. I see Wall Street's mantra — \"We're smarter and work harder than everyone else, so we deserve all this money\" — for what it is: the rationalization of addicts. From a distance I can see what I couldn't see then — that Wall Street is a toxic culture that encourages the grandiosity of people who are desperately trying to feel powerful.",
+"I was lucky. My experience with drugs and alcohol allowed me to recognize my pursuit of wealth as an addiction. The years of work I did with my counselor helped me heal the parts of myself that felt damaged and inadequate, so that I had enough of a core sense of self to walk away.",
+"Dozens of different types of 12-step support groups — including Clutterers Anonymous and On-Line Gamers Anonymous — exist to help addicts of various types, yet there is no Wealth Addicts Anonymous. Why not? Because our culture supports and even lauds the addiction. Look at the magazine covers in any newsstand, plastered with the faces of celebrities and C.E.O.'s; the superrich are our cultural gods. I hope we all confront our part in enabling wealth addicts to exert so much influence over our country.",
+"I generally think that if one is rich and believes they have \"enough,\" they are not a wealth addict. On Wall Street, in my experience, that sense of \"enough\" is rare. The money guy doing a job he complains about for yet another year so he can add $2 million to his $20 million bank account seems like an addict.",
+"I recently got an email from a hedge-fund trader who said that though he was making millions every year, he felt trapped and empty, but couldn't summon the courage to leave. I believe there are others out there. Maybe we can form a group and confront our addiction together. And if you identify with what I've written, but are reticent to leave, then take a small step in the right direction. Let's create a fund, where everyone agrees to put, say, 25 percent of their annual bonuses into it, and we'll use that to help some of the people who actually need the money that we've been so rabidly chasing. Together, maybe we can make a real contribution to the world.",
+"Sam Polk is a former hedge-fund trader and the founder of the nonprofit Groceryships."
+			],
+			"src": "nytimes.com",
+			"url": "http://www.nytimes.com/2014/01/19/opinion/sunday/for-the-love-of-money.html?_r=0",
+			"moods": [
+				"business",
+				"money",
+				"addiction"
+			]
+		},
+		{
+			"id": 32,
+			"title": "Abortion as end-of-life care : Why I chose a peaceful life and death for my son.",
+			"headline": "In medical school these days, a decent amount of time is devoted to the ethical issues around end-of-life care.",
+			"contents": [
+"In medical school these days, a decent amount of time is devoted to the ethical issues around end-of-life care. I'm a hopeful future neonatologist, so the relevance of the topic to the perinatal period is abundantly clear. We can conjure up images of the 23-week micropreemie lying in an isolette, tiny chest jiggling on high-frequency mechanical ventilation, delicate features overwhelmed by lines and tubes, miniature wrinkled fingers stroked by parents' gargantuan hands. We ask: What kind of suffering is this baby experiencing? What kind of quality of life will he or she have? But what we don't talk about much in medical school, or anywhere else for that matter, is the idea of end-of-life care before independent life has even begun.",
+"The day of our anatomy scan was the last day of my third year of medical school. I was 19-weeks pregnant, and we were so excited to have a sibling for our 2-year-old daughter. Chatting with my ultrasound tech as she squeezed the warm jelly onto my abdomen to get started, I asked her what she did when she found something terribly wrong with the fetus—did she tell the parents that she was seeing a problem, or did she leave it to the maternal-fetal medicine doctor to come in and break the news?",
+"When the doctor came in and started talking—\"obstructive uropathy,\" \"distal urethra appears to be involved,\" \"very echogenic kidneys,\" \"massive bladder dilation,\" \"concerned about the baby's lung development\"—I could feel the exam table shake underneath me as I heaved and sobbed. As she scanned, I could see our son up there on the high-definition wall-mounted monitor in stark black and white, bouncing up and down each time I cried.",
+"After the ultrasound, we spent the afternoon talking to the maternal-fetal medicine doctors, along with the genetic counselor who is always called in after parents receive an unexpected fetal diagnosis. Our baby had what is called a bladder outlet obstruction, meaning that the urine that was being stored in his bladder was unable to exit. The bladder fills and fills with urine, until it backs up all the way to the kidneys, where the urine is produced in the first place. Over time, this causes the kidneys to become massively distended, eventually resulting in irreversible damage.",
+"The amniotic fluid surrounding a fetus is made up of urine produced by the fetal kidneys. Fetal lung development depends on having appropriate amniotic fluid levels, particularly during certain critical periods of lung development in the second trimester. When the kidneys are damaged or the bladder is obstructed, lung development can be irreversibly halted.",
+"As with most of medicine, prenatal diagnosis is a combination of art and science. There are ways to visualize, quantify, and predict kidney and lung function prenatally, but all of these data points have their limits. You can see kidney damage on the ultrasound a few ways, such as by how bright the kidneys appear (their \"echogenicity\") and how distended they are, and by how much amniotic fluid there is surrounding the fetus. Lung development is trickier, though predictions can be made based on the level of kidney damage, the size of the lungs on the ultrasound or other imaging modalities, and the amniotic fluid status.",
+"Our conversations that afternoon narrowed in quickly on prognosis. For our baby, there was a fairly wide range of possibilities. The essential facts were that he had extremely severe damage to both of his kidneys, to his bladder, and to his urethra, which drains the urine from the bladder. Because of his gestational age, it was a near certainty that his lung development had been seriously compromised. It was possible that he would be stillborn, meaning that he would die in utero at some point during the pregnancy or during labor and delivery. It was possible that I would go into preterm labor with him, and it was possible that the pregnancy would go all the way to term.",
+"At birth, he could have breathed spontaneously or not at all. He probably would have needed at least some assistance with breathing, and given the severity of the damage, he most likely would have required mechanical ventilation, if we chose that route. Would his kidneys be functional? Would they be able to produce some urine, or none, or so much that his body would dump all its fluid and essential salts and so on? If he survived at birth but his kidneys failed, would he be a candidate for dialysis? For a kidney transplant? What does it mean to have an infant on dialysis? On dialysis and mechanical ventilation? A toddler on the transplant list? We barely even talked about the minor concerns, like the club foot seen on ultrasound, an expected complication from physical compression of fetuses with low amniotic fluid.",
+"We could have chosen to speak with pediatric subspecialists from neonatology, nephrology, urology, and/or palliative care to talk about options for his care, both prenatally and after birth, though based on the severity of his condition, it was clear that he would not be a likely candidate for some of the prenatal interventions that can be effective, or at least ameliorative, in certain situations. Because of my familiarity with what many of the different therapeutic and palliative care options entailed—medically, ethically, personally—it was clear to me that what we were dealing with was choosing an end-of-life care plan for our son. And because my husband and I believe more in evidence than in miracles, we knew that the appropriate time to implement that plan was now. We did not explicitly consider the potentially tremendous cost of pursuing aggressive treatment or the psychological impact on our daughter and our family of continuing a pregnancy with what would end up being, one way or another, a dying child, but in retrospect those concerns were implicit in our decision-making.",
+"It was a Friday afternoon, and we scheduled the dilation and evacuation for Monday morning. It was surreal to exist in the world that weekend in such a liminal state, to walk around feeling our baby kick his little legs and flip around, knowing that after Monday I would never feel him again. I woke every hour those nights, nauseated and heavy-chested, knowing that this little person who was here with me would soon be gone. Our daughter understood only that the little baby in Mommy's tummy was very sick.",
+"I have since given birth to another healthy daughter, who could not have been born had we not chosen to end our son's life when we did. Until I was holding her in my arms, wet and pink and screaming and healthy, I felt an underlying sense of grief and anxiety, which no amount of ultrasonographic proof of her perfect anatomy, nor well-meaning but utterly glib comments—\"It'll be fine! So-and-so had a miscarriage at seven weeks and now has a healthy 4-month-old!\"—could quell. Even now, watching our daughter gleefully smear avocado all over her face and hair, grinning her joyful, toothy, lopsided grin, I think about our son. I wonder if we gave up on him. I wonder if we should have stayed the course and become the neonatal intensive care unit parents I see sitting up groggily on the makeshift bed as the team of residents bursts into the room for rounds before the sun is up, the parents' new lives playing out against a soundtrack of beeping monitors, pump alarms, and ventilators playing their strange, honking melody. I wonder if we made the right decision for him, and I wish that his brief existence didn't feel so invisible.",
+"My story is not unique—I am part of a group of 20-odd other mothers who have also terminated pregnancies for medical reasons, and many of us have shared remarkably similar reflections and perspectives—and yet there is not an easy language for situations like ours. These types of late-term abortions for medical reasons occupy an uneasy place in the mainstream dialogue about abortion. Opponents of abortion may argue that terminating my pregnancy violated our baby's human rights and that if anything, we should have continued the pregnancy and opted for palliative care at birth. The more surprising and hurtful responses, however, have been from people like my staunchly pro-choice friend who told me that she was jarred by my use of the word son to describe our fetus, as though the moral basis for abortion depends on denying the fetus any semblance of humanity, no matter how close it is to the point of viability, no matter how the woman herself chooses to define her relationship to the fetus. I'm not sure I explicitly thought of our fetus as our son until the day of that ultrasound, but after entering a situation in which we had to consider medical decisions that included imagining our long-shot, best-case scenario as trying to get our little boy through a year or two of preschool before getting a kidney transplant and starting on lifelong immunosuppressive drug therapy, there was no way to think of him otherwise.",
+"Why does any of this matter right now? In recent months, there has been high-profile legislation across the country seeking to ban abortion after 20 weeks or earlier. This is precisely the point at which many fetal anomalies are diagnosed in a pregnancy. My own state, Michigan, recently passed a bill prohibiting insurers from providing coverage for pregnancy termination, with no exceptions for circumstances like fetal anomalies or rape, unless women have purchased a special policy in advance, as though this is a situation anyone would anticipate and plan for. The rhetoric surrounding abortion focuses primarily on the question of when life begins—is the fetus a baby at six weeks? 12? 20?—and whether women have the right to make choices about their pregnant bodies. In our case, abortion was a parenting decision—the most important and powerful one I have yet to make. This might not be comfortable or convenient for the pro-choice narrative, but it's the truth. Some aspects of abortion might rightfully be best considered in the context of when life begins, but in situations like ours, the most salient fact was how and when life should end.",
+"Sometimes I wish I had chosen to continue the pregnancy for purely selfish reasons. Had we not aborted, our son's birth would have been noted, his death would have been marked, and our deep and long-lasting grief would have been acknowledged and validated. Instead, we chose to give our baby what we felt was the most humane, comfortable, and loving end-of-life experience we felt we could facilitate, a cause that on its face is championed even in the most introductory ethics discussions among new medical students.",
+"Because of the choice we made to end his life, our son never got the chance to gaze up at his parents, to see who it was that had been talking and singing to him all along. He never got the chance to fall asleep in our arms, bundled and cozy, pink lips and fuzzy hair like a duckling, smelling of milk and baby, the very best smell in the world. Neither, however, did he have to suffocate to death at birth, his small body gasping to fill his woefully hypoplastic lungs. He did not have to feel pain shooting throughout his abdomen, grossly distended with urinary ascites. He did not have to experience one minute away from the warmth and love of my body. We chose, instead, for him to be born straight into peace."
+			],
+			"src": "slate.com",
+			"url": "http://www.slate.com/articles/double_x/doublex/2014/02/abortion_as_end_of_life_care_why_i_chose_a_peaceful_life_and_death_for_my.html",
+			"moods": [
+				"health",
+				"happiness"
+			]
+		},
+		{
+			"id": 33,
+			"title": "Urban Planner Stuck In Traffic Of Own Design",
+			"headline": "PITTSBURGH, PA—Bernard Rothstein, an urban planner and traffic-flow modulation specialist with the Urban Redevelopment Authority, found himself stuck in rush-hour traffic of his own design for more than an hour Monday.",
+			"contents": [
+"PITTSBURGH, PA—Bernard Rothstein, an urban planner and traffic-flow modulation specialist with the Urban Redevelopment Authority, found himself stuck in rush-hour traffic of his own design for more than an hour Monday.",
+"Rothstein contemplates traffic-flow problems.",
+"\"This happens every weeknight,\" Rothstein said, inching through the Allegheny Center district he designed in 1987. \"When will I learn to avoid this part of town during rush hour?\"",
+"The gridlock-bound Rothstein, who has worked in urban planning for 24 years, passed the time by devising possible modifications to his original design.",
+"\"A direct path to I-279 and wider on-ramps would have helped, for starters,\" Rothstein said, drumming his fingers on the steering wheel. \"Sure, a six-lane street wouldn't look as nice as that tree-lined square with the fountain—Jesus, lady! Move!—but with six lanes, I wouldn't be sitting here breathing fumes.\"",
+"While attempting to nose his Lexus GS 300 into a line of honking cars, Rothstein brainstormed more solutions to his current predicament.",
+"\"With more lanes, tourists wouldn't have to cut across commuter traffic to get from the area around the Buhl Planetarium and the Institute Of Popular Science down to the Three Rivers area to buy hot wings at those crappy jazz clubs,\" Rothstein said. \"You might have thought of that, genius. After all, you're the one who convinced them to re-zone it commercial. Moron.\"",
+"Added Rothstein: \"Who wants a shopping area in—move your ass, blue Taurus! Come on! Who wants a shopping area in an access-limited waterway confluence, anyway? Oh, yeah: the genius Bernie Rothstein!\"",
+"As Pittsburgh, America's steel capital, made the transition to high-tech and service industries in the 1980s, many thought its rusting, blighted urban landscape was obsolete. According to Rothstein, it was then that the Urban Redevelopment Authority, along with several private urban-planning firms, began the slow process of rethinking the city's roads, parks, and commercial and residential districts. Today, the city's designers are regularly lauded for their elegant, modern buildings and stuck in traffic of their own making for hours at a time.",
+"Abandoning his plan to get on the interstate with a hasty U-turn, Rothstein explained that he was also part of the eight-person team that created Crawford Square, an 18-acre residential development on the eastern edge of downtown Pittsburgh.",
+"\"Crawford Square is a pedestrian-oriented neighborhood with a large public recreation center, a three-mile jogging trail, and residents with a wide range of incomes,\" Rothstein said. \"Green space is great. It felt wonderful to turn four defunct foundries into a park-lined community with access to downtown. Would've been even better to turn it into a community lined with, say, 85 percent of the existing parkland and a few more goddamned dedicated turn lanes.\"",
+"Hastily executing two left turns to re-enter the interstate on-ramp, Rothstein described the Three Rivers traffic hub. He said he considers the hub—with its long, flowing, elevated contours and broad, boulevard-lined access ways—an aesthetic triumph, as well as \"a complete bitch to navigate.\"",
+"\"Medium-interval on-ramp traffic lights, my ass,\" Rothstein said. \"Very nice sweeping compound curves on the bridge thoroughfares, Bernie. They're very fluid—unlike the traffic stuck in them right now.\"",
+"Rolling down a window and shaking a fist at the traffic ahead, Rothstein said: \"This is about that Route 28 thing, isn't it, God? If I promise to put in more HOV concessions, will you please get things moving here already?\"",
+"A cell-phone call from Rothstein's wife Marjorie interrupted the angry tirade.",
+"\"Well, I'm sorry it's taking so long, Bernie,\" Marjorie said. \"But remember, honey, that you're the one who said I-279 was a horrible scar gouged into the city for the sake of efficiency. It was your own enthusiasm for small, two- to eight-acre city parks that made Pittsburgh a nicer place to live and got you into this mess.\""
+			],
+			"src": "theonion.com",
+			"url": "http://www.theonion.com/articles/urban-planner-stuck-in-traffic-of-own-design,1704/",
+			"moods": [
+				"humor",
+				"design"
+			]
+		},
+		{
+			"id": 34,
+			"title": "In Defense of Stanford University",
+			"headline": "This week in The New Yorker we discovered much about Stanford University in a piece by Ken Auletta titled \"Get Rich U.\"",
+			"contents": [
+"This week in The New Yorker we discovered much about Stanford University in a piece by Ken Auletta titled \"Get Rich U.\" For example, Stanford has produced many rich technology entrepreneurs—among both its professors and students. In fact, Stanford has been so successful at nurturing titans of business that it's causing some unease among certain faculty and school observers.",
+"There's a glut of engineering-minded, money-hungry students, and perhaps not enough love of learning for learning's sake and the humanities.",
+"As the story points out, Stanford's obsession with engineer-cum-entrepreneurs is by design. Frederick Terman, a Stanford professor, set out in the 1920s to unite local radio and electronics businessmen with Stanford's students. As a result, undergraduate students such as Bill Hewlett and David Packard found themselves visiting the San Francisco lab of Philo Farnsworth when he was in the process of inventing television.",
+"In the years that followed, Hewlett-Packard (HPQ), along with other electronics and technology companies, would place their headquarters on Stanford land. The arrangement helped Stanford compete against more established schools in the East for local talent and gave the local businessmen access to bright kids, research equipment, and new ideas.",
+"Over the years, Stanford has perfected the art of helping its students and professors start businesses and share in the spoils of their work through favorable licensing deals. As a result, generation after generation—HP to Cisco (CSCO) to Sun Microsystems to Yahoo (YHOO) to Google (GOOG), Instagram, and Palantir—have emerged from the university.",
+"If there's a light of hope in the U.S. economy, it emanates from Silicon Valley, and, my word, Stanford has done an awful lot to contribute to that fact.",
+"That's a long way of saying Auletta may have been better served by asking why the nation's other elite universities have done such a poor job at breeding entrepreneurs. You can, of course, point to people from Harvard, Cornell, and other top schools that have created empires from scratch, but Stanford clearly challenges the combined efforts of these other schools on its own. (Frankly, I can't recall ever meeting a single startup founder from such places as Yale or Dartmouth.)",
+"With China and India pumping out engineers by the tens of thousands, it's not so bad to have at least one school stateside that's a money-gushing, geek Mecca. In fact, Stanford's rivals should perhaps do some more thinking for thinking's sake around how they can mimic the Cardinal model."
+			],
+			"src": "businessweek.com",
+			"url": "http://www.businessweek.com/articles/2012-04-27/in-defense-of-stanford-university",
+			"moods": [
+				"business",
+				"learning",
+				"technology"
+			]
+		},
+		{
+			"id": 35,
+			"title": "EXCLUSIVE: \"Oh My God -- We're In Bed With The Vampire Squid!\"",
+			"headline": "IPOs are wildly profitable deals for Wall Street investment banks, and they come with huge bragging rights.",
+			"contents": [
+"IPOs are wildly profitable deals for Wall Street investment banks, and they come with huge bragging rights.",
+"So it's no surprise that the biggest Wall Street banks fought over the Facebook IPO for years.",
+"The inside story of the Facebook showdown reveals a lot about the relative status of Wall Street banks in Silicon Valley these days, especially Morgan Stanley and Goldman Sachs.",
+"And it also reveals a lot about Facebook.",
+"Facebook's in its IPO \"quiet period\" right now, and no one who knows anything is willing to talk publicly about it. This story is based on background interviews with more than a dozen Valley bankers, investors, and executives over the past few months, all of whom insisted on anonymity. (Some details from this story were also excerpted in this week's issue of New York Magazine, which you can read here.)",
+"The story starts, as most Facebook stories do, with 27-year-old CEO Mark Zuckerberg, who used to tell colleagues he never wanted to go public...",
+"* * *",
+"In the Silicon Valley of the 1990s, not wanting to go public would have been heresy. Every tech startup in the Valley set its sights on an IPO, because going public meant getting pots of cash for the company, liquidity for shareholders, and a highly valued stock that you could use to scarf up other companies.",
+"After the dotcom bust, however, the market for speculative IPOs evaporated, and many of the drawbacks of being public became clear:",
+"You had to fight bad press and lawsuits whenever your stock dropped",
+"You had to blow millions complying with SEC regulations",
+"You had to persuade analysts to set estimates low so you could \"beat expectations\" each quarter even though you performed as expected",
+"You had to explain your stock price—high or low—to your distracted employees, and,",
+"You had to please impatient public-market investors, instead of focusing on creating great products and investing for the long haul.",
+"In short, after the bust, many tech companies realized that being public was mostly a pain in the ass. And the private market soon created ways for companies to get the benefits of being public without going public—via large late-stage private investors or new marketplaces for private stock sales.",
+"This was one reason Mark Zuckerberg didn't want to take Facebook public: He didn't need to. Facebook was able to get all the money and liquidity it wanted in the private market. The other reason was about control: Zuckerberg worried that going public might mean selling stock to shareholders who wanted Facebook's first priority to be its business rather than its product—a fate he had spent Facebook's entire history trying to avoid.",
+"So Zuckerberg wasn't kidding when he told early Facebook employees that he wanted to stay private forever.",
+"And if a byzantine SEC rule hadn't required Facebook to begin filing the same sort of financial disclosure as a private company as it would have as a public company, Zuckerberg probably would have postponed the deal even longer.",
+"But that SEC rule—which forces companies to begin filing detailed documents when they have more than 500 shareholders—hit Facebook this spring. And if Facebook was going to go through all the hassles of being public, it might as well also get some of the benefits. Namely:",
+"a highly liquid market for its stock, which would finally allow some of Facebook's large institutional investors to sell (Facebook employees have been dumping stock via the private market for years), and",
+"a public currency with which to make acquisitions (it's difficult to use private stock to buy companies because the target company often thinks the stock is worth less than the buyer does).",
+"Over the years, Zuckerberg had also become more comfortable with the idea that, thanks to the company's dual classes of stock, which gave him 57% voting control of Facebook with only a 28% financial stake, he would never have to give up control: Public shareholders could squawk about the way he ran the company, but they would have no legal way to force him to run it differently. Thus, as he saw it, he would never be forced to screw Facebook up.",
+"So, last year, Zuckerberg finally became resigned to the idea of going public and pulled the trigger.",
+"Which is to say, he delegated the bank-selection process to his Chief Financial Officer, David Ebersman, and went back to focusing on Facebook's product...",
+"***",
+"For the past couple of decades, Goldman Sachs and Morgan Stanley have ruled the tech IPO business, with one of the firms serving as lead manager on most of the hottest deals.",
+"Goldman took Microsoft, Yahoo, and eBay public, for example. Morgan won Netscape and Google. Although other firms have picked off an occasional deal over the years, when it comes to tech banking, Goldman and Morgan remain in a class by themselves. To be sure, having Morgan or Goldman take you public is no guarantee of success—they've banked plenty of dogs. But going public without Morgan or Goldman means signaling that you weren't good enough for Morgan or Goldman. In other words, that your company is second-rate.",
+"In the last few years, though, there has been a shift in the Morgan-Goldman power balance in the Valley. Specifically, until very recently, Morgan Stanley has won almost all of the hot IPOs.",
+"Why?",
+"Several factors, starting with the bankers involved.",
+"Unlike other Wall Street businesses, corporate finance is still based on relationships: If you're raising money or buying or selling your company, you're hiring a person in addition to a firm.",
+"And that person—the senior banker on your deal—is someone you're going to have to interact with every day for months. Getting your deal done will be a frustrating process, because things rarely go according to plan. And the banker who wooed you during the courting period will always be tempted to delegate you to peons while he or she rushes off to woo someone else.",
+"So you'd better like your banker, and trust his or her judgment. And he or she had better listen carefully to you, understand your business, and return your emails and calls.",
+"In IPOs and other financings, banks can serve as either \"lead managers\" or \"co-managers,\" with the former conferring vastly more cash and bragging rights. Within these categories, however, are other subtle but important distinctions. On Facebook, for example, three Wall Street banks were named \"joint lead manager,\" but only one bank truly truly won the deal: The so-called \"left lead.\" The other \"joint leads,\" meanwhile, have impressive titles, but they are lackeys consigned \"to the right.\"",
+"The \"left\" and \"right\" designations are literal: They refer to the bank's relative positions on the cover of a company's IPO prospectus.",
+"The first bank listed, whose name is on the left side of the page, is the company's primary banker. This bank manages the IPO process, runs the order book, and sets the IPO price. This bank also takes home the biggest bragging rights and largest share of the IPO payday. The names of the other lead banks on the IPO, meanwhile, appear to the right of the primary bank. Although these slots also confer huge bragging rights and fees, they are subordinate. In the eyes of other chest-pounding Wall Street bankers, being \"to the right\" means you lost:",
+"Below the \"lead managers\" on the prospectus cover, meanwhile, are the co-managers, who get a smaller share of the IPO fees and bragging rights than the leads. On an IPO as big as Facebook's, being a co-manager is still highly lucrative, but it's miles from the prestige and money of being a lead.",
+"Facebook's IPO is one of the biggest IPOs in history, so the glory and fees showered upon Facebook's lead banker were always going to be enormous.",
+"If there has been one assignment that tech bankers and Morgan and Goldman wanted more than any other over the last few years, therefore, it has been to be selected by Facebook as the \"left lead.\"",
+"***",
+"The IPO that started Morgan Stanley's recent run of the tech table was LinkedIn, which went public in a blockbuster deal last spring. LinkedIn was all Morgan Stanley. Goldman wasn't even a co-lead. And LinkedIn's prestige and performance set Morgan Stanley up to win a whole string of big Internet deals that followed, including Pandora, Zynga, and Groupon,",
+"The reason LinkedIn chose Morgan Stanley to lead its IPO, according to sources familiar with the decision, came down to the bankers involved and the way they wooed the company.",
+"Morgan Stanley's lead Internet banker is a 46-year old California native named Michael Grimes. Grimes has been at Morgan Stanley since the early 1990s, when legendary Valley banker Frank Quattrone ran the firm's technology group. When Quattrone rocked the tech banking industry by defecting to a German bank in the late 1990s, Grimes stayed put. And he is now the co-head of Morgan Stanley's global technology group.",
+"Grimes is variously described as \"a very strong banker,\" \"incredibly hard-working,\" \"honest, direct, and smart,\" \"weird,\" and \"a dork.\" He is considered weird, one VC says, because he \"plays video games until 5 in the morning.\" Grimes is also \"not a typical white-shoe banker.\" Instead of getting an MBA at Wharton or Harvard Business School, Grimes went to Berkeley and graduated with degrees in Electrical Engineering and Computer Science. Such schooling would be a career liability at Morgan Stanley's headquarters in New York, but in Silicon Valley it's an asset. Most of the tech CEOs, board members, and investors that Grimes spends his life sucking up to are geeks, so it helps that he's also one.",
+"(The executive who called Grimes a \"dork,\" meanwhile, tells this story as evidence: Once, many moons ago, when Grimes was a mid-level banker, he received a call from a client in the middle of a conference room in which more than a dozen lawyers, bankers, accountants, and executives were sitting around a table drafting a financing document. Instead of simply excusing himself from the room to take the call, this executive says, Grimes slid under the table with his cell phone, There, he murmured audibly to his client while the drafting session continued.)",
+"Most of Grimes' biographical information is spelled out on his Wikipedia page, which is assiduously maintained. Some of Grimes' competitors snicker about this, suspecting Grimes of hiring a PR firm to game Wikipedia and buff up his image. The competitors also hold this rumored PR firm responsible for a series of pro-Grimes puff pieces that appeared in the country's most respected publications in the months before Facebook selected its underwriters—a press parade so obviously staged that one competitor described it as \"hysterical.\"",
+"But whether or not Grimes professionally polishes his image, he has a good one to polish. His clients rave about him. And they hire Morgan Stanley to get him.",
+"The same is not often said for a Goldman banker named Scott Stanford, who used to be Goldman's main Internet banker in the Valley. Stanford competed with Grimes for the LinkedIn IPO and several other key deals -- which Goldman lost.",
+"Scott Stanford looks good on paper--Harvard, Harvard Business School--and he has his supporters. He cultivated a relationship with the brilliant Russian investor Yuri Milner of DST, who charged into Silicon Valley a few years ago and rocked the establishment by shoveling hundreds of millions of dollars into some of the hottest companies (including Facebook). He also seems to play better in New York, where one Internet executive describes him as \"perfectly smart,\" if not particularly impressive. But in the Valley, at least in some quarters, it's a different story.",
+"In Valley tech-speak, the term \"UI\" is short for \"user interface\"—the part of a software program or gadget that you actually interact with. Scott Stanford's first challenge on LinkedIn, says one Valley executive familiar with LinkedIn's IPO decision process, is that \"his UI is off-putting.\"",
+"Pressed for details, the executive mentioned Stanford's \"slicked-back hair.\" Morgan Stanley's Grimes also has \"UI issues,\" this executive says—\"he's a banker—he talks very fast\"—but Grimes is so substantive that you get past that. Stanford, meanwhile, \"flew at a high level\" and was \"very theoretical\" when describing LinkedIn's business, which I think is a gracious way of saying that he was a blowhard. In contrast, Grimes and Morgan Stanley team were \"very bright and very passionate about the business,\" diving deep into the product arcana.",
+"In sucking up to LinkedIn before the IPO, Stanford and Goldman also made three key mistakes.",
+"First, they entrusted the LinkedIn relationship to a relative peon: Stanford was merely the head of Goldman's Global Internet group, whereas Grimes was the head of Morgan's whole technology group. There's nothing that tells you about a firm's commitment to your company than the rank of the banker assigned to you.",
+"Second, Stanford sucked up to the wrong guy: He schmoozed LinkedIn's founder and board member Reid Hoffman instead of the company's CEO Jeff Weiner and CFO Steve Sordello, both of whom played a big role in the decision.",
+"Third, Goldman got there too late.",
+"For more than a year leading up to LinkedIn's IPO, Michael Grimes and Morgan had been doing favors for LinkedIn's executives—analyzing parts of their business, showing them deals, helping them with their finance operations—all the while building a relationship.",
+"Goldman, meanwhile, showed up right before the IPO and said, basically, \"Hi, we're Goldman—hire us.\"",
+"Like most companies, LinkedIn held what is known as a \"bake-off\" before formally choosing its underwriters. Specifically, it invited bankers from several Wall Street firms to pitch its executives and board and make a case about why LinkedIn should choose their firms to manage the IPO.",
+"Both Morgan and Goldman made strong pitches at the bake-off, a person who sat through them says. But Morgan included in its pitch-book a list of all the work Morgan had already done for LinkedIn, for free, while Scott Stanford was buttering up the wrong guy and Goldman's bigger hitters were off focused on other deals. And the relationship Morgan built through all that free work all but sealed the deal.",
+"Not that Goldman gave up easily.",
+"In its LinkedIn pitch, Goldman rolled out what would become its new secret weapon in the Internet IPO wars, a former Army Ranger and 1990s-era Internet analyst turned banker named Anthony Noto. Noto was Goldman's Internet analyst during the dotcom boom and bust. Like some of us, Noto made his share of lousy calls in the bubble, but unlike some of us, Noto survived them. Noto left Goldman in 2007 to become CFO of the NFL and then returned in 2010 as the co-head of Goldman's Technology, Telecom, and Media (TMT) group, as the equal partner of a Valley-based banker named George Lee.",
+"When Noto first got back to Goldman, he was focused on media clients, and he watched helpless from New York as Goldman lost Internet deal after Internet deal. Then Noto began spending more time in the Valley. He rekindled his old relationships. He talked with venture capitalists and executives. And he discovered that part of Goldman's problem was the people on the ground.",
+"So Noto clipped Scott Stanford's wings and brought in his own people.",
+"(Stanford wasn't fired--he was just marginalized. Now, instead of calling on the hot companies, he gets to call on Yahoo. That's like a military general in the war theater being shipped off to Guam.)",
+"Noto began taking over some of Goldman's Internet relationships himself.",
+"And he quickly improved Goldman's reputation and business.",
+"Unlike Michael Grimes and George Lee, Anthony Noto doesn't have much experience as a banker, but he has experience as a research analyst and CFO, which many Valley executives find equally valuable. They like that Noto can see things from their perspective—the company perspective—instead of just the banker perspective. And they like that he still has relationships with big institutional investors and can talk intelligently about how investors think about stocks.",
+"Noto is described as \"relentless\"—he refuses to take no for an answer. But his persistence is somehow humble and endearing instead of annoying. Noto works his ass off to try to get new clients, executives say, and then he works his ass off to make them happy when he gets them. More importantly, like Grimes, Noto is passionate about his clients' technology products.",
+"The best thing about Noto and Morgan Stanley's Grimes, one Valley CEO says, is that neither are what you normally think of as \"bankers.\" They work hard. They carry their own bags. They're eager to please. They display a humility that is often absent on Wall Street. \"After all the crap about bailouts and Wall Street,\" the CEO says, \"the bankers have been so beaten down and humbled that they want to provide great service.\"",
+"To Valley executives, the return of Goldman Sachs to the tech IPO fray has been a welcome development: Now they can pit Morgan and Goldman against one another and make them both work harder to win deals. Or, like Facebook, they can hire both firms.",
+"Anthony Noto arrived too late to save the LinkedIn deal for Goldman, but he has since helped Goldman turn its tech IPO business around. And in every deal since LinkedIn, Goldman has been regaining more ground. Goldman won a joint-lead role in the Zynga and Groupon IPOs last year, for example, and it won the recent Yelp IPO outright earlier this year. Most recently, Goldman has grabbed the lead spot for Glam Media and AutoTrader, both of which were big losses for Morgan Stanley and Grimes.",
+"All that momentum, Goldman hoped, would put it in a good position to win Facebook's IPO. After all, Goldman had not made the same mistakes with Facebook that it had made with LinkedIn: The Goldman banker responsible for the Facebook relationship was not Scott Stanford but George Lee, the co-head of the firm's TMT group. And Lee had been rubbing Facebook's shoulders for years.",
+"Lee is a very experienced technology banker. He's also a man with his own UI issue, at least from the Valley's geek perspective: \"He's cut from the traditional banker cloth,\" said one CEO, who added that to him all bankers are indistinguishable. And what is the traditional banker cloth? \"He has a perma-tan.\"",
+"(These UI issues, by the way, go both ways. The prototypical tech entrepreneur is socially awkward, with \"bad hair\" and grooming habits, and runs around the Valley in sandals. As a result, they make the money guys nervous.)",
+"When you're massaging a company, you want to do everything you can to put your face in front of its executives, in and out of the office. And, when it came to Facebook, George Lee went step for step with Michael Grimes.",
+"In the fall of 2010, for example, Facebook COO Sheryl Sandberg staged a gala benefit in San Francisco for the Cambodian women's rights activist Somaly Mam. Events like this are a great way for bankers to demonstrate how much they care, and Morgan Stanley's Michael Grimes wasn't the only Facebook banker smart enough become a lead sponsor of the event.",
+"The other lead sponsor was Goldman's George Lee.",
+"\"Nobody cared more about Somaly Mam\" than Grimes and Lee, one Valley executive joked later.",
+"So Goldman was in an excellent position to win the Facebook IPO. And over the next 18 months it pulled out all the stops, including flying Goldman CEO Lloyd Blankfein out to the Valley a couple of times to schmooze.",
+"Alas, when it came to Facebook, Goldman had another problem...",
+"***",
+"Andrew Ross Sorkin, whose scoop blew up a deal.",
+"On January 2, 2011, a startling article appeared in the New York Times. Written by the Times' star Wall Street reporter Andrew Ross Sorkin and a colleague, the article reported that Goldman Sachs had agreed to invest a staggering $450 million in Facebook at a price that valued Facebook at an equally staggering $50 billion.",
+"Furthermore, Sorkin reported, Goldman was planning to offer its clients a chance to invest an additional $1.5 billion in Facebook at the same price via a private stock offering—in other words, Goldman was planning give clients access to a sweetheart pre-IPO deal of a super-hot company that everyone already assumed would ultimately go public at a spectacular price.",
+"At first, this seemed a huge coup for Goldman. The firm was still struggling to overcome the horrendous publicity it had endured during the financial crisis. Rolling Stone writer Matt Taibbi had famously deemed Goldman a \"vampire squid\" and the name had gone viral. And Goldman had also recently had to pony up $550 million to settle a fraud claim brought by the SEC.",
+"So the fact that Goldman had seduced the smoking-hot Facebook suddenly cast the firm in a lovely new light. By investing $450 million of its own money in the deal, moreover, the firm not only stood to make a monstrous pile of cash when Facebook eventually went public—it also appeared to have \"bought\" the IPO.",
+"But then everything went to hell again.",
+"Sorkin's article blindsided Goldman, making public a deal that was supposed to conducted in secret.",
+"The SEC's rules around \"advertising\" private placements are strict: To protect investors from getting seduced by super-hyped stock offerings, the SEC prohibits brokerage firms like Goldman from contributing to any publicity around them.",
+"Sorkin's article hadn't cited Goldman as a source for his story, but most observers assumed that Goldman had leaked it to him—for precisely the reason the SEC rule wanted to prevent: To whip up publicity and enthusiasm for the deal.",
+"And, boy, did the article whip up publicity and enthusiasm for the deal.",
+"After Sorkin's article appeared, Goldman hastily sent out an email to clients announcing the offering—and was immediately deluged with orders for the Facebook stock. Over the next week, the press went into a frenzy. Then, alarmingly, the Wall Street Journal reported that the SEC had decided to look into the deal, to see if Goldman had violated its publicity rules.",
+"After the SEC news broke, in a shocking move, Goldman suddenly announced that it was pulling the deal for its U.S. clients, for fear that the enormous publicity had violated the SEC's rules. Instead, Goldman said, it would place the entire block of Facebook stock with its international clients.",
+"Well, you can't offer your best clients a sweetheart deal in a company like Facebook and then revoke the offer without pissing those clients off.",
+"So Goldman's U.S. clients were pissed off.",
+"And so was Facebook.",
+"The botched deal was a major embarrassment for Goldman. But more damaging to the firm's chances of winning the Facebook IPO was the public animosity for Goldman that it stirred up again.",
+"Facebook's executives didn't blame their Goldman bankers—led by George Lee—for the fiasco. But they were taken aback by the public hatred for Goldman.",
+"The reaction at Facebook's headquarters, one observer says, was basically this:",
+"\"Oh my god, we've gotten in bed with the vampire squid.\"",
+"The blown private-placement, which should have cemented Goldman's hold on the IPO, ended up crippling the firm's chances of winning it. And because this deal played such a big role in the IPO decision, there's another tantalizing story about it that's worth sharing.",
+"The story is that Goldman was not, in fact, the source of the leak to the New York Times—the leak that blew the cover off the private deal, triggered the SEC inquiry, and led to Goldman sustaining another huge blow to its reputation.",
+"That story is that the leak came from JP Morgan or Morgan Stanley.",
+"Before Facebook kicked off the Goldman investment and private-placement, this story goes, Facebook's CFO David Ebersman placed courtesy calls to the senior bankers at Morgan Stanley and JP Morgan to let them know what was going on. This is standard practice: Ebersman had relationships at these firms that he would have wanted to maintain. The news that Facebook was doing a huge deal with a competitor, meanwhile, would not have been well-received by these bankers, who would have wanted it themselves. So, the calls from Ebersman, presumably, would have left these bankers feeling jilted and pissed.",
+"So then, the story continues, feeling spurned by Facebook and knowing the impact the deal news might have on Goldman if it got out, one of these JP Morgan or Morgan Stanley bankers called the New York Times's Sorkin and tipped him off.",
+"Who was the tipster?",
+"Maybe it was Jimmy Lee at JP Morgan, the story goes, the legendary head of the investment bank under Jamie Dimon (who also has a close relationship with Facebook). Maybe it was Morgan Stanley's Grimes, who is said to not be a gracious loser. Maybe it was Jamie Dimon himself.",
+"For obvious reasons, this competitor-leak story is popular within Goldman Sachs. The idea that Goldman would be so ham-fisted as to blow up its own deal is mortifying to the firm, whose bankers need to be paragons of confidentiality and discretion.",
+"Supporting the theory is the fact that it wouldn't have made sense for Goldman's bankers to intentionally leak news of the deal. Given the excitement around Facebook, Goldman would have needed no external publicity to get the deal done.",
+"This \"Morgan nukes Goldman with a planted story\" story is compelling—a tale of bad-ass corporate sabotage in keeping with the knife-fight analogy that that one banker used to describe the competition for the Facebook deal.",
+"But the word from within the New York Times is that it's not that simple.",
+"Andrew Ross Sorkin pieced together his scoop from tidbits gathered from multiple sources, a Times staffer says. Goldman's competitors may have been among those sources, but it doesn't sound as though they planted the whole story in an attempt to sabotage the Goldman deal. More likely, it seems, some lower-level banker at Goldman let his excitement get the better of him, and told too many people about the deal.",
+"Regardless, Goldman's competitors can't have been unhappy about the way things turned out.",
+"***",
+"When Facebook hired David Ebersman as CFO in 2009, it was with an eye toward the inevitable IPO. Ebersman would deal with Facebook's finances and Wall Street, neither of which Mark Zuckerberg had any interest in. And Sheryl Sandberg would continue to handle Facebook's business.",
+"A former Wall Street analyst, Ebersman had worked for 15 years at biotech giant Genentech. Competition for the Facebook CFO slot was fierce, but after meeting Ebersman, Mark Zuckerberg knew he had found who he was looking for.",
+"For starters, like Facebook COO Sheryl Sandberg, Ebersman was young—39 at the time—which meant that he might be around for a while.",
+"Second, he understood how important Facebook's culture and sense of mission were, because Genentech had shared the same qualities.",
+"Third, prior to being promoted to CFO at Genentech, Ebersman had been in an operating role, so he wasn't just a numbers guy—rather, he knew how finance could serve the rest of the organization.",
+"Fourth, like Sheryl Sandberg, Ebersman was already wealthy, so he wasn't just looking for a quick score from the IPO.",
+"Ebersman also had other qualities that appealed to Facebook. He plays bass in a band called \"Feed Bomb,\" a gig that apparently gives him cred with Facebook's engineers. Colleagues describe him as smart and unflappable: \"In a sea of craziness, even the way he talks is cool. It always feels like there's a there's a quarter-second pause before he answers… because it feels like he's deliberating.\" A class-mate of Ebersman's from high-school describes him as having been \"serious, smart, great at math, emotionally detached, and conversationally challenged.\" In short, \"Zuckerbergian.\"",
+"One of Ebersman's missions in the IPO process was to reduce its impact on the rest of the organization—which is to say, on Mark Zuckerberg and Sheryl Sandberg. And by all accounts, Ebersman succeeded masterfully.",
+"For two years, Ebersman built relationships with all the major Wall Street bankers and firms, tossing them small assignments to see how they handled them. He established a rule that all IPO-related discussions and lobbying by bankers had to go through him, and then he assigned one of his deputies, Cipora Herman, the job of handling them.",
+"(Not that this stopped the banks from trying. In addition to Somaly Mam, other bankers tried every other door into Facebook they could think of, including sucking up to Sheryl Sandberg's spouse Dave Goldberg, a Valley CEO, in the hopes that he would say nice things to her about them.)",
+"And when it came time for the IPO, Ebersman departed radically from Wall Street tradition.",
+"Instead of asking Wall Street for advice on what to do, Ebersman told Wall Street what he wanted.",
+"First, he drafted a complete IPO prospectus himself, with no help from Wall Street.",
+"Then, instead of holding a \"bake-off\" like LinkedIn, he decided on his own which banks he wanted on the underwriting team, what roles they would play, and how much Facebook would pay them. Once he had made his decisions, he took them to Zuckerberg and Sandberg, who approved them.",
+"And then, in February, a few days before Facebook filed its IPO prospectus with the SEC, Ebersman called the banks, told them what the deal was and what role he was offering them, and asked whether they wanted in.",
+"Not surprisingly, they wanted in.",
+"And, not surprisingly, Morgan Stanley won, and Goldman lost.",
+"That wasn't startling—the winner was always expected to be Morgan Stanley or Goldman Sachs, and most people thought Morgan had the edge.",
+"The shock was this:",
+"Goldman was demoted to third in the Facebook-banker pecking order, behind JP Morgan.",
+"JP Morgan is big in New York, but in the Valley, it's considered a second-tier firm. For Goldman to be pushed to the right of JP Morgan on the highest-profile tech IPO in history, therefore, was just more humiliation.",
+"Nor could Goldman console itself with the knowledge that it would kill it on fees.",
+"\"We knew the spread would be terrible,\" a Facebook banker from another firm moaned, referring to the percentage fee Facebook's banks would receive, \"and it is terrible.\"",
+"Specifically, the \"spread\" on the Facebook deal will be about 1% of the total amount of money that Facebook will raise, as compared to the normal 7% fee on a small IPO.",
+"Of course, 1% of a deal the size of Facebook's will still produce oceans of cash for the banks--$50 to $100 million, depending on how big the IPO ends up being. And if Facebook trades at a $100+ billion valuation after the offering, Goldman's huge investment in the company will earn have earned it $500+ million in a little more than a year. Its private-placement, meanwhile, will have earned it tens of millions more in fees, as well as a return of more than $1 billion for its international clients.",
+"So it still doesn't suck to be Goldman, even when some clients still think of you as the Squid.",
+"The story that echoed around Wall Street after the IPO news broke was that Morgan Stanley bankers were pounding their chests and bragging about how they had dazzled Facebook and won the deal.",
+"That wasn't really true--if anyone \"won\" the Facebook deal, it was Facebook--but some celebration was certainly in order.",
+"Another banker involved in the deal was decidedly more gracious.",
+"\"However dazzling and indispensable we Wall Street guys think we are,\" he said, \"Facebook knew what they were doing.\""
+			],
+			"src": "businessinsider.com",
+			"url": "http://www.businessinsider.com/oh-my-god-were-in-bed-with-the-vampire-squid",
+			"moods": [
+				"business",
+				"technology",
+				"money"
+			]
+		},
+		{
+			"id": 36,
 			"title": "",
 			"headline": "",
 			"contents": [
