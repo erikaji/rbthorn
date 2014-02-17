@@ -30,11 +30,15 @@
   	<div class="container">
 
 
-  		<div data-toggle="buttons-radio">
+ 	  	<!-- <div data-toggle="buttons-radio"> -->
+
         {{#each tags}}
-          <button class="btn btn-lg tag" id="tag{{this.id}}">{{@key}}</button>
+        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-2">
+          <button class="btn btn-lg tag buttonTag" id="tag{{this.id}}">{{@key}}</button>
+        </div>
         {{/each}}
-  		</div>
+
+  		<!-- </div> -->
   		<nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
   			<div class="container">
   				<div class="center">	
@@ -51,8 +55,8 @@
   	<script type="text/javascript">
 
       function tag_clicked(obj) {
-        obj.toggleClass("btn-success");
-        var tagList =  $(".btn-success");
+        obj.toggleClass("btn-selected");
+        var tagList =  $(".btn-selected");
         var submitButton = $(".submit button");
         var dataSent = {
           tags: []
@@ -65,7 +69,7 @@
           submitButton.attr("disabled", true);
           $(".submit").attr("href", "#");
           submitButton.text("Select Moods...");
-          $(".tag").show();
+          $(".tag").parent().fadeIn();
         }
         else {
           //retrieve number of articles and available tag list from server
@@ -89,9 +93,9 @@
                 submitButton.text(textToShow);
                 $(".tag").each(function(){
                   if ($.inArray($(this).text(), dataRetrieved.moods) > -1)
-                    $(this).fadeIn("slow");
+                    $(this).parent().fadeIn("slow");
                   else
-                    $(this).fadeOut("slow");
+                    $(this).parent().fadeOut("slow");
                 })        
               }
             }
@@ -115,7 +119,7 @@
 
     	$(".submit").click(function(){
     		var post = {};
-   		$(".btn-success").each(function(){post[$(this).text()] = true;});
+   		$(".btn-selected").each(function(){post[$(this).text()] = true;});
     		var query='';
     		var key;
     		for (key in post)
