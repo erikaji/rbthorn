@@ -32,7 +32,16 @@
     <ul class="articles">
       {{#each articles}}
         <li class="articles">
-          <a href="article/{{id}}" class="btn btn-default btn-lg btn-block" role="button">
+          <a href="article/{{id}}" class="btn btn-primary btn-lg btn-block" role="button"> 
+            <p class="name">{{title}}</p>
+            <p class="src">{{src}}</p>
+            <p class="desc">{{headline}}</p>
+          </a>
+        </li>
+      {{/each}}
+      {{#each articles}}
+        <li class="articles">
+          <a href="article/{{id}}" class="btn btn-default btn-lg btn-block" role="button"> 
             <p class="name">{{title}}</p>
             <p class="src">{{src}}</p>
             <p class="desc">{{headline}}</p>
