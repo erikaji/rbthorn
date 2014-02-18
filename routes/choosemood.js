@@ -22,9 +22,6 @@ exports.view = function(req, res){
 				case "btn-orange": 
 				colorclass = "btn-warning";
 				break;
-				case "btn-red":
-				colorclass = "btn-danger";
-				break;
 				case "btn-blue":
 				colorclass = "btn-primary";
 				break;
