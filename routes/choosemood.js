@@ -18,14 +18,7 @@ exports.view = function(req, res){
   	// Look up the colors
   	for (var mood in tags){
 			var colorclass = moodColors[mood] ? "btn-" + moodColors[mood] : '';
-			switch (colorclass){
-				case "btn-orange": 
-				colorclass = "btn-warning";
-				break;
-				case "btn-blue":
-				colorclass = "btn-primary";
-				break;
-			}
+
 			tags[mood] = colorclass;
 	}
 	console.log(tags);
