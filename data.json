@@ -78,13 +78,13 @@
 			"src": "paulgraham.com",
 			"url": "http://paulgraham.com/love.html",
 			"moods": [
-				"introspective",
-				"thoughtful",
-				"inspired",
-				"ambitious",
 				"career",
+				"inspired",
+				"introspective",
 				"dream",
 				"passionate",
+				"thoughtful",
+				"ambitious",
 				"happy"
 			]
 		},
@@ -134,11 +134,11 @@
 			"url": "http://mynameiselizabeth.com/2014/01/22/the-asian-american-quarter-life-crisis/",
 			"moods": [
 				"Asian",
-				"adventurous",
+				"passionate",
 				"ambitious",
+				"adventurous",
 				"success",
 				"career",
-				"passionate",
 				"happy"
 			]
 		},
@@ -164,11 +164,11 @@
 			"url": "https://medium.com/this-happened-to-me/c02f1ff471c6",
 			"moods": [ 
 				"career",
+				"ambitious",
+				"courageous",
+				"success",
 				"dream",
 				"adventurous",
-				"ambitious",
-				"success",
-				"courageous",
 				"happy"
 			]
 		},
@@ -198,8 +198,9 @@
 			"src": "slate.com",
 			"url": "http://www.slate.com/articles/business/operations/2012/06/queueing_theory_what_people_hate_most_about_waiting_in_line_.single.html",
 			"moods": [
-				"efficient",
-				"psychology"
+				"educational",
+				"psychology",
+				"efficient"
 			]
 		},
 	{
@@ -453,9 +454,10 @@
 			"src": "lifehack.org",
 			"url": "http://www.lifehack.org/articles/productivity/100-incredible-things-learned-watching-70-hours-ted-talks-last-week.html",
 			"moods": [
+				"educational",
+				"thoughtful",
 				"efficient",
-				"inspired",
-				"thoughtful"
+				"inspired"
 			]
 		},
 		{
@@ -830,8 +832,8 @@
 			"url": "http://www.pinyin.info/readings/texts/moser.html",
 			"moods": [
 				"Asian",
-				"studious",
-				"communication"
+				"communication",
+				"studious"
 			]
 		},
 		{
@@ -904,10 +906,10 @@
 			"src": "nymag.com",
 			"url": "http://nymag.com/news/features/27840/",
 			"moods": [
-				"communication",
-				"educational",
 				"parental",
-				"psychology"
+				"communication",
+				"psychology",
+				"educational"
 			]
 		},
 		{
@@ -962,11 +964,11 @@
 			"src": "faculty.winthrop.edu",
 			"url": "http://faculty.winthrop.edu/martinme/Thisiswater.htm",
 			"moods": [
-				"inspired",
 				"graduation",
+				"inspired",
 				"thoughtful",
-				"studious",
-				"happy"
+				"happy",
+				"studious"
 			]
 		},
 		{
@@ -1035,11 +1037,11 @@
 			"url": "http://web.mit.edu/jmorzins/www/C-H-speech.html",
 			"moods": [
 				"graduation",
-				"inspired",
-				"introspective",
-				"thoughtful",
 				"career",
 				"passionate",
+				"introspective",
+				"inspired",
+				"thoughtful",
 				"happy"
 			]
 		},
@@ -1063,9 +1065,9 @@
 			"src": "opinionator.blogs.nytimes.com",
 			"url": "http://opinionator.blogs.nytimes.com/2013/06/15/i-know-what-you-think-of-me/?_php=true&_type=blogs&_r=0",
 			"moods": [
-				"technology",
 				"communication",
-				"friendship"
+				"friendship",
+				"technology"
 			]
 		},
 		{
@@ -1108,9 +1110,10 @@
 			"src": "nytimes.com",
 			"url": "http://www.nytimes.com/2011/05/29/opinion/29franzen.html?pagewanted=all&_r=3&",
 			"moods": [
-				"inspired",
-				"passionate",
 				"graduation",
+				"inspired",
+				"technology",
+				"passionate",
 				"happy"
 			]
 		},
@@ -1344,7 +1347,9 @@
 			"url": "http://www.forbes.com/global/2012/0409/companies-people-pejman-nozad-entrepreneur-capitalist-silicon-valley-cinderella.html",
 			"moods": [
 				"business",
-				"technology"
+				"technology",
+				"money",
+				"communication"
 			]
 		},
 		{
@@ -1386,8 +1391,8 @@
 			"url": "http://www.salon.com/2012/07/24/every_woman_should_travel_alone/",
 			"moods": [
 				"travel",
-				"adventurous",
-				"feminism"
+				"feminism",
+				"adventurous"
 			]
 		},
 		{
@@ -1427,6 +1432,7 @@
 				"career",
 				"passionate",
 				"inspired",
+				"educational",
 				"dream",
 				"happy"
 			]
@@ -1542,8 +1548,8 @@
 			"url": "http://lifehacker.com/5993267/the-psychology-of-language-why-are-some-words-more-persuasive-than-others",
 			"moods": [
 				"communication",
-				"studious",
-				"psychology"
+				"psychology",
+				"studious"
 			]
 		},
 		{
@@ -1696,9 +1702,9 @@
 			"url": "http://jobs.aol.com/articles/2013/02/28/good-girls-student-success/",
 			"moods": [
 				"feminism",
+				"success",
 				"career",
-				"studious",
-				"success"
+				"studious"
 			]
 		},
 		{
@@ -1720,8 +1726,9 @@
 			"src": "hbr.org",
 			"url": "http://hbr.org/2008/01/the-five-competitive-forces-that-shape-strategy/ar/1",
 			"moods": [
-				"business",
-				"strategic"
+				"competitive",
+				"strategic",
+				"business"
 			]
 		},
 		{
@@ -1748,9 +1755,9 @@
 			"src": "bain.com",
 			"url": "http://www.bain.com/publications/articles/why-we-behave-and-decide-the-way-we-do.aspx?utm_source=Bain-Insights-March-2012&utm_medium=Newsletter&utm_campaign=why-we-behave-and-decide-the-way-we-do",
 			"moods": [
+				"psychology",
 				"business",
-				"strategic",
-				"psychology"
+				"strategic"
 			]
 		},
 		{
@@ -1833,9 +1840,9 @@
 			"src": "caseinterview.com",
 			"url": "http://www.caseinterview.com/post-consulting-careers",
 			"moods": [
-				"business",
-				"ambitious",
 				"career",
+				"ambitious",
+				"business",
 				"success"
 			]
 		},
@@ -1877,9 +1884,9 @@
 			"src": "nytimes.com",
 			"url": "http://www.nytimes.com/2014/01/19/opinion/sunday/for-the-love-of-money.html?_r=0",
 			"moods": [
-				"business",
-				"money",
 				"trapped",
+				"money",
+				"business",
 				"unhappy",
 				"helpless"
 			]
@@ -1909,8 +1916,8 @@
 			"url": "http://www.slate.com/articles/double_x/doublex/2014/02/abortion_as_end_of_life_care_why_i_chose_a_peaceful_life_and_death_for_my.html",
 			"moods": [
 				"health",
-				"moral",
-				"empathetic"
+				"empathetic",
+				"moral"
 			]
 		},
 		{
@@ -2117,9 +2124,10 @@
 			"src": "businessinsider.com",
 			"url": "http://www.businessinsider.com/oh-my-god-were-in-bed-with-the-vampire-squid",
 			"moods": [
+				"money",
+				"strategic",
 				"business",
-				"technology",
-				"money"
+				"technology"
 			]
 		},
 		{
@@ -2139,11 +2147,11 @@
 			"src": "americanthinker.com",
 			"url": "http://www.americanthinker.com/2014/01/sad_truths_about_teen_suicide.html",
 			"moods": [
+				"alone",
 				"stressed",
 				"angry",
-				"upset",
-				"alone",
-				"hopeless"
+				"hopeless",
+				"upset"
 			]
 		},
 		{
@@ -2192,9 +2200,9 @@
 			"url": "http://trove.com/me/content/4HZjo",
 			"moods": [
 				"technology",
+				"speculative",
 				"money",
-				"design",
-				"speculative"
+				"design"
 			]
 		},
 		{
@@ -2220,10 +2228,10 @@
 			"src": "slate.com",
 			"url": "http://www.slate.com/articles/health_and_science/medical_examiner/2014/02/mammogram_risks_and_benefits_overdiagnosis_and_misfear_are_not_saving_lives.single.html",
 			"moods": [
-				"scared",
 				"health",
 				"cautious",
-				"informative"
+				"informative",
+				"scared"
 			]
 		},
 		{
@@ -2323,10 +2331,10 @@
 			"src": "theverge.com",
 			"url": "http://www.theverge.com/2014/2/17/5418586/north-korea-has-committed-crimes-against-humanity-un-report",
 			"moods": [
+				"global",
 				"political",
 				"criminal",
 				"unequal",
-				"global",
 				"punitive"
 			]
 		},
