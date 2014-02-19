@@ -78,13 +78,14 @@
 			"src": "paulgraham.com",
 			"url": "http://paulgraham.com/love.html",
 			"moods": [
-				"contemplation", 
-				"inspiration",
-				"ambition",
+				"introspective",
+				"thoughtful",
+				"inspired",
+				"ambitious",
 				"career",
 				"dream",
-				"passion",
-				"happiness"
+				"passionate",
+				"happy"
 			]
 		},
 		{
@@ -133,12 +134,12 @@
 			"url": "http://mynameiselizabeth.com/2014/01/22/the-asian-american-quarter-life-crisis/",
 			"moods": [
 				"Asian",
-				"adventure",
-				"ambition",
+				"adventurous",
+				"ambitious",
 				"success",
 				"career",
-				"passion",
-				"happiness"
+				"passionate",
+				"happy"
 			]
 		},
 		{
@@ -164,11 +165,11 @@
 			"moods": [ 
 				"career",
 				"dream",
-				"adventure",
-				"ambition",
+				"adventurous",
+				"ambitious",
 				"success",
-				"courage",
-				"happiness"
+				"courageous",
+				"happy"
 			]
 		},
 		{
@@ -197,7 +198,7 @@
 			"src": "slate.com",
 			"url": "http://www.slate.com/articles/business/operations/2012/06/queueing_theory_what_people_hate_most_about_waiting_in_line_.single.html",
 			"moods": [
-				"efficiency",
+				"efficient",
 				"psychology"
 			]
 		},
@@ -339,8 +340,8 @@
 			"moods": [
 				"feminism",
 				"career",
-				"inspiration",
-				"ambition",
+				"inspired",
+				"ambitious",
 				"dream"
 			]
 		},
@@ -452,9 +453,9 @@
 			"src": "lifehack.org",
 			"url": "http://www.lifehack.org/articles/productivity/100-incredible-things-learned-watching-70-hours-ted-talks-last-week.html",
 			"moods": [
-				"efficiency",
-				"inspiration",
-				"contemplation"
+				"efficient",
+				"inspired",
+				"thoughtful"
 			]
 		},
 		{
@@ -508,8 +509,8 @@
 			"url": "http://thoughtcatalog.com/matthew-kepnes/2013/09/18-life-lessons-learned-from-travel-the-world/",
 			"moods": [
 				"travel",
-				"adventure",
-				"courage"
+				"adventurous",
+				"courageous"
 			]
 		},
 		{
@@ -539,7 +540,7 @@
 			"src": "nytimes.com",
 			"url": "http://www.nytimes.com/2012/09/02/opinion/sunday/architecture-and-the-lost-art-of-drawing.html?smid=fb-share",
 			"moods": [
-				"art",
+				"artsy",
 				"architecture",
 				"technology",
 				"design"
@@ -725,8 +726,8 @@
 			"src": "jamesmaa.com",
 			"url": "http://www.jamesmaa.com/2012/12/02/james-maas-productivity-hacking-guide/",
 			"moods": [
-				"efficiency",
-				"learning"
+				"efficient",
+				"productive"
 			]
 		},
 		{
@@ -829,7 +830,7 @@
 			"url": "http://www.pinyin.info/readings/texts/moser.html",
 			"moods": [
 				"Asian",
-				"learning",
+				"studious",
 				"communication"
 			]
 		},
@@ -904,8 +905,8 @@
 			"url": "http://nymag.com/news/features/27840/",
 			"moods": [
 				"communication",
-				"learning",
-				"parent",
+				"educational",
+				"parental",
 				"psychology"
 			]
 		},
@@ -961,11 +962,11 @@
 			"src": "faculty.winthrop.edu",
 			"url": "http://faculty.winthrop.edu/martinme/Thisiswater.htm",
 			"moods": [
-				"inspiration",
+				"inspired",
 				"graduation",
-				"contemplative",
-				"learning",
-				"happiness"
+				"thoughtful",
+				"studious",
+				"happy"
 			]
 		},
 		{
@@ -1034,11 +1035,12 @@
 			"url": "http://web.mit.edu/jmorzins/www/C-H-speech.html",
 			"moods": [
 				"graduation",
-				"inspiration",
-				"contemplation",
+				"inspired",
+				"introspective",
+				"thoughtful",
 				"career",
-				"passion",
-				"happiness"
+				"passionate",
+				"happy"
 			]
 		},
 		{
@@ -1106,10 +1108,10 @@
 			"src": "nytimes.com",
 			"url": "http://www.nytimes.com/2011/05/29/opinion/29franzen.html?pagewanted=all&_r=3&",
 			"moods": [
-				"inspiration",
-				"passion",
+				"inspired",
+				"passionate",
 				"graduation",
-				"happiness"
+				"happy"
 			]
 		},
 		{
@@ -1273,7 +1275,7 @@
 			"url": "http://www.nytimes.com/2013/06/04/opinion/brooks-the-way-to-produce-a-person.html?_r=0",
 			"moods": [
 				"career",
-				"passion",
+				"passionate",
 				"technology",
 				"money"
 			]
@@ -1294,7 +1296,7 @@
 			"moods": [
 				"love",
 				"dream",
-				"happiness"
+				"happy"
 			]
 		},
 		{
@@ -1384,7 +1386,7 @@
 			"url": "http://www.salon.com/2012/07/24/every_woman_should_travel_alone/",
 			"moods": [
 				"travel",
-				"adventure",
+				"adventurous",
 				"feminism"
 			]
 		},
@@ -1423,10 +1425,10 @@
 			"url": "http://metaphoplay.wordpress.com/2013/04/24/what-are-you-going-to-do-with-that/",
 			"moods": [
 				"career",
-				"passion",
-				"inspiration",
+				"passionate",
+				"inspired",
 				"dream",
-				"happiness"
+				"happy"
 			]
 		},
 		{
@@ -1481,8 +1483,8 @@
 			"url": "http://www.garancedore.fr/en/2013/04/16/friends/",
 			"moods": [
 				"friendship",
-				"happiness",
-				"contemplative"
+				"happy",
+				"thoughtful"
 			]
 		},
 		{
@@ -1540,7 +1542,7 @@
 			"url": "http://lifehacker.com/5993267/the-psychology-of-language-why-are-some-words-more-persuasive-than-others",
 			"moods": [
 				"communication",
-				"learning",
+				"studious",
 				"psychology"
 			]
 		},
@@ -1648,7 +1650,7 @@
 			"moods": [
 				"fashion",
 				"money",
-				"addiction"
+				"addicted"
 			]
 		},
 		{
@@ -1673,7 +1675,7 @@
 			"moods": [
 				"friendship",
 				"love",
-				"contemplation"
+				"thoughtful"
 			]
 		},
 		{
@@ -1695,7 +1697,7 @@
 			"moods": [
 				"feminism",
 				"career",
-				"learning",
+				"studious",
 				"success"
 			]
 		},
@@ -1719,7 +1721,7 @@
 			"url": "http://hbr.org/2008/01/the-five-competitive-forces-that-shape-strategy/ar/1",
 			"moods": [
 				"business",
-				"strategy"
+				"strategic"
 			]
 		},
 		{
@@ -1747,7 +1749,7 @@
 			"url": "http://www.bain.com/publications/articles/why-we-behave-and-decide-the-way-we-do.aspx?utm_source=Bain-Insights-March-2012&utm_medium=Newsletter&utm_campaign=why-we-behave-and-decide-the-way-we-do",
 			"moods": [
 				"business",
-				"strategy",
+				"strategic",
 				"psychology"
 			]
 		},
@@ -1832,7 +1834,7 @@
 			"url": "http://www.caseinterview.com/post-consulting-careers",
 			"moods": [
 				"business",
-				"ambition",
+				"ambitious",
 				"career",
 				"success"
 			]
@@ -1877,7 +1879,9 @@
 			"moods": [
 				"business",
 				"money",
-				"addiction"
+				"trapped",
+				"unhappy",
+				"helpless"
 			]
 		},
 		{
@@ -1905,7 +1909,8 @@
 			"url": "http://www.slate.com/articles/double_x/doublex/2014/02/abortion_as_end_of_life_care_why_i_chose_a_peaceful_life_and_death_for_my.html",
 			"moods": [
 				"health",
-				"happiness"
+				"moral",
+				"empathetic"
 			]
 		},
 		{
@@ -1955,7 +1960,7 @@
 			"url": "http://www.businessweek.com/articles/2012-04-27/in-defense-of-stanford-university",
 			"moods": [
 				"business",
-				"learning",
+				"education",
 				"technology"
 			]
 		},
@@ -2215,8 +2220,8 @@
 			"src": "slate.com",
 			"url": "http://www.slate.com/articles/health_and_science/medical_examiner/2014/02/mammogram_risks_and_benefits_overdiagnosis_and_misfear_are_not_saving_lives.single.html",
 			"moods": [
-				"fearful",
-				"medical",
+				"scared",
+				"health",
 				"cautious",
 				"informative"
 			]
