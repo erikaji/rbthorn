@@ -1,14 +1,12 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Results</title>
+    <title>Read by Mood - {{#each resultsName}}{{#if @last}}{{this}}{{else}}{{this}} + {{/if}}{{/each}} articles </title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Bootstrap -->
     <link href="/css/bootstrap.min.css" rel="stylesheet">
     <link href="/css/bootstrap-theme.min.css" rel="stylesheet">
     <link href="/css/readbymood.css" rel="stylesheet">
     <link href="/css/results.css" rel="stylesheet">
-
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -16,37 +14,41 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
   </head>
+
   <body>
-	<!-- this is a comment in HTML -->
-	<div class="container">
-    <h1>Read
-      {{#each resultsName}}
-        {{#if @last}}
-          <a class="mood" href="/?tag={{this}}">{{this}}</a>
-        {{else}}
-          <a class="mood" href="/?tag={{this}}">{{this}}</a> +
-        {{/if}}
-      {{/each}}
-      articles </h1>
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <a href="/"><img class="logo-full img-responsive" src="/images/logo_full.png"></a>
+    </div>
+  	<div class="container page-top">
+      <center><h1>Read
+        {{#each resultsName}}
+          {{#if @last}}
+            <a class="mood" href="/?tag={{this}}">{{this}}</a>
+          {{else}}
+            <a class="mood" href="/?tag={{this}}">{{this}}</a> +
+          {{/if}}
+        {{/each}}
+        articles </h1></center>
 
-    <ul class="articles">
-      {{#each articles}}
-        <li class="articles">
-          <a href="article/{{id}}" class="btn btn-default btn-lg btn-block" role="button"> 
-            <p class="name">{{title}}</p>
-            <p class="src">{{src}}</p>
-            <p class="desc">{{headline}}</p>
-          </a>
-        </li>
-      {{/each}}
-    </ul>
+      <ul class="articles">
+        {{#each articles}}
+          <li class="articles">
+            <a href="article/{{id}}" class="btn btn-default btn-lg btn-block" role="button"> 
+              <p class="name">{{title}}</p>
+              <p class="src">{{src}}</p>
+              <p class="desc">{{headline}}</p>
+            </a>
+          </li>
+        {{/each}}
+      </ul>
 
-    <nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
-      <ol class="breadcrumb">
-        <li><a href="/">Choose Mood</a></li>
-        <li class="active">List</li>
-      </ol>
-    </nav>
+      <nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
+        <ol class="breadcrumb">
+          <li><a href="/">Choose Mood</a></li>
+          <li class="active">List</li>
+        </ol>
+      </nav>
+    </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://code.jquery.com/jquery.js"></script>

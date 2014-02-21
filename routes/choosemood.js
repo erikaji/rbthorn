@@ -63,8 +63,6 @@ exports.view = function(req, res){
 	});
 };
 
-
-
 exports.post = function(req, res){
 	var db_data = require("../data.json");
 	var tagList = req.body.tags;

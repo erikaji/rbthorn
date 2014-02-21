@@ -1,3 +1,21 @@
+/* Header CSS */
+.logo-full {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.page-top {
+     margin-top: 100px;
+}
+
+/* Link CSS */
+a {
+     color: #000080;
+     font-weight: 900;
+     text-decoration: none;
+     /*pointer-events: none;*/
+}
+
 /* Keeping the below css for reference */
 /* applies to anything of class "example-class-selector" */
 .example-class-selector {

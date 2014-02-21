@@ -1,54 +1,46 @@
 <!doctype html>
-
 <html>
-<head>
-	<title>Read By Mood</title>	
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link href="/css/bootstrap.min.css" rel="stylesheet">
-	<link href="/css/bootstrap-theme.min.css" rel="stylesheet">
-  <link href="/css/readbymood.css" rel="stylesheet">
-	<link href="/css/choosemood.css" rel="stylesheet">
-	<!-- this is a comment in HTML -->
-
-	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-      <![endif]-->        
+  <head>
+  	<title>Read By Mood</title>	
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<link href="/css/bootstrap.min.css" rel="stylesheet">
+  	<link href="/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="/css/readbymood.css" rel="stylesheet">
+  	<link href="/css/choosemood.css" rel="stylesheet">
+  	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+      <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->        
   </head>
 
   <body>
-  	<!-- Insert code here -->
-  	<nav class="navbar navbar-default navbar-inverse" role="navigation">
-  		<div class="container">  	  	
-  			<h2 class="navbar-text"> What is your mood now?</h1>
-  		</div>
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <a href="/"><img class="logo-full img-responsive" src="/images/logo_full.png"></a>
+    </div>
+  	
+		<div class="container page-top">  	  	
+			<center><h1>What is your mood?</h1></center>
+		</div>
 
-  	</nav>
   	<div class="container">
-
-
- 	  	<!-- <div data-toggle="buttons-radio"> -->
-
         {{#each tags}}
         <div class="col-xs-6 col-sm-6 col-md-3 col-lg-2">
           <button class="btn btn-lg tag buttonTag btn-{{this.color}}">{{this.mood}}</button>
         </div>
         {{/each}}
-
-  		<!-- </div> -->
-  		<nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
-  			<div class="container">
-  				<div class="center">	
-  					<a class="submit center" href="#">
-              <button class="btn btn-lg btn-primary" disabled>Select Moods...</button>
-            </a>
-  				</div>
-  			</div>
-  		</nav>
-  	</div>
+    </div>
+		<nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
+			<div class="container">
+				<div class="center">	
+					<a class="submit center" href="#">
+            <button class="btn btn-lg btn-primary" disabled>Select Moods...</button>
+          </a>
+				</div>
+			</div>
+		</nav>
 
   	<script src="https://code.jquery.com/jquery.js"></script>
   	<script src="/js/bootstrap.min.js"></script>
@@ -129,4 +121,4 @@
     	});
   	</script>
   </body>
-  </html>
+</html>
