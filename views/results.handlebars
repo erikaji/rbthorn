@@ -40,10 +40,11 @@
               <p class="name">{{title}}</p>
               <p class="src">{{src}}</p>
               <p class="desc">{{headline}}</p>
-              <p class="desc">{{mood_colors}}</p>
             </a>
             {{#eachExcept moods ../resultsName}}
-                <button class="btn tag buttonTag btn-{{getValueByKey ../../mood_colors this}}">{{this}}</button>
+                <a href="/?tag={{this}}">
+                  <button class="btn tag buttonTag btn-{{getValueByKey ../../mood_colors this}}">{{this}}</button>
+                </a>
             {{/eachExcept}}
           </li>
         {{/each}}
