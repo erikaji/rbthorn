@@ -6,6 +6,9 @@
     padding: 10px;
     vertical-align: middle;
 }
+.page-top-default {
+  margin-top: 60px;
+}
 .page-top {
     margin-top: 120px;
 }
