@@ -109,7 +109,9 @@
 
         $(".tag").each(function() {
           if ($(this).text().length > 11) {
-            $(this).css('font-size', "15px")
+            var height = $(this).parent().height();
+            $(this).css('font-size', "15px");
+            $(this).parent().height(height);
           }
         });
       });
