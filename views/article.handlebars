@@ -18,8 +18,10 @@
 	</head>
 
 	<body>
-		 <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-	      <a href="/"><img class="logo-full img-responsive" src="/images/logo_full.png"></a>
+		 <div class="navbar navbar-default navbar-fixed-top" role="navigation" style="">
+		 		<div class="parent">
+				 	<a href="{{referer}}"><span class="glyphicon glyphicon-chevron-left arrow child"></span><img class="logo-thumb" src="/images/logo_thumb.png"></a>
+	 			</div>
 	   </div>
 		<div class="container page-top">
 			<div class="jumbotron">
@@ -31,14 +33,6 @@
 		  {{/each}}
 		  <a href="{{article.url}}" target="_blank">Visit website</a>
 		</div>
-	  <nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
-	    <ol class="breadcrumb">
-	      <li><a href="/">Choose Mood</a></li>
-	      <li><a href="{{referer}}">List</a></li>
-	      <li class="active">Article</li>
-	    </ol>
-	  </nav>
-
 		<script src="https://code.jquery.com/jquery.js"></script>
 		<script src="/js/bootstrap.min.js"></script>
 	</body>

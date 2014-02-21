@@ -18,7 +18,9 @@
 
   <body>
     <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-      <a href="/"><img class="logo-full img-responsive" src="/images/logo_full.png"></a>
+        <div class="parent">
+          <a href="/"><span class="glyphicon glyphicon-chevron-left arrow child"></span><img class="logo-thumb" src="/images/logo_thumb.png"></a>
+        </div>
     </div>
   	<div class="container page-top">
       <center><h1>Read
@@ -42,13 +44,6 @@
           </li>
         {{/each}}
       </ul>
-
-      <nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
-        <ol class="breadcrumb">
-          <li><a href="/">Choose Mood</a></li>
-          <li class="active">List</li>
-        </ol>
-      </nav>
     </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

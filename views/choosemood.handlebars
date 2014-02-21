@@ -9,6 +9,8 @@
   	<link href="/css/bootstrap-theme.min.css" rel="stylesheet">
     <link href="/css/readbymood.css" rel="stylesheet">
   	<link href="/css/choosemood.css" rel="stylesheet">
+    <link rel="apple-touch-icon" href="/images/logo_thumb.png">
+    <link rel="apple-touch-startup-image" href="/images/logo_full.png">
   	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
       <!--[if lt IE 9]>
@@ -19,7 +21,7 @@
 
   <body>
     <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-      <a href="/"><img class="logo-full img-responsive" src="/images/logo_full.png"></a>
+      <img class="logo-full img-responsive" src="/images/logo_full.png">
     </div>
   	
 		<div class="container page-top">  	  	
@@ -37,7 +39,7 @@
 			<div class="container">
 				<div class="center">	
 					<a class="submit center" href="#">
-            <button class="btn btn-lg btn-primary" disabled>Select Moods...</button>
+            <button class="btn btn-lg btn-primary" disabled>Please Select Moods...</button>
           </a>
 				</div>
 			</div>
@@ -61,7 +63,7 @@
         if(tagList.length == 0){
           submitButton.attr("disabled", true);
           $(".submit").attr("href", "#");
-          submitButton.text("Select Moods...");
+          submitButton.text("Please Select Moods...");
           $(".tag").parent().fadeIn();
         }
         else {
