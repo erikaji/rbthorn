@@ -41,19 +41,11 @@
               <p class="desc">{{mood_colors}}</p>
             </a>
             {{#eachExcept moods ../resultsName}}
-                <button class="btn btn-lg tag buttonTag btn-{{getValueByKey ../../mood_colors this}}">{{this}}</button>
+                <button class="btn tag buttonTag btn-{{getValueByKey ../../mood_colors this}}">{{this}}</button>
             {{/eachExcept}}
           </li>
         {{/each}}
       </ul>
-
-      <nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
-        <ol class="breadcrumb">
-          <li><a href="/">Choose Mood</a></li>
-          <li class="active">List</li>
-        </ol>
-      </nav>
-    </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://code.jquery.com/jquery.js"></script>

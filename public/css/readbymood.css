@@ -58,12 +58,6 @@ a {
 }
 body { padding-bottom: 70px; }
 
-/* For bottom navbar breadcrumb */
-.navbar .breadcrumb {
-     margin: 10px 0px;
-     vertical-align: center;
-}
-
 .btn-black {
      background-color: hsl(0, 0%, 30%) !important;
   border-color: #212121 #212121 hsl(0, 0%, 15%);
