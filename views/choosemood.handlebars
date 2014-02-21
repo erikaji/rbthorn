@@ -106,6 +106,12 @@
             }
           });        
         {{/if}}
+
+        $(".tag").each(function() {
+          if ($(this).text().length > 11) {
+            $(this).css('font-size', "15px")
+          }
+        });
       });
 
     	$(".tag").click(function () {
