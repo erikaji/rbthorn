@@ -32,3 +32,11 @@ p.desc {
 	list-style-type: none;
 	padding: 5px;
 }
+
+.articles li{
+	margin-bottom: 10px;
+}
+
+.btn {
+	margin-top: 3px;
+}
