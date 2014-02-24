@@ -1,72 +1,73 @@
 <!doctype html>
 <html>
-  <head>
-  	<title>Read By Mood</title>	
-  	<meta charset="utf-8">
-  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-  	<link href="/css/bootstrap.min.css" rel="stylesheet">
-  	<link href="/css/bootstrap-theme.min.css" rel="stylesheet">
-    <link href="/css/readbymood.css" rel="stylesheet">
-  	<link href="/css/choosemood.css" rel="stylesheet">
-    <link rel="apple-touch-icon" href="/images/logo_thumb.png">
-    <link rel="apple-touch-startup-image" href="/images/logo_full.png">
-  	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-  	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-      <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-        <![endif]-->        
-  </head>
+<head>
+  <title>Read By Mood</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <link href="/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/css/bootstrap-theme.min.css" rel="stylesheet">
+  <link href="/css/readbymood.css" rel="stylesheet">
+  <link href="/css/choosemood.css" rel="stylesheet">
+  <link rel="apple-touch-icon" href="/images/logo_thumb.png">
+  <link rel="apple-touch-startup-image" href="/images/logo_full.png">
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+  <![endif]-->
+</head>
 
-  <body>
-    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-      <img class="logo-full img-responsive" src="/images/logo_full.png">
-    </div>
-  	
-		<div class="container page-top">  	  	
-			<center><h1>What is your mood?</h1></center>
-		</div>
+<body>
+  <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <img class="logo-full img-responsive" src="/images/logo_full.png"></div>
 
-  	<div class="container">
-        {{#each tags}}
-        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-2">
-          <button class="btn btn-lg tag buttonTag btn-{{this.color}}">{{this.mood}}</button>
-        </div>
-        {{/each}}
+    <div class="container page-top">
+      <center>
+        <h1>What is your mood?</h1>
+      </center>
     </div>
-		<nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
-			<div class="container">
-				<div class="center">	
-					<a class="submit center" href="#">
+
+    <div class="container">
+      {{#each tags}}
+      <div class="col-xs-6 col-sm-6 col-md-3 col-lg-2">
+        <button class="btn btn-lg tag buttonTag btn-{{this.color}}">{{this.mood}}</button>
+      </div>
+      {{/each}}
+    </div>
+    <nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
+      <div class="container">
+        <div class="center">
+          <a class="submit center" href="#">
             <button class="btn btn-lg btn-primary" disabled>Please Select Moods...</button>
           </a>
-				</div>
-			</div>
-		</nav>
+        </div>
+      </div>
+    </nav>
 
-  	<script src="https://code.jquery.com/jquery.js"></script>
-  	<script src="/js/bootstrap.min.js"></script>
-  	<script type="text/javascript">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
 
-      function tag_clicked(obj) {
-        obj.toggleClass("btn-selected");
-        var tagList =  $(".btn-selected");
-        var submitButton = $(".submit button");
-        var dataSent = {
-          tags: []
-        };
-        tagList.each(function(){
-          dataSent.tags.push($(this).text());
-        }
-        );
-        if(tagList.length == 0){
-          submitButton.attr("disabled", true);
-          $(".submit").attr("href", "#");
-          submitButton.text("Please Select Moods...");
-          $(".tag").parent().fadeIn();
-        }
-        else {
+    function tag_clicked(obj) {
+      obj.toggleClass("btn-selected");
+      var tagList =  $(".btn-selected");
+      var submitButton = $(".submit button");
+      var dataSent = {
+        tags: []
+      };
+      tagList.each(function(){
+        dataSent.tags.push($(this).text());
+      }
+      );
+      if(tagList.length == 0){
+        submitButton.attr("disabled", true);
+        $(".submit").attr("href", "#");
+        submitButton.text("Please Select Moods...");
+        $(".tag").parent().fadeIn();
+      }
+      else {
           //retrieve number of articles and available tag list from server
           $.ajax({
             type: 'POST',
@@ -75,61 +76,69 @@
             url: '/choosemood',            
             success: function(dataRetrieved) {
               if (dataRetrieved.articleNumber == 0){
-                 submitButton.attr("disabled", true);
-                  $(".submit").attr("href", "#");
-                  submitButton.text("No articles for the selection");
-          
-              }
-              else{
-                submitButton.attr("disabled", false);
-                var textToShow = "Read " + dataRetrieved.articleNumber + " articles";
-                if (dataRetrieved.articleNumber == 1)
-                  textToShow = textToShow.slice(0,-1);
-                submitButton.text(textToShow);
-                $(".tag").each(function(){
-                  if ($.inArray($(this).text(), dataRetrieved.moods) > -1)
-                    $(this).parent().fadeIn("slow");
-                  else
-                    $(this).parent().fadeOut("slow");
-                })        
-              }
-            }
-          });
-        }
-      }
+               submitButton.attr("disabled", true);
+               $(".submit").attr("href", "#");
+               submitButton.text("No articles for the selection");
 
-      $(document).ready(function() {
-        {{#if selected_tag}}
-          $(".tag").each(function() {
-            if ($(this).text() == "{{selected_tag}}") {
-              tag_clicked($(this));
+             }
+             else{
+              submitButton.attr("disabled", false);
+              var textToShow = "Read " + dataRetrieved.articleNumber + " articles";
+              if (dataRetrieved.articleNumber == 1)
+                textToShow = textToShow.slice(0,-1);
+              submitButton.text(textToShow);
+              $(".tag").each(function(){
+                if ($.inArray($(this).text(), dataRetrieved.moods) > -1)
+                  $(this).parent().fadeIn("slow");
+                else
+                  $(this).parent().fadeOut("slow");
+              })        
             }
-          });        
-        {{/if}}
-
-        $(".tag").each(function() {
-          if ($(this).text().length > 11) {
-            var height = $(this).parent().height();
-            $(this).css('font-size', "15px");
-            $(this).parent().height(height);
           }
         });
-      });
+}
+}
 
-    	$(".tag").click(function () {
-        tag_clicked($(this));
-    	});
+$(document).ready(function() {
+  {{#if selected_tag}}
+  $(".tag").each(function() {
+    if ($(this).text() == "{{selected_tag}}") {
+      tag_clicked($(this));
+    }
+  });        
+  {{/if}}
 
-    	$(".submit").click(function(){
-    		var post = {};
-   		$(".btn-selected").each(function(){post[$(this).text()] = true;});
-    		var query='';
-    		var key;
-    		for (key in post)
-    			query=query+'tags[]='+key+'&';
-    		query = query.slice(0,-1);
-    		$(".submit").attr("href","/results?"+query);
-    	});
-  	</script>
-  </body>
+  $(".tag").each(function() {
+    if ($(this).text().length > 11) {
+      var height = $(this).parent().height();
+      $(this).css('font-size', "15px");
+      $(this).parent().height(height);
+    }
+  });
+});
+
+$(".tag").click(function () {
+  tag_clicked($(this));
+});
+
+$(".submit").click(function(event){
+  if($(".btn-selected").length == 0)
+  {
+   event.preventDefault();    
+ }
+
+ else
+ {
+   var post = {};
+   $(".btn-selected").each(function(){post[$(this).text()] = true;});
+   var query='';
+   var key;
+   for (key in post)
+    query=query+'tags[]='+key+'&';
+  query = query.slice(0,-1);
+  $(".submit").attr("href","/results?"+query);         
+}
+});
+</script>
+</body>
 </html>
