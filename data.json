@@ -82,12 +82,7 @@
 			"url": "http://paulgraham.com/love.html",
 			"moods": [
 				"inspired",
-				"introspective",
-				"dream",
-				"passionate",
-				"thoughtful",
-				"ambitious",
-				"happy"
+				"thoughtful"
 			]
 		},
 		{
@@ -135,11 +130,8 @@
 			"src": "mynameiselizabeth.com",
 			"url": "http://mynameiselizabeth.com/2014/01/22/the-asian-american-quarter-life-crisis/",
 			"moods": [
-				"passionate",
-				"ambitious",
-				"adventurous",
-				"success",
-				"happy"
+				"inspired",
+				"thoughtful"
 			]
 		},
 		{
@@ -163,12 +155,8 @@
 			"src": "medium.com",
 			"url": "https://medium.com/this-happened-to-me/c02f1ff471c6",
 			"moods": [ 
-				"ambitious",
-				"courageous",
-				"success",
-				"dream",
-				"adventurous",
-				"happy"
+				"courage",
+				"thoughtful"
 			]
 		},
 		{
@@ -197,7 +185,8 @@
 			"src": "slate.com",
 			"url": "http://www.slate.com/articles/business/operations/2012/06/queueing_theory_what_people_hate_most_about_waiting_in_line_.single.html",
 			"moods": [
-				"efficient"
+				"productive",
+				"annoyed"
 			]
 		},
 	{
@@ -230,10 +219,8 @@
 			"src": "salon.com",
 			"url": "http://www.salon.com/2013/07/05/what_men_want_america_delivers/",
 			"moods": [
-				"feminism",
-				"controversial",
 				"thoughtful",
-				"unequal"
+				"critical"
 			]
 		},
 		{
@@ -345,7 +332,7 @@
 			"url": "http://www.lifehack.org/articles/productivity/100-incredible-things-learned-watching-70-hours-ted-talks-last-week.html",
 			"moods": [
 				"thoughtful",
-				"efficient",
+				"productive",
 				"inspired"
 			]
 		},
@@ -400,7 +387,7 @@
 			"url": "http://thoughtcatalog.com/matthew-kepnes/2013/09/18-life-lessons-learned-from-travel-the-world/",
 			"moods": [
 				"adventurous",
-				"courageous"
+				"courage"
 			]
 		},
 		{
@@ -430,7 +417,8 @@
 			"src": "nytimes.com",
 			"url": "http://www.nytimes.com/2012/09/02/opinion/sunday/architecture-and-the-lost-art-of-drawing.html?smid=fb-share",
 			"moods": [
-				"artsy"
+				"creative",
+				"critical"
 			]
 		},
 		{
@@ -457,7 +445,6 @@
 			"src": "99u.com",
 			"url": "http://99u.com/articles/20576/5-ways-to-do-nothing-and-become-more-productive",
 			"moods": [
-				"efficient",
 				"productive",
 				"stressed"
 			]
@@ -561,7 +548,8 @@
 			"src": "pinyin.info",
 			"url": "http://www.pinyin.info/readings/texts/moser.html",
 			"moods": [
-				"studious"
+				"studious",
+				"annoyed"
 			]
 		},
 		{
@@ -634,7 +622,7 @@
 			"src": "nymag.com",
 			"url": "http://nymag.com/news/features/27840/",
 			"moods": [
-				"parental"
+				"thoughtful"
 			]
 		},
 		{
@@ -690,9 +678,7 @@
 			"url": "http://faculty.winthrop.edu/martinme/Thisiswater.htm",
 			"moods": [
 				"inspired",
-				"thoughtful",
-				"happy",
-				"studious"
+				"thoughtful"
 			]
 		},
 		{
@@ -760,8 +746,6 @@
 			"src": "web.mit.edu",
 			"url": "http://web.mit.edu/jmorzins/www/C-H-speech.html",
 			"moods": [
-				"passionate",
-				"introspective",
 				"inspired",
 				"thoughtful",
 				"happy"
@@ -787,7 +771,7 @@
 			"src": "opinionator.blogs.nytimes.com",
 			"url": "http://opinionator.blogs.nytimes.com/2013/06/15/i-know-what-you-think-of-me/?_php=true&_type=blogs&_r=0",
 			"moods": [
-				"friendship"
+				"upset"
 			]
 		},
 		{
@@ -830,9 +814,7 @@
 			"src": "nytimes.com",
 			"url": "http://www.nytimes.com/2011/05/29/opinion/29franzen.html?pagewanted=all&_r=3&",
 			"moods": [
-				"inspired",
-				"passionate",
-				"happy"
+				"inspired"
 			]
 		},
 		{
@@ -901,7 +883,8 @@
 			"src": "tmagazine.blogs.nytimes.com",
 			"url": "http://tmagazine.blogs.nytimes.com/2013/05/27/power-of-one-miuccia-pradas-circle-of-influence/?ref=womens-fashion",
 			"moods": [
-				"feminism"
+				"inspired",
+				"creative"
 			]
 		},
 		{
@@ -966,6 +949,7 @@
 			"src": "aeon.co",
 			"url": "http://aeon.co/magazine/living-together/james-somers-web-developer-money/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%253A+AeonMagazineEssays+%2528Aeon+Magazine+Essays%2529",
 			"moods": [
+				"thoughtful"
 			]
 		},
 		{
@@ -990,7 +974,8 @@
 			"src": "nytimes.com",
 			"url": "http://www.nytimes.com/2013/06/04/opinion/brooks-the-way-to-produce-a-person.html?_r=0",
 			"moods": [
-				"passionate"
+				"thoughtful",
+				"inspired"
 			]
 		},
 		{
@@ -1008,7 +993,6 @@
 			"url": "http://thoughtcatalog.com/cody-gohl/2012/12/the-soulmate-you-deserve/",
 			"moods": [
 				"love",
-				"dream",
 				"happy"
 			]
 		},
@@ -1056,7 +1040,6 @@
 			"src": "forbes.com",
 			"url": "http://www.forbes.com/global/2012/0409/companies-people-pejman-nozad-entrepreneur-capitalist-silicon-valley-cinderella.html",
 			"moods": [
-
 			]
 		},
 		{
@@ -1097,8 +1080,8 @@
 			"src": "salon.com",
 			"url": "http://www.salon.com/2012/07/24/every_woman_should_travel_alone/",
 			"moods": [
-				"feminism",
-				"adventurous"
+				"adventurous",
+				"inspired"
 			]
 		},
 		{
@@ -1135,10 +1118,8 @@
 			"src": "metaphoplay.wordpress.com",
 			"url": "http://metaphoplay.wordpress.com/2013/04/24/what-are-you-going-to-do-with-that/",
 			"moods": [
-				"passionate",
 				"inspired",
-				"dream",
-				"happy"
+				"thoughtful"
 			]
 		},
 		{
@@ -1192,7 +1173,6 @@
 			"src": "garancedore.fr",
 			"url": "http://www.garancedore.fr/en/2013/04/16/friends/",
 			"moods": [
-				"friendship",
 				"happy",
 				"thoughtful"
 			]
@@ -1356,7 +1336,7 @@
 			"src": "gq.com",
 			"url": "http://www.gq.com/news-politics/newsmakers/201304/buzz-bissinger-shopaholic-gucci-addiction?printable=true",
 			"moods": [
-				"addicted"
+				"unhappy"
 			]
 		},
 		{
@@ -1379,7 +1359,6 @@
 			"src": "thoughtcatalog.com",
 			"url": "http://thoughtcatalog.com/nikki-garcia/2013/04/how-you-know-when-someone-cares/",
 			"moods": [
-				"friendship",
 				"love",
 				"thoughtful"
 			]
@@ -1401,9 +1380,7 @@
 			"src": "jobs.aol.com",
 			"url": "http://jobs.aol.com/articles/2013/02/28/good-girls-student-success/",
 			"moods": [
-				"feminism",
-				"success",
-				"studious"
+				"thoughtful"
 			]
 		},
 		{
@@ -1425,8 +1402,6 @@
 			"src": "hbr.org",
 			"url": "http://hbr.org/2008/01/the-five-competitive-forces-that-shape-strategy/ar/1",
 			"moods": [
-				"competitive",
-				"strategic"
 			]
 		},
 		{
@@ -1453,7 +1428,6 @@
 			"src": "bain.com",
 			"url": "http://www.bain.com/publications/articles/why-we-behave-and-decide-the-way-we-do.aspx?utm_source=Bain-Insights-March-2012&utm_medium=Newsletter&utm_campaign=why-we-behave-and-decide-the-way-we-do",
 			"moods": [
-				"strategic"
 			]
 		},
 		{
@@ -1536,8 +1510,6 @@
 			"src": "caseinterview.com",
 			"url": "http://www.caseinterview.com/post-consulting-careers",
 			"moods": [
-				"ambitious",
-				"success"
 			]
 		},
 		{
@@ -1578,9 +1550,7 @@
 			"src": "nytimes.com",
 			"url": "http://www.nytimes.com/2014/01/19/opinion/sunday/for-the-love-of-money.html?_r=0",
 			"moods": [
-				"trapped",
-				"unhappy",
-				"helpless"
+				"unhappy"
 			]
 		},
 		{
@@ -1607,8 +1577,8 @@
 			"src": "slate.com",
 			"url": "http://www.slate.com/articles/double_x/doublex/2014/02/abortion_as_end_of_life_care_why_i_chose_a_peaceful_life_and_death_for_my.html",
 			"moods": [
-				"empathetic",
-				"moral"
+				"sad",
+				"thoughtful"
 			]
 		},
 		{
@@ -1636,7 +1606,7 @@
 			"src": "theonion.com",
 			"url": "http://www.theonion.com/articles/urban-planner-stuck-in-traffic-of-own-design,1704/",
 			"moods": [
-				"humor"
+				"funny"
 			]
 		},
 		{
@@ -1810,8 +1780,7 @@
 			],
 			"src": "businessinsider.com",
 			"url": "http://www.businessinsider.com/oh-my-god-were-in-bed-with-the-vampire-squid",
-			"moods": [
-				"strategic"
+			"moods": [				
 			]
 		},
 		{
@@ -1831,11 +1800,9 @@
 			"src": "americanthinker.com",
 			"url": "http://www.americanthinker.com/2014/01/sad_truths_about_teen_suicide.html",
 			"moods": [
-				"alone",
-				"stressed",
-				"angry",
-				"hopeless",
-				"upset"
+				"lonely",
+				"upset",
+				"sad"
 			]
 		},
 		{
@@ -1883,7 +1850,6 @@
 			"src": "trove.com",
 			"url": "http://trove.com/me/content/4HZjo",
 			"moods": [
-				"speculative"
 			]
 		},
 		{
@@ -1909,8 +1875,6 @@
 			"src": "slate.com",
 			"url": "http://www.slate.com/articles/health_and_science/medical_examiner/2014/02/mammogram_risks_and_benefits_overdiagnosis_and_misfear_are_not_saving_lives.single.html",
 			"moods": [
-				"cautious",
-				"informative",
 				"scared"
 			]
 		},
@@ -1929,13 +1893,10 @@
 			"src": "slate.com",
 			"url": "http://www.slate.com/blogs/xx_factor/2014/02/17/new_york_times_all_or_nothing_marriage_article_forgets_about_socioeconomics.html",
 			"moods": [
-				"controversial",
-				"love",
-				"informative",
-				"unequal"
+				"love"
 			]
 		},
-		{
+				{
 			"id": 40,
 			"title": "Secret is the tech scene's latest addiction",
 			"headline": "Silicon Valley has its very own version of Gossip Girl.",
@@ -1960,9 +1921,7 @@
 			"src": "usatoday.com",
 			"url": "http://www.usatoday.com/story/tech/2014/02/17/secret-whisper-gossip-girl-of-silicon-valley/5368989/",
 			"moods": [
-				"secretive",
-				"entrepreneurial",
-				"alone"
+				"lonely"
 			]
 		},
 		{
@@ -1980,7 +1939,6 @@
 			"src": "huffingtonpost.com",
 			"url": "http://www.huffingtonpost.com/2014/02/17/marco-rubio-stimulus_n_4804239.html",
 			"moods": [
-				"controversial",
 				"critical"
 			]
 		},
@@ -2008,13 +1966,317 @@
 			"src": "theverge.com",
 			"url": "http://www.theverge.com/2014/2/17/5418586/north-korea-has-committed-crimes-against-humanity-un-report",
 			"moods": [
-				"criminal",
-				"unequal",
-				"punitive"
+				"angry"
 			]
 		},
 		{
 			"id": 43,
+			"title": "Olympics: South Korean fury at Kim Yu-na's defeat",
+			"headline": "For millions of South Koreans who stayed up into the early hours of Friday morning to watch their idol Kim Yu-na try to defend her Olympic figure-skating title, there was heartbreak and anger over her eventual silver finish.",
+			"contents": [
+			"SEOUL: For millions of South Koreans who stayed up into the early hours of Friday morning to watch their idol Kim Yu-na try to defend her Olympic figure-skating title, there was heartbreak and anger over her eventual silver finish.",
+"Within hours of the result, the website of the popular online campaigning forum, Change.org, crashed as hundreds of thousands logged on to sign a petition calling for a review of the judges' scores.",
+"The biggest name in South Korean sports, Kim has a fanatical following in her home country, and there was huge expectation that she would secure back-to-back golds going into Thursday's long programme in Sochi with a narrow lead over her rivals.",
+"Her performance seemed flawless, but Russia's Adelina Sotnikova scored higher technical marks to take first place on the medal podium.",
+"Kim skated last, shortly before 4:00am Korean time, and Korean TV commentators voiced surprise, verging on shock at the final result, with suggestions that the judges may have been swayed by the partisan Russian crowd.",
+"\"It will be interesting to see whether Sotnikova can ever obtain such a high score again down the road,\" said former skater - and a former Kim Yu-na coach - Byeon Seong-jin, commentating on the KBS channel.",
+"\"Today, Yu-na did not lose but Russia won,\" Byeon said.",
+"A petition to challenge the result was set up immediately at Change.org and the website was swamped within hours.",
+"\"The petition gained 700,000-plus signatures in just six hours and is sending traffic to our site at five times the highest previously-recorded rate,\" Change.org spokeswoman Charlotte Hill told AFP.",
+"\"Approximately 90 percent of the traffic is coming from South Korea,\" Hill said, adding that the San Francisco-based company had a \"team of engineers\" working to keep the server up and running.",
+"The final came too late for Korean newspapers' Friday print editions, but their websites were flooded with angry comments by ordinary South Koreans who felt that \"Queen Yu-na\" as Kim is known, had been robbed of the title.",
+"\"Kim Yu-na sheds tears at Russian bullying,\" ran a headline on the online edition of the JoongAng Ilbo newspaper.",
+"\"It was an unfair result ... Home advantage was to be expected, but we did not expect it to be displayed in such a way,\" the daily said.",
+"An editorial by South Korea's Yonhap news agency noted that \"many foreign media\" had questioned the judges' decision.",
+"\"It is regrettable that the Olympics which must put the highest priority on fairness was marred by such a controversial judgement,\" it said.",
+"The Sports Chosun website ran a balanced report of the competition, but the hundreds of comments it attracted were far from neutral.",
+"\"Congratulations Russia! You've become the most rotten Olympics in history. Must be proud of that,\" wrote one disenchanted Kim fan.",
+"\"Sochi is just a shorter term for pick-pocket,\" wrote another.",
+"Korean Twitter users voiced similar sentiments, although many also sent words of consolation to Kim and thanked her for everything she had achieved for her country.",
+"\"I made my conclusion\" tweeted @Kjsultra in Korean. \"Sotnikova's gold medal is given by Russia and Yuna Kim's medal is given by the rest of the world.\"",
+"South Korean President Park Geun-hye sent a personal message to Kim, who confirmed on Friday that she was retiring from competition as she had said she would.",
+"\"Your beautiful performance at the Games will be remembered forever - not only in the mind of Koreans but the whole world,\" Park said in her message, which made no comment on the judges' decision."
+			],
+			"src": "channelnewsasia.com",
+			"url": "http://www.channelnewsasia.com/news/sport/olympics-south-korean/1007538.html",
+			"moods": [
+				"angry",
+				"sad",
+				"upset"
+			]
+		},
+		{
+			"id": 44,
+			"title": "Why Apple's Recent Security Flaw Is So Scary",
+			"headline": "On Friday, Apple quietly released iOS 7.0.6, explaining in a brief release note that it fixed a bug in which \"an attacker with a privileged network position may capture or modify data in sessions protected by SSL/TLS.\" That's the understated version. Another way to put it? Update your iPhone right now.",
+			"contents": [
+"On Friday, Apple quietly released iOS 7.0.6, explaining in a brief release note that it fixed a bug in which \"an attacker with a privileged network position may capture or modify data in sessions protected by SSL/TLS.\" That's the understated version. Another way to put it? Update your iPhone right now.",
+"Oh, and by the way, OS X has the same issues—except there's no fix out yet.",
+"Update, 2/25/14: Apple just released OS X 10.9.2, which patches the security flaw described below. Go download it from the App Store right now, preferably over a secure network.",
+"If you understand what that release note meant in full, chances are you were first in line for the iOS update. If it reads like deleted scene from Sneakers, here's what it means for you and your Apple devices.",
+"What Is SSL?",
+"SSL stands for Secure Sockets Layer, and it's what helps ensure that communication between your browser and your favorite websites' servers remains private and secure. TLS, or Transport Layer Security, is a more recent protocol that does essentially the same. In brief, SSL/TLS is a cryptographic key that lets a browser and a server know they are who they say they are, a secret digital handshake that keeps your financial information safe when you make an Amazon payment or log into wellsfargo.com.",
+"This all happens in the background; your only direct interaction with SSL/TLS is when you notice the lock icon in your search bar has clamped shut. That means you've got a direct, private, secure line.",
+"The Apple bug in question—which, again, has been patched in iOS but not yet in OS X, though Apple tells Reuters that fix is coming \"very soon\"—means that Safari or one of these other affected applications can't actually know for sure if the servers it's talking to are who they say they are. Which leaves you and everything you transmit over the web vulnerable to a Man in the Middle attack.",
+"What's a Man in the Middle Attack?",
+"A Man in the Middle Attack, which we'll call MitM from here for brevity's sake, is basically high-tech eavesdropping. In this case, a MitM attacker on a shared network intercepts the communication between your browser and a site, monitoring, recording, seeing everything that transpires between you.",
+"Gmail. Facebook. Financial transactions. OK Cupid flirting. All of it read, in real-time, by a complete stranger. Here it is in oversimplified chart form:",
+"Why Apple&#39;s Recent Security Flaw Is So Scary",
+"Normally attacks like this are are foiled by SSL/TLS (encrypted handshakes are hard to get in the middle of), or at least rendered too difficult to be worth it. But this Apple bug makes it painfully easy. That \"privileged network position\" an attacker needs to be in, referenced in the release notes? It's any public network. That just means he's in the same Starbucks as you.",
+"And this has been going on since September. Of 2012.",
+"How Serious Is It?",
+"If you're still scratching your head over what all of this means and how bad it is, the simplest way to explain it is that developers who understand it deeply weren't even willing to talk about it openly, for fear of giving hackers more ammunition than they already had:",
+"That same Matthew Green, a Johns Hopkins cryptography professor, also explained to Reuters that it was \"as bad as you could imagine, that's all I can say.\" So there you go!",
+"You can afford to take a little bit of a deep breath; your password-protected home network is safe; obviously there's not a hacker lurking in every coffee shop; your personal information is never as interesting to others as you think it is. And if you've updated your iPhone or iPad to 7.0.6, you're fine.",
+"But knowing that this has been going on for a year and a half is troubling just on principle. And knowing that it's been this widely publicized and hasn't yet been fixed for MacBooks means it's worth taking a few extra ounces of precaution.",
+"How Did This Happen?",
+"Nobody knows, and Apple's understandably not saying. But theories range from the plausible to the tin foil hatted. Let's start with what probably happened and work our way up.",
+"Google's Adam Langley detailed the specifics of the bug in his personal blog, if you're looking to stare at some code. But essentially, it comes down to one simple extra line out of nearly 2,000. As ZDNet points out, one extra \"goto fail;\" statement tucked in about a third of the way means that the SSL verification will go through in almost every case, regardless of if the keys match up or not.",
+"Langley's take, and the most plausible? That it could have happened to anybody:",
+"This sort of subtle bug deep in the code is a nightmare. I believe that it's just a mistake and I feel very bad for whomever might have slipped in an editor and created it.",
+"It doesn't take too much of a stretch of the imagination, though, to draw a few shaky lines between this bug and the NSA's PRISM program. No less an Apple devotee than John Gruber did just that last night, pointing out that the \"goto fail;\" command first snuck into iOS 6.0, which shipped just a month before Apple was reportedly added to the spy agency's info-snooping PRISM program.",
+"If you want to go full tinfoil hat based on that timing, you're welcome to, but it's highly unlikely that Apple intentionally added this bit of code. It's entirely possible, though, that the NSA found out about it before Apple did, and has been secretly exploiting it for its PRISM purposes.",
+"How Can I Prevent It?",
+"If you're on an iOS device, you need to download 7.0.6 immediately. If you've got a 3GS or an old iPod touch, you can download iOS 6.1.6 instead. And if you were looking for an indication of just how seriously Apple is taking this, the fact that they're supporting an iOS version that they are incredibly eager to phase out should be as good an indicator as any.",
+"So far, though, you're out of luck if you're on OS X. The vulnerability is still there, and now that it's been widely publicized, bad guys are going to be keen to take advantage while they can. There's an unofficial patch floating out there, but please know that it's not for beginners.",
+"Your best option in the meantime is to use Chrome or Firefox, which aren't affected on OS X. Also make sure you stay on secured networks, and if you do wind up on a shared network to play it smart (no financial info, no transactions, no personal details). That's a good rule of thumb generally, but especially important until this is made right.",
+"Let's all just hope that a fix \"very soon\" means hours or days, not weeks.",
+"Update: Regarding the timing of the OS X update, an Apple spokesperson has told us the following:",
+"\"We are aware of this issue and already have a software fix that will be released very soon.\"",
+"Which echoes what had previously been reported by Reuters, but gives some hope that a release is imminent."
+			],
+			"src": "gizmodo.com",
+			"url": "http://gizmodo.com/why-apples-huge-security-flaw-is-so-scary-1529041062",
+			"moods": [
+				"scared"
+			]
+		},
+		{
+			"id": 45,
+			"title": "Loneliness Is Deadly",
+			"headline": "Social isolation kills more people than obesity does—and it's just as stigmatized.",
+			"contents": [
+"Over the winter I moved from New York City to Portland, Ore. The reasons for my move were purely logical. New York was expensive and stressful. Portland, I reasoned, would offer me the space and time to do my work.",
+"Upon arriving, I rented a house and happily went out in search of \"my people.\" I went to parks, bookstores, bars, on dates. I even tried golfing. It wasn't that I didn't meet people. I did. I just felt no connection to any of them.",
+"Once social and upbeat, I became morose and mildly paranoid. I knew I needed to connect to people to feel better, but I felt as though I physically could not handle any more empty interactions. I woke up in the night panicked. In the afternoon, loneliness came in waves like a fever. I had no idea how to fix it.",
+"Feeling uncertain, I began to research loneliness and came across several alarming recent studies. Loneliness is not just making us sick, it is killing us. Loneliness is a serious health risk. Studies of elderly people and social isolation concluded that those without adequate social interaction were twice as likely to die prematurely.",
+"The increased mortality risk is comparable to that from smoking. And loneliness is about twice as dangerous as obesity.",
+"Social isolation impairs immune function and boosts inflammation, which can lead to arthritis, type II diabetes, and heart disease. Loneliness is breaking our hearts, but as a culture we rarely talk about it.",
+"Loneliness has doubled: 40 percent of adults in two recent surveys said they were lonely, up from 20 percent in the 1980s.",
+"All of our Internet interactions aren't helping and may be making loneliness worse. A recent study of Facebook users found that the amount of time you spend on the social network is inversely related to how happy you feel throughout the day.",
+"In a society that judges you based on how expansive your social networks appear, loneliness is difficult to fess up to. It feels shameful.",
+"About a decade ago, my mom was going through a divorce from my step-father. Lonely and desperate for connection, she called a cousin she hadn't talked to in several years. On the phone, her cousin was derisive: \"Don't you have any friends?\"",
+"While dealing with my own loneliness in Portland I often found myself thinking, \"If I were a better person I wouldn't be lonely.\"",
+"\"Admitting you are lonely is like holding a big L up on your forehead,\" says John T. Cacioppo of the University of Chicago, who studies how loneliness and social isolation affect people's health.",
+"He admitted that on an airplane he once became acutely embarrassed while holding a copy of his own book, which had the word Loneliness emblazoned on the front cover. He had the impulse to turn the cover inside-out so that people couldn't see it. \"For the first time I actually experienced the feeling of being lonely and everyone knowing it,\" he says.",
+"After the public learned of Stephen Fry's suicide attempt last year, the beloved British actor wrote a blog post about his fight with depression. He cited loneliness as the worst part of his affliction.",
+"\"Lonely? I get invitation cards through the post almost every day. I shall be in the Royal Box at Wimbledon and I have serious and generous offers from friends asking me to join them in the South of France, Italy, Sicily, South Africa, British Columbia, and America this summer. I have two months to start a book before I go off to Broadway for a run of Twelfth Night there.",
+"I can read back that last sentence and see that, bipolar or not, if I'm under treatment and not actually depressed, what the fuck right do I have to be lonely, unhappy, or forlorn? I don't have the right. But there again I don't have the right not to have those feelings. Feelings are not something to which one does or does not have rights.",
+"In the end loneliness is the most terrible and contradictory of my problems.\"",
+"Most of us know what it is like to be lonely in a room full of people, which is the same reason even a celebrity can be deeply lonely. You could be surrounded by hundreds of adoring fans, but if there is no one you can rely on, no one who knows you, you will feel isolated.",
+"In terms of human interactions, the number of people we know is not the best measure. In order to be socially satisfied, we don't need all that many people. According to Cacioppo the key is in the quality, not the quantity of those people. We just need several on whom we can depend and who depend on us in return.",
+"As a culture we obsess over strategies to prevent obesity. We provide resources to help people quit smoking. But I have never had a doctor ask me how much meaningful social interaction I am getting. Even if a doctor did ask, it is not as though there is a prescription for meaningful social interaction.",
+"Both Denmark and Great Britain are devoting more time and energy to finding solutions and staging interventions for lonely people, particularly the elderly.",
+"When we are lonely, we lose impulse control and engage in what scientists call \"social evasion.\" We become less concerned with interactions and more concerned with self-preservation, as I was when I couldn't even imagine trying to talk to another human. Evolutionary psychologists speculate that loneliness triggers our basic, fight vs. flight survival mechanisms, and we stick to the periphery, away from people we do not know if we can trust.",
+"In one study, Cacioppo measured brain activity during the sleep of lonely and nonlonely people. Those who were lonely were far more prone to micro awakenings, which suggest the brain is on alert for threats throughout the night, perhaps just as earlier humans would have needed to be when separated from their tribe.",
+"One of the reasons we avoid discussing loneliness is that fixing it obviously isn't a simple endeavor.",
+"Even though the Internet has possibly contributed to our isolation, it might hold a key to fixing it. Cacioppo is excited by online dating statistics showing that couples who found each other online and stayed together shared more of a connection and were less likely to divorce than couples who met offline. If these statistics hold up, it would stand to reason friendships could also be found in this way, easing those whose instincts tell them to stay on the periphery back into the world with common bonds forged over the Internet.",
+"Me? I moved back to New York."
+			],
+			"src": "slate.com",
+			"url": "http://www.slate.com/articles/health_and_science/medical_examiner/2013/08/dangers_of_loneliness_social_isolation_is_deadlier_than_obesity.html",
+			"moods": [
+				"lonely",
+				"sad"
+			]
+		},
+		{
+			"id": 46,
+			"title": "7 Ways to Boost Your Creativity",
+			"headline": "Creativity can seem innate, but like many things, it is actually a delicate balance of nature and nurture. In other words, creative thinking can be enhanced by external forces, and isn't necessarily reliant on \"good genes\" or natural ability.",
+			"contents": [
+			"Luckily, new research points the way to a variety of mental and environmental approaches that can help us improve our creative output:",
+"1. Restrict yourself",
+"Famously, Dr. Seuss wrote Green Eggs & Ham after betting that he couldn't produce a story using less than 50 words. The research shows Seuss was on to something. Most people naturally take the path of \"least resistance\" and build off of older or existing concepts when brainstorming, which can lead to less creative ideas.",
+"In order to put the brain in overdrive, you can mimic Dr. Seuss and place restrictions on yourself while creating, which will prevent you from falling back on past successes. If you usually write 1000-word short stories, try to create a story in under 500 words. Only use a small handful of chords in your song or colors in your design. The limiting nature of the task can bring out your most creative side.",
+"2. Re-conceptualize the problem",
+"Researchers have noted that creative people tend to re-conceptualize problems more often before starting a creative task. As Einstein once said \"If I had an hour to solve a problem I'd spend 55 minutes thinking about the problem and five minutes thinking about solutions.\" Instead of looking at the end goal of a creative project (i.e. \"I need to create a memorable painting\"), it's better to re-visualize the problem from other, more meaningful, angles before starting (\"What sort of painting would evoke the feeling of loneliness that we all feel after a break-up?\").",
+"Oftentimes, the best approach is to picture the intended audience of your next creative project. What inspires them? What are they sick of hearing about? What are the problems they face but are rarely able to talk about?",
+"3. Separate work from consumption",
+"It has been shown that we are particularly terrible at creating when we try to combine the gathering of information and actual creation. Researchers recommend only consuming information in an \"absorb state\" where you are not attempting to multitask.",
+"In essence, the absorb state is a form of \"batching\" that emphasizes forced consumption over output. No interrupting yourself to start working on segments of your project while you are consuming information, instead use tools such as Evernote or Pocket to remember key ideas, insights, and articles that you will apply later when creating.",
+"4. Stay positive",
+"Although negative moods can sometimes spur creativity, researchers have found that it is during strong positive moods that our best creative work is done. In fact, the feeling of love or even thinking about love was shown to best encourage creative thinking.",
+"Getting yourself to a \"positive place\" is not as trite as it may sound—any number of mood boosters (quick exercise, envisioning the future, recalling good memories) will do the trick to influence your mood, and your creative efforts will be at their best when your attitude is positive.",
+"5. Use counterfactual thinking",
+"Counterfactual thinking, also known as asking, \"What might have been?\" has been shown to increase creativity for short periods of time. To experiment with this technique, take events that have already happened and re-imagine different outcomes, alternating between the subtractive mindset (taking elements out of the event) and the additive mindset (adding elements into the event).",
+"A silly example of counterfactual thinking in action can be seen on The Big Bang Theory, when one of the main characters makes a game of the phenomenon, asking his roommate: \"In a world where Rhinoceroses are domesticated pets, who wins the Second World War?\" You, however, can apply it to more realistic scenarios, such as mapping out outcomes whenever you are doing creative problem solving, subtracting or adding \"what if\" elements that would have affected the outcome.",
+"6. Daydream… after getting started",
+"While research has shown that daydreaming can help with creativity, it is important to note that studies have revealed that daydreaming only works when you've already committed effort towards a project. The reason? Daydreaming can be beneficial because it allows for the incubation of ideas. But incubation is only effective when we already have information to chew on. So be sure to get started on your project before drifting off.",
+"7. Think about others",
+"Research has shown that this \"psychological distance\" is an important part of being creative. For instance, one study found that people who thought their work would be used by someone else came up with more novel ideas. Conversely, those who were told that they would be using their own creation later came up with less novel ideas.",
+"One such test in the studies above included telling participants that their drawings would later be used by other subjects to create a story. Those who had been told this came up with much more \"creative\" drawings (as evaluated by a selected board). When creating, even for personal projects, think about how someone else will enjoy, use, and incorporate your creation into their lives."
+			],
+			"src": "99u.com",
+			"url": "http://99u.com/articles/16136/7-ways-to-boost-your-creativity",
+			"moods": [
+				"creative",
+				"productive"
+			]
+		},
+		{
+			"id": 47,
+			"title": "23 Science-Backed Study Tips to Ace a Test",
+			"headline": "'Tis the season to start studying. All over the country, students in high school, college, and grad school are going into panic mode, wondering how they'll manage to remember an entire semester's worth of information before the big final. Luckily, we've got some advice to make those freak-outs a thing of the past. From talking out loud to taking gym breaks, here are 23 ways to (gasp) get psyched about studying and ace those exams.",
+			"contents": [
+"Remember Your Stuff",
+"Study when sleepy. Bedtime stories are for wimps. Instead of reading The Berenstein Bears, try studying for a few minutes right before hitting the hay. During sleep, the brain strengthens new memories, so there's a good chance we'll remember whatever we review right before dozing off [1]. (Just try not to bring work into the actual bed, since it can make it harder to get a good night's sleep.) And though bedtime is primo study time, it might also help to crack open the books after cracking open those eyes in the A.M. — in the morning, the brain still has lots of room to absorb new information.",
+"Space it out. A relatively new learning technique called \"spaced repetition\" involves breaking up information into small chunks and reviewing them consistently over a long period of time. So don't try to memorize the entire periodic table in one sitting — instead, learn a few rows every day and review each lesson before starting anything new. ",
+"Tell a tale. Turning the details you need to remember into a crazy story helps make the information more meaningful. For example, remember the order of mathematic operations PEMDAS this way: Philip (P) wanted to eat (E) his friend Mary (M) but he died (D) from arsenic (AS) poisoning.",
+"Move your butt. Research suggests studying the same stuff in a different place every day makes us less likely to forget that information. That's because, every time we move around (from the library to the coffee shop, or the coffee shop to the toilet seat), we force the brain to form new associations with the same material so it becomes a stronger memory.",
+"Switch it up. Don't stick to one topic; instead, study a bunch of different material in one sitting. This technique helps prepare us to use the right strategy for finding the solution to a problem. For example, doing a bunch of division problems in a row means every time we approach a problem, we know it'll require some division. But doing a series of problems that require multiplication, division, or addition means we have to stop and think about which strategy is best.",
+"Put yourself to the test. Quizzing ourselves may be one of the best ways to prepare for the real deal. And don't worry about breaking a sweat while trying to remember the name of the 37th U.S. president (fyi, it's Nixon): The harder it is to remember a piece of information in practice mode, the more likely we are to remember it in the future.",
+"Write it out. Put those third-grade penmanship lessons to good use. Research suggests we store information more securely when we write it out by hand than when we type it. Start by recopying the most important notes from the semester onto a new sheet of paper.",
+"Make me wanna shout. Reading information out loud means mentally storing it in two ways: seeing it and hearing it [2]. We just can't guarantee you won't get thrown out of the library.",
+"Stay Focused ",
+"Come together (right now). Group work doesn't fly with everyone, but for those who benefit from a little team effort, a study group's the way to go. Pick a few studious pals and get together every few days to review the material. Put one person in charge of delegating tasks (snack duty, music selection) and keeping the group on target with its goals. ",
+"Treat yo' self! A healthy holiday cookie, a walk around the block, five minutes of tweet-time: whatever floats your boat. Knowing there's a little reward waiting for us at the end of just a few pages makes it easier to beat procrastination while slogging through a semester's worth of notes.",
+"Drink up. Sorry, not that kind of drink. Instead, hit the local coffee shop for something caffeine-filled; there's lots of research suggesting coffee (and tea) keeps us alert, especially when nothing seems more exciting than the shiny gum wrapper on the library floor [3].",
+"Take a time out. Taking time to plan is one of the most important skills a student can have. Don't just start the week with the vague goal of studying for a history exam — instead, break up that goal into smaller tasks. Pencil it in on the calendar like a regular class: For example, allot every day from 1 to 3 p.m. to review 50 years' worth of info.",
+"Gimme a break. The KitKat guys said it, and so does science: Taking regular breaks can boost productivity and improve our ability to focus on a single task [4]. For a real productivity boost, step away from the screen and break a sweat during a midday gym sesh.",
+"Work it out. Get stronger and brainier at the same time. Research has found just half an hour of aerobic exercise can improve our brain-processing speed and other important cognitive abilities. Jog a few laps around the block and see if you don't come back with a few more IQ points.",
+"Daaaance to the music. As anyone who's ever relied on Rihanna to make it through an all-night study session knows, music can help beat stress. And while everyone's got a different tune preference, classical music in particular has been shown to reduce anxiety and tension. So give those biology notes a soundtrack and feel at least some of the stress slide away.",
+"Nix the 'net. We've all been there, facing the siren call of a friend's Facebook wall on the eve of a giant exam. If a computer's necessary for studying, try an app (such as this one) that blocks the Internet for a short period of time and see how much more you get done.",
+"Say om. Just before staring at a piece of paper for three hours, stare at a wall for three minutes. Research suggests meditation can reduce anxiety and boost attention span. While those studies focus mostly on regular meditation, there's no harm in trying it out for a few minutes to calm pre-test jitters [5].",
+"Doze off. When there's a textbook full of equations to memorize, it can be tempting to stay up all night committing them to memory (or trying to). But all-nighters rarely lead to an automatic A — in fact, they've been linked to impaired cognitive performance and greater sensitivity to stress [6]. In the days leading up to a big exam, aim to get those seven to nine hours a night so sleep deprivation doesn't undo all the hard work you've put in. ",
+"Own the Omegas. Omega-3 fatty acids, found in certain fish, nuts, and olive oil, are known for their brain-boosting potential. One study found that eating a combination of Omega-3-and Omega-6 fatty acids before an exam actually reduced test anxiety [7].",
+"Feel free to inhale. Dusty old library again… or spa day? Research has found that catching a whiff of essential oils (like rosemary or lavender) can help calm students down before a big exam [8]. Skip the frantic last-minute review and try a few minutes of aromatherapy instead.",
+"Practice your brain pose. Hardcore yogis tend to have better cognitive abilities — especially attention span — than folks less familiar with Down Dog [9]. A few daily sun salutations may be all it takes to keep centered during finals period.",
+"Learn what works. Some people are early birds; some are night owls; some prefer to study with a pal; others need complete and total silence. Experiment to find what's most effective for you, and then stick with it! "
+			],
+			"src": "greatist.com",
+			"url": "http://greatist.com/happiness/better-study-tips-test",
+			"moods": [
+				"studious",
+				"productive"
+			]
+		},
+		{
+			"id": 48,
+			"title": "Fourth-Grader Named Jackson To Someday Fire You",
+			"headline": "The 4-foot-3-inch individual who will one day say the decision to let you go \"is a difficult but necessary move.\"",
+			"contents": [
+"TORRINGTON, CT—Though he is as yet unaware of your existence and the two of you won't even meet for another 23 years, sources confirmed Tuesday that a local fourth-grader named Jackson will one day fire you.",
+"According to reports, the 9-year-old boy, who at the present moment is enjoying recess with his classmates at Vogel-Wetmore Elementary School, will at some point in the future call you into his office and summarily inform you that, effective immediately, your employment at the company to which you've dedicated much of your adult life has been terminated.",
+"\"You're it! I tagged you!\" said Jackson, approximately two and a half decades before he will drop by your cubicle and ask to speak with you in private, whereupon the current prepubescent will tell you that your employer is \"moving in a new direction\" and is therefore being forced to make some tough personnel moves. \"Owen's it. Guys, I got Owen.\"",
+"\"Don't let Owen get you,\" added the 72-pound boy who, as a full-grown man, will instruct you to clean out your desk and hand over your security fob by the end of the day.",
+"Though he was born in 2004 and won't graduate high school for another eight years, Jackson will reportedly explain that the decision has been made to part ways with you and that nothing can be done about it. Telling you that the company is \"reenvisioning its approach to staffing,\" the preadolescent now wearing Despicable Me high tops will on that day hand you a formal letter of termination, leaving you with no means of supporting yourself or your family.",
+"Despite the fact that Jackson presently sleeps in a bunk bed and refuses to eat anything with tomatoes on it, sources said he will then express confidence that you'll be back on your feet in no time, before explaining that the health insurance covering you, your spouse, and your two children will be cut off at the end of the month.",
+"In addition, reports indicate that after deflecting your desperate pleas to reconsider and ushering you out of his office, the individual who still has a bedtime and hasn't lost all his baby teeth will remind IT to close the corporate email account containing all your professional contacts.",
+"\"No tag-backs! That's not fair!\" said the individual who receives an allowance of $8 per week, long before he will conduct a department-wide redundancy audit in which he advises human resources that your contributions to the organization don't justify your salary. \"You can't do that, Owen. It's part of the rules. You're not following the rules.\"",
+"Sources stated that while the future Jackson will halfheartedly offer to keep you in mind if he hears of any professional opportunities elsewhere and then pressure you to sign a letter acknowledging your ineligibility for severance, the present-day Jackson takes 30 seconds to tie his shoelaces and runs home from school every afternoon to watch DreamWorks Dragons: Defenders Of Berk.",
+"Weeks after your dismissal, reports indicate that Jackson, who's not yet allowed to ride in the front seat of his family SUV, will pretend not to recognize you at the grocery store. Sources also noted that the person who will someday fire you currently has a favorite dinosaur.",
+"\"Hey, look at Brody and Jenny—they were touching hands,\" said Jackson, who will compose a brief company-wide email explaining that the organization is headed toward an exciting new future in which skills like the ones you will have accumulated over decades of hard work will be rendered obsolete. \"Brody and Jenny are in love! They're in love! They're going to have a baby together. They're going to have a hundred babies.\"",
+"\"Brody likes Jenny!\" the boy added years before he will be promoted for cutting operating costs while you spend several fruitless months trying to get back on your feet.",
+"At press time, sources had confirmed that your firing will be followed by a humiliating exit interview with a woman named Madelyn who won't be conceived until 2015."
+			],
+			"src": "theonion.com",
+			"url": "http://www.theonion.com/articles/fourthgrader-named-jackson-to-someday-fire-you,35370/",
+			"moods": [
+				"funny"
+			]
+		},
+		{
+			"id": 49,
+			"title": "Black Guy Asks Nation For Change",
+			"headline": "CHICAGO—According to witnesses, a loud black man approached a crowd of some 4,000 strangers in downtown Chicago Tuesday and made repeated demands for change.",
+			"contents": [
+"CHICAGO—According to witnesses, a loud black man approached a crowd of some 4,000 strangers in downtown Chicago Tuesday and made repeated demands for change.",
+"\"The time for change is now,\" said the black guy, yelling at everyone within earshot for 20 straight minutes, practically begging America for change. \"The need for change is stronger and more urgent than ever before. And only you—the people standing here today, and indeed all the people of this great nation—only you can deliver this change.\"",
+"The black guy is oddly comfortable demanding change from people he's never even met.",
+"It is estimated that, to date, the black man has asked every single person in the United States for change.",
+"\"I've already seen this guy four times today,\" Chicago-area ad salesman Blake Gordon said. \"Every time, it's the same exact spiel. 'I need change.' 'I want change.' Why's he so eager for all this change? What's he going to do with it, anyway?\"",
+"After his initial requests for change, the black man rambled nonstop on a variety of unrelated topics, calling for affordable health care, demanding that the government immediately begin withdrawing troops from Iraq, and proposing a $75 billion economic stimulus plan to create new jobs.",
+"\"What a wacko,\" Schaumburg, IL resident Patrick Morledge said. \"And, of course, after telling us all about how he had the ability to magically fix everything, he went right back to asking for change. Typical.\"",
+"\"If he's really looking for change, he's got the wrong guy,\" Morledge added.",
+"Reports indicate that the black man has been riding from city to city across the country, asking for change wherever he goes. Citizens in Austin, TX said they spotted the same guy standing on the street Friday, shouting far-fetched ideas about global warming. Cleveland residents also reported seeing him in a local park, wildly gesticulating and quoting from the Bible. And last week, patrons at the Starlight Diner in Cheyenne, WY claimed that the black man accosted them while they were eating, repeatedly requesting change.",
+"\"I saw him walk in and I knew he was headed straight for our table,\" said mother of three Gladys Davies. \"He just stood there smiling at us for a while, and asked how our food tasted. Then he went and did the same thing at the next table over. The nerve of some people.\"",
+"Those who encountered the black man Tuesday said he engaged in erratic behavior, including pointing at random people in the crowd and desperately saying he needs their help, going up to complete strangers and hugging them, and angrily claiming that he is not looking for just a little bit of change, but rather a great deal of change, and that he wants it \"right now.\"",
+"\"I'll be honest, when that black guy said he would 'stop at nothing' to get change, it kind of scared me,\" local mechanic Phil Nighbert said. \"Just leave me alone.\"",
+"Though many were taken aback by the black man's brazen demands, some, such as Jackson, MS's Holly Moser, sympathized with him. She gave the black man credit for boldly standing up and asking every last person around him for change.",
+"\"I told him I'd give him some if I saw him later, even though I probably won't,\" Moser said. \"Very nice man, though.\"",
+"Most, however, ignored his requests.",
+"\"I'm a hardworking American who pays his taxes, and the last thing I need is some guy on the street demanding change from me,\" said William Overkamp, a Springfield, IL gun-shop owner.",
+"He added, \"What he really needs is a job.\" "
+			],
+			"src": "theonion.com",
+			"url": "http://www.theonion.com/articles/black-guy-asks-nation-for-change,2409/",
+			"moods": [
+				"funny"
+			]
+		},
+		{
+			"id": 50,
+			"title": "How Successful People Stay Calm",
+			"headline": "The ability to manage your emotions and remain calm under pressure has a direct link to your performance. TalentSmart has conducted research with more than a million people, and we've found that 90% of top performers are skilled at managing their emotions in times of stress in order to remain calm and in control.",
+			"contents": [
+"The ability to manage your emotions and remain calm under pressure has a direct link to your performance. TalentSmart has conducted research with more than a million people, and we've found that 90% of top performers are skilled at managing their emotions in times of stress in order to remain calm and in control.",
+"If you've followed my work, you've read some startling research summaries that explore the havoc stress can wreak on one's physical and mental health (such as the Yale study, which found that prolonged stress causes degeneration in the area of the brain responsible for self-control). The tricky thing about stress (and the anxiety that comes with it) is that it's an absolutely necessary emotion. Our brains are wired such that it's difficult to take action until we feel at least some level of this emotional state. In fact, performance peaks under the heightened activation that comes with moderate levels of stress. As long as the stress isn't prolonged, it's harmless.",
+" ",
+" ",
+"How-Successful-People-Stay-Calm-graph",
+" ",
+"Caffeine: The Silent Killer of Emotional Intelligence",
+"Travis BradberryTravis Bradberry",
+"Contributor",
+" ",
+"The Six Secrets of Self-Control",
+"Travis BradberryTravis Bradberry",
+"Contributor",
+" ",
+"Four Signs a Relationship Is Failing",
+"Travis BradberryTravis Bradberry",
+"Contributor",
+"How (And Why) To Stay Positive",
+"Travis BradberryTravis Bradberry",
+"Contributor",
+"New research from the University of California, Berkeley, reveals an upside to experiencing moderate levels of stress. But it also reinforces how important it is to keep stress under control. The study, led by post-doctoral fellow Elizabeth Kirby, found that the onset of stress entices the brain into growing new cells responsible for improved memory. However, this effect is only seen when stress is intermittent. As soon as the stress continues beyond a few moments into a prolonged state, it suppresses the brain's ability to develop new cells.",
+"\"I think intermittent stressful events are probably what keeps the brain more alert, and you perform better when you are alert,\" Kirby says. For animals, intermittent stress is the bulk of what they experience, in the form of physical threats in their immediate environment. Long ago, this was also the case for humans. As the human brain evolved and increased in complexity, we've developed the ability to worry and perseverate on events, which creates frequent experiences of prolonged stress.",
+"Besides increasing your risk of heart disease, depression, and obesity, stress decreases your cognitive performance. Fortunately, though, unless a lion is chasing you, the bulk of your stress is subjective and under your control. Top performers have well-honed coping strategies that they employ under stressful circumstances. This lowers their stress levels regardless of what's happening in their environment, ensuring that the stress they experience is intermittent and not prolonged.",
+"While I've run across numerous effective strategies that successful people employ when faced with stress, what follows are ten of the best. Some of these strategies may seem obvious, but the real challenge lies in recognizing when you need to use them and having the wherewithal to actually do so in spite of your stress.",
+"They Appreciate What They Have",
+"Taking time to contemplate what you're grateful for isn't merely the \"right\" thing to do. It also improves your mood, because it reduces the stress hormone cortisol by 23%. Research conducted at the University of California, Davis found that people who worked daily to cultivate an attitude of gratitude experienced improved mood, energy, and physical well-being. It's likely that lower levels of cortisol played a major role in this.",
+"They Avoid Asking \"What If?\"",
+"\"What if?\" statements throw fuel on the fire of stress and worry. Things can go in a million different directions, and the more time you spend worrying about the possibilities, the less time you'll spend focusing on taking action that will calm you down and keep your stress under control. Calm people know that asking \"what if? will only take them to a place they don't want—or need—to go.",
+"They Stay Positive",
+"Positive thoughts help make stress intermittent by focusing your brain's attention onto something that is completely stress-free. You have to give your wandering brain a little help by consciously selecting something positive to think about. Any positive thought will do to refocus your attention. When things are going well, and your mood is good, this is relatively easy. When things are going poorly, and your mind is flooded with negative thoughts, this can be a challenge. In these moments, think about your day and identify one positive thing that happened, no matter how small. If you can't think of something from the current day, reflect on the previous day or even the previous week. Or perhaps you're looking forward to an exciting event that you can focus your attention on. The point here is that you must have something positive that you're ready to shift your attention to when your thoughts turn negative.",
+"They Disconnect",
+"Given the importance of keeping stress intermittent, it's easy to see how taking regular time off the grid can help keep your stress under control. When you make yourself available to your work 24/7, you expose yourself to a constant barrage of stressors. Forcing yourself offline and even—gulp!—turning off your phone gives your body a break from a constant source of stress. Studies have shown that something as simple as an email break can lower stress levels.",
+"Technology enables constant communication and the expectation that you should be available 24/7. It is extremely difficult to enjoy a stress-free moment outside of work when an email that will change your train of thought and get you thinking (read: stressing) about work can drop onto your phone at any moment. If detaching yourself from work-related communication on weekday evenings is too big a challenge, then how about the weekend? Choose blocks of time where you cut the cord and go offline. You'll be amazed at how refreshing these breaks are and how they reduce stress by putting a mental recharge into your weekly schedule. If you're worried about the negative repercussions of taking this step, first try doing it at times when you're unlikely to be contacted—maybe Sunday morning. As you grow more comfortable with it, and as your coworkers begin to accept the time you spend offline, gradually expand the amount of time you spend away from technology.",
+"They Limit Their Caffeine Intake",
+"Drinking caffeine triggers the release of adrenaline. Adrenaline is the source of the \"fight-or-flight\" response, a survival mechanism that forces you to stand up and fight or run for the hills when faced with a threat. The fight-or-flight mechanism sidesteps rational thinking in favor of a faster response. This is great when a bear is chasing you, but not so great when you're responding to a curt email. When caffeine puts your brain and body into this hyperaroused state of stress, your emotions overrun your behavior. The stress that caffeine creates is far from intermittent, as its long half-life ensures that it takes its sweet time working its way out of your body.",
+"They Sleep",
+"I've beaten this one to death over the years and can't say enough about the importance of sleep to increasing your emotional intelligence and managing your stress levels. When you sleep, your brain literally recharges, shuffling through the day's memories and storing or discarding them (which causes dreams), so that you wake up alert and clear-headed. Your self-control, attention, and memory are all reduced when you don't get enough—or the right kind—of sleep. Sleep deprivation raises stress hormone levels on its own, even without a stressor present. Stressful projects often make you feel as if you have no time to sleep, but taking the time to get a decent night's sleep is often the one thing keeping you from getting things under control.",
+"They Squash Negative Self-Talk",
+"A big step in managing stress involves stopping negative self-talk in its tracks. The more you ruminate on negative thoughts, the more power you give them. Most of our negative thoughts are just that—thoughts, not facts. When you find yourself believing the negative and pessimistic things, your inner voice says, \"It's time to stop and write them down.\" Literally stop what you're doing and write down what you're thinking. Once you've taken a moment to slow down the negative momentum of your thoughts, you will be more rational and clear-headed in evaluating their veracity.",
+"You can bet that your statements aren't true any time you use words like \"never,\" \"worst,\" \"ever,\" etc. If your statements still look like facts once they're on paper, take them to a friend or colleague you trust and see if he or she agrees with you. Then the truth will surely come out. When it feels like something always or never happens, this is just your brain's natural threat tendency inflating the perceived frequency or severity of an event. Identifying and labeling your thoughts as thoughts by separating them from the facts will help you escape the cycle of negativity and move toward a positive new outlook.",
+"They Reframe Their Perspective",
+"Stress and worry are fueled by our own skewed perception of events. It's easy to think that unrealistic deadlines, unforgiving bosses, and out-of-control traffic are the reasons we're so stressed all the time. You can't control your circumstances, but you can control how you respond to them. So before you spend too much time dwelling on something, take a minute to put the situation in perspective. If you aren't sure when you need to do this, try looking for clues that your anxiety may not be proportional to the stressor. If you're thinking in broad, sweeping statements such as \"Everything is going wrong\" or \"Nothing will work out,\" then you need to reframe the situation. A great way to correct this unproductive thought pattern is to list the specific things that actually are going wrong or not working out. Most likely you will come up with just some things—not everything—and the scope of these stressors will look much more limited than it initially appeared.",
+"They Breathe",
+"The easiest way to make stress intermittent lies in something that you have to do everyday anyway: breathing. The practice of being in the moment with your breathing will begin to train your brain to focus solely on the task at hand and get the stress monkey off your back. When you're feeling stressed, take a couple of minutes to focus on your breathing. Close the door, put away all other distractions, and just sit in a chair and breathe. The goal is to spend the entire time focused only on your breathing, which will prevent your mind from wandering. Think about how it feels to breathe in and out. This sounds simple, but it's hard to do for more than a minute or two. It's all right if you get sidetracked by another thought; this is sure to happen at the beginning, and you just need to bring your focus back to your breathing. If staying focused on your breathing proves to be a real struggle, try counting each breath in and out until you get to 20, and then start again from 1. Don't worry if you lose count; you can always just start over.",
+"This task may seem too easy or even a little silly, but you'll be surprised by how calm you feel afterward and how much easier it is to let go of distracting thoughts that otherwise seem to have lodged permanently inside your brain.",
+"They Use Their Support System",
+"It's tempting, yet entirely ineffective, to attempt tackling everything by yourself. To be calm and productive, you need to recognize your weaknesses and ask for help when you need it. This means tapping into your support system when a situation is challenging enough for you to feel overwhelmed. Everyone has someone at work and/or outside work who is on their team, rooting for them, and ready to help them get the best from a difficult situation. Identify these individuals in your life and make an effort to seek their insight and assistance when you need it. Something as simple as talking about your worries will provide an outlet for your anxiety and stress and supply you with a new perspective on the situation. Most of the time, other people can see a solution that you can't because they are not as emotionally invested in the situation. Asking for help will mitigate your stress and strengthen your relationships with those you rely upon."
+			],
+			"src": "forbes.com",
+			"url": "http://www.forbes.com/sites/travisbradberry/2014/02/06/how-successful-people-stay-calm/",
+			"moods": [
+				"calm",
+				"productive"
+			]
+		},
+		{
+			"id": 51,
 			"title": "",
 			"headline": "",
 			"contents": [
@@ -2024,5 +2286,6 @@
 			"moods": [
 			]
 		}
+
 	]
 }
