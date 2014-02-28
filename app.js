@@ -23,13 +23,17 @@ var hbs = handlebars.create({
         },
         eachExcept: function (context, exclude, options) {
         	var ret = "";
+            var counter = 0;
 
-				  for(var i=0, j=context.length; i<j; i++) {
-				  	if (exclude.indexOf(context[i]) == -1)
-				  	  ret = ret + options.fn(context[i]);
-				  }
-				  return ret;
-        }
+            for(var i=0, j=context.length; i<j; i++) {
+            	if (exclude.indexOf(context[i]) == -1) {
+            	  ret = ret + options.fn(context[i]);
+                  counter = counter + 1;
+                  if (counter == 2) break;
+                }   
+            }
+            return ret;
+            }
     }
 });
 
