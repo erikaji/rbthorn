@@ -18,21 +18,20 @@
 
   <body>
     <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-      <div class="parent container">
-        <div class="navbar-brand">
-          <a href="/"><span class="glyphicon glyphicon-chevron-left arrow child"></span><img class="logo-thumb" src="/images/logo_thumb.png"></a>
-          <span>Selected Moods:
-            {{#each resultsName}}
-            {{#if @last}}
-            <a class="mood" href="/?tag={{this}}">{{this}}</a>
-            {{else}}
-            <a class="mood" href="/?tag={{this}}">{{this}}</a> +
-            {{/if}}
-            {{/each}}</span>
+        <div class="parent container">
+          <div class="navbar-header">
+                      <a href="/"><span class="glyphicon glyphicon-chevron-left arrow child"></span><img class="logo-thumb" src="/images/logo_thumb.png"></a>
           </div>
-
+         <span class="navbar-brand">Selected Moods:
+        {{#each resultsName}}
+          {{#if @last}}
+            <a class="mood" href="/?tag={{this}}">{{this}}</a>
+          {{else}}
+            <a class="mood" href="/?tag={{this}}">{{this}}</a> +
+          {{/if}}
+        {{/each}}</span>
         </div>
-      </div>
+    </div>
   	<div class="container page-top-default">
  {{!--      <center><h1>Read
         {{#each resultsName}}
