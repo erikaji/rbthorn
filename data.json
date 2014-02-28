@@ -80,6 +80,7 @@
 			],
 			"src": "paulgraham.com",
 			"url": "http://paulgraham.com/love.html",
+			"author": "Paul Graham",
 			"moods": [
 				"inspired",
 				"thoughtful"
@@ -129,6 +130,7 @@
 				"A final thought:  If anything here has resonated with you, I’d like to hear your story, too.  If you left your career, if you decided to stay, if you’re trying to figure that out right now — what has your process been like?  What’s made it hard or easy for you to make your decision?  How will you advise your children, should you choose to have them?  I’m super-curious to hear."			],
 			"src": "mynameiselizabeth.com",
 			"url": "http://mynameiselizabeth.com/2014/01/22/the-asian-american-quarter-life-crisis/",
+			"author": "Elizabeth",
 			"moods": [
 				"inspired",
 				"thoughtful"
@@ -154,6 +156,7 @@
 			],
 			"src": "medium.com",
 			"url": "https://medium.com/this-happened-to-me/c02f1ff471c6",
+			"author": "Ellen Huerta",
 			"moods": [ 
 				"courage",
 				"thoughtful"
@@ -184,6 +187,7 @@
 			],
 			"src": "slate.com",
 			"url": "http://www.slate.com/articles/business/operations/2012/06/queueing_theory_what_people_hate_most_about_waiting_in_line_.single.html",
+			"author": "Seth Stevenson",
 			"moods": [
 				"productive",
 				"annoyed"
@@ -218,6 +222,7 @@
 			],
 			"src": "salon.com",
 			"url": "http://www.salon.com/2013/07/05/what_men_want_america_delivers/",
+			"author": "Roxane Gay",
 			"moods": [
 				"thoughtful",
 				"critical"
@@ -330,6 +335,7 @@
 			],
 			"src": "lifehack.org",
 			"url": "http://www.lifehack.org/articles/productivity/100-incredible-things-learned-watching-70-hours-ted-talks-last-week.html",
+			"author": "Chris Bailey",
 			"moods": [
 				"thoughtful",
 				"productive",
@@ -385,6 +391,7 @@
 			],
 			"src": "thoughtcatalog.com",
 			"url": "http://thoughtcatalog.com/matthew-kepnes/2013/09/18-life-lessons-learned-from-travel-the-world/",
+			"author": "Matthew Kepnes",
 			"moods": [
 				"adventurous",
 				"courage"
@@ -416,6 +423,7 @@
 			],
 			"src": "nytimes.com",
 			"url": "http://www.nytimes.com/2012/09/02/opinion/sunday/architecture-and-the-lost-art-of-drawing.html?smid=fb-share",
+			"author": "Michael Graves",
 			"moods": [
 				"creative",
 				"critical"
@@ -444,6 +452,7 @@
 			],
 			"src": "99u.com",
 			"url": "http://99u.com/articles/20576/5-ways-to-do-nothing-and-become-more-productive",
+			"author": "James Altucher",
 			"moods": [
 				"productive",
 				"stressed"
@@ -547,6 +556,7 @@
 			],
 			"src": "pinyin.info",
 			"url": "http://www.pinyin.info/readings/texts/moser.html",
+			"author": "David Moser",
 			"moods": [
 				"studious",
 				"annoyed"
@@ -621,6 +631,7 @@
 			],
 			"src": "nymag.com",
 			"url": "http://nymag.com/news/features/27840/",
+			"author": "Po Bronson",
 			"moods": [
 				"thoughtful"
 			]
@@ -676,6 +687,7 @@
 			],
 			"src": "faculty.winthrop.edu",
 			"url": "http://faculty.winthrop.edu/martinme/Thisiswater.htm",
+			"author": "David Foster Wallace",
 			"moods": [
 				"inspired",
 				"thoughtful"
@@ -745,6 +757,7 @@
 			],
 			"src": "web.mit.edu",
 			"url": "http://web.mit.edu/jmorzins/www/C-H-speech.html",
+			"author": "Bill Watterson",
 			"moods": [
 				"inspired",
 				"thoughtful",
@@ -770,6 +783,7 @@
 			],
 			"src": "opinionator.blogs.nytimes.com",
 			"url": "http://opinionator.blogs.nytimes.com/2013/06/15/i-know-what-you-think-of-me/?_php=true&_type=blogs&_r=0",
+			"author": "Tim Kreider",
 			"moods": [
 				"upset"
 			]
@@ -813,6 +827,7 @@
 			],
 			"src": "nytimes.com",
 			"url": "http://www.nytimes.com/2011/05/29/opinion/29franzen.html?pagewanted=all&_r=3&",
+			"author": "Jonathan Franzen",
 			"moods": [
 				"inspired"
 			]
@@ -882,6 +897,7 @@
 			],
 			"src": "tmagazine.blogs.nytimes.com",
 			"url": "http://tmagazine.blogs.nytimes.com/2013/05/27/power-of-one-miuccia-pradas-circle-of-influence/?ref=womens-fashion",
+			"author": "Andrew O'Hagan",
 			"moods": [
 				"inspired",
 				"creative"
@@ -948,6 +964,7 @@
 			],
 			"src": "aeon.co",
 			"url": "http://aeon.co/magazine/living-together/james-somers-web-developer-money/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%253A+AeonMagazineEssays+%2528Aeon+Magazine+Essays%2529",
+			"author": "James Somers",
 			"moods": [
 				"thoughtful"
 			]
@@ -973,6 +990,7 @@
 			],
 			"src": "nytimes.com",
 			"url": "http://www.nytimes.com/2013/06/04/opinion/brooks-the-way-to-produce-a-person.html?_r=0",
+			"author": "David Brooks",
 			"moods": [
 				"thoughtful",
 				"inspired"
@@ -991,6 +1009,7 @@
 			],
 			"src": "thoughtcatalog.com",
 			"url": "http://thoughtcatalog.com/cody-gohl/2012/12/the-soulmate-you-deserve/",
+			"author": "Cody Gohl",
 			"moods": [
 				"love",
 				"happy"
@@ -1039,6 +1058,7 @@
 			],
 			"src": "forbes.com",
 			"url": "http://www.forbes.com/global/2012/0409/companies-people-pejman-nozad-entrepreneur-capitalist-silicon-valley-cinderella.html",
+			"author": "Victoria Barret",
 			"moods": [
 			]
 		},
@@ -1079,6 +1099,7 @@
 			],
 			"src": "salon.com",
 			"url": "http://www.salon.com/2012/07/24/every_woman_should_travel_alone/",
+			"author": "Sarah Hepola",
 			"moods": [
 				"adventurous",
 				"inspired"
@@ -1117,6 +1138,7 @@
 			],
 			"src": "metaphoplay.wordpress.com",
 			"url": "http://metaphoplay.wordpress.com/2013/04/24/what-are-you-going-to-do-with-that/",
+			"author": "Ken Noojen",
 			"moods": [
 				"inspired",
 				"thoughtful"
@@ -1172,6 +1194,7 @@
 			],
 			"src": "garancedore.fr",
 			"url": "http://www.garancedore.fr/en/2013/04/16/friends/",
+			"author": "Garance Dore",
 			"moods": [
 				"happy",
 				"thoughtful"
@@ -1230,6 +1253,7 @@
 			],
 			"src": "lifehacker.com",
 			"url": "http://lifehacker.com/5993267/the-psychology-of-language-why-are-some-words-more-persuasive-than-others",
+			"author": "Leo Widrich",
 			"moods": [
 				"studious"
 			]
@@ -1335,6 +1359,7 @@
 			],
 			"src": "gq.com",
 			"url": "http://www.gq.com/news-politics/newsmakers/201304/buzz-bissinger-shopaholic-gucci-addiction?printable=true",
+			"author": "Buzz Bissinger",
 			"moods": [
 				"unhappy"
 			]
@@ -1358,6 +1383,7 @@
 			],
 			"src": "thoughtcatalog.com",
 			"url": "http://thoughtcatalog.com/nikki-garcia/2013/04/how-you-know-when-someone-cares/",
+			"author": "Nikki Garcia",
 			"moods": [
 				"love",
 				"thoughtful"
@@ -1379,6 +1405,7 @@
 			],
 			"src": "jobs.aol.com",
 			"url": "http://jobs.aol.com/articles/2013/02/28/good-girls-student-success/",
+			"author": "Tara Sophia Mohr",
 			"moods": [
 				"thoughtful"
 			]
@@ -1401,6 +1428,7 @@
 			],
 			"src": "hbr.org",
 			"url": "http://hbr.org/2008/01/the-five-competitive-forces-that-shape-strategy/ar/1",
+			"author": "Michael E. Porter",
 			"moods": [
 			]
 		},
@@ -1427,6 +1455,7 @@
 			],
 			"src": "bain.com",
 			"url": "http://www.bain.com/publications/articles/why-we-behave-and-decide-the-way-we-do.aspx?utm_source=Bain-Insights-March-2012&utm_medium=Newsletter&utm_campaign=why-we-behave-and-decide-the-way-we-do",
+			"author": "Paul Rogers, Robert Carse and Todd Senturia",
 			"moods": [
 			]
 		},
@@ -1509,6 +1538,7 @@
 			],
 			"src": "caseinterview.com",
 			"url": "http://www.caseinterview.com/post-consulting-careers",
+			"author": "Victor Cheng",
 			"moods": [
 			]
 		},
@@ -1549,6 +1579,7 @@
 			],
 			"src": "nytimes.com",
 			"url": "http://www.nytimes.com/2014/01/19/opinion/sunday/for-the-love-of-money.html?_r=0",
+			"author": "Sam Polk",
 			"moods": [
 				"unhappy"
 			]
@@ -1576,6 +1607,7 @@
 			],
 			"src": "slate.com",
 			"url": "http://www.slate.com/articles/double_x/doublex/2014/02/abortion_as_end_of_life_care_why_i_chose_a_peaceful_life_and_death_for_my.html",
+			"author": "Phoebe Day Danziger",
 			"moods": [
 				"sad",
 				"thoughtful"
@@ -1605,6 +1637,7 @@
 			],
 			"src": "theonion.com",
 			"url": "http://www.theonion.com/articles/urban-planner-stuck-in-traffic-of-own-design,1704/",
+			"author": "Staff",
 			"moods": [
 				"funny"
 			]
@@ -1625,6 +1658,7 @@
 			],
 			"src": "businessweek.com",
 			"url": "http://www.businessweek.com/articles/2012-04-27/in-defense-of-stanford-university",
+			"author": "Ashlee Vance",
 			"moods": [
 			]
 		},
@@ -1780,6 +1814,7 @@
 			],
 			"src": "businessinsider.com",
 			"url": "http://www.businessinsider.com/oh-my-god-were-in-bed-with-the-vampire-squid",
+			"author": "Henry Blodget",
 			"moods": [				
 			]
 		},
@@ -1799,6 +1834,7 @@
 			],
 			"src": "americanthinker.com",
 			"url": "http://www.americanthinker.com/2014/01/sad_truths_about_teen_suicide.html",
+			"author": "Janice Shaw Crouse",
 			"moods": [
 				"lonely",
 				"upset",
@@ -1849,6 +1885,7 @@
 			],
 			"src": "trove.com",
 			"url": "http://trove.com/me/content/4HZjo",
+			"author": "Josh Ong",
 			"moods": [
 			]
 		},
@@ -1874,6 +1911,7 @@
 			],
 			"src": "slate.com",
 			"url": "http://www.slate.com/articles/health_and_science/medical_examiner/2014/02/mammogram_risks_and_benefits_overdiagnosis_and_misfear_are_not_saving_lives.single.html",
+			"author": "Christie Aschwanden",
 			"moods": [
 				"scared"
 			]
@@ -1892,6 +1930,7 @@
 			],
 			"src": "slate.com",
 			"url": "http://www.slate.com/blogs/xx_factor/2014/02/17/new_york_times_all_or_nothing_marriage_article_forgets_about_socioeconomics.html",
+			"author": "Hanna Rosin",
 			"moods": [
 				"love"
 			]
@@ -1920,6 +1959,7 @@
 			],
 			"src": "usatoday.com",
 			"url": "http://www.usatoday.com/story/tech/2014/02/17/secret-whisper-gossip-girl-of-silicon-valley/5368989/",
+			"author": "Sarah Buhr",
 			"moods": [
 				"lonely"
 			]
@@ -1938,6 +1978,7 @@
 			],
 			"src": "huffingtonpost.com",
 			"url": "http://www.huffingtonpost.com/2014/02/17/marco-rubio-stimulus_n_4804239.html",
+			"author": "Paige Lavender",
 			"moods": [
 				"critical"
 			]
@@ -1965,6 +2006,7 @@
 			],
 			"src": "theverge.com",
 			"url": "http://www.theverge.com/2014/2/17/5418586/north-korea-has-committed-crimes-against-humanity-un-report",
+			"author": "Amar Toor",
 			"moods": [
 				"angry"
 			]
@@ -1999,6 +2041,7 @@
 			],
 			"src": "channelnewsasia.com",
 			"url": "http://www.channelnewsasia.com/news/sport/olympics-south-korean/1007538.html",
+			"author": "Staff",
 			"moods": [
 				"angry",
 				"sad",
@@ -2047,6 +2090,7 @@
 			],
 			"src": "gizmodo.com",
 			"url": "http://gizmodo.com/why-apples-huge-security-flaw-is-so-scary-1529041062",
+			"author": "Brian Barrett",
 			"moods": [
 				"scared"
 			]
@@ -2085,6 +2129,7 @@
 			],
 			"src": "slate.com",
 			"url": "http://www.slate.com/articles/health_and_science/medical_examiner/2013/08/dangers_of_loneliness_social_isolation_is_deadlier_than_obesity.html",
+			"author": "Jessica Olien",
 			"moods": [
 				"lonely",
 				"sad"
@@ -2119,6 +2164,7 @@
 			],
 			"src": "99u.com",
 			"url": "http://99u.com/articles/16136/7-ways-to-boost-your-creativity",
+			"author": "Gregory Ciotti",
 			"moods": [
 				"creative",
 				"productive"
@@ -2156,6 +2202,7 @@
 			],
 			"src": "greatist.com",
 			"url": "http://greatist.com/happiness/better-study-tips-test",
+			"author": "Shana Lebowitz",
 			"moods": [
 				"studious",
 				"productive"
@@ -2182,6 +2229,7 @@
 			],
 			"src": "theonion.com",
 			"url": "http://www.theonion.com/articles/fourthgrader-named-jackson-to-someday-fire-you,35370/",
+			"author": "Staff",
 			"moods": [
 				"funny"
 			]
@@ -2211,6 +2259,7 @@
 			],
 			"src": "theonion.com",
 			"url": "http://www.theonion.com/articles/black-guy-asks-nation-for-change,2409/",
+			"author": "Staff",
 			"moods": [
 				"funny"
 			]
@@ -2270,6 +2319,7 @@
 			],
 			"src": "forbes.com",
 			"url": "http://www.forbes.com/sites/travisbradberry/2014/02/06/how-successful-people-stay-calm/",
+			"author": "Travis Bradberry",
 			"moods": [
 				"calm",
 				"productive"

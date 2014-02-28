@@ -9,6 +9,7 @@
 		<link href="/css/bootstrap.min.css" rel="stylesheet">
 		<link href="/css/bootstrap-theme.min.css" rel="stylesheet">
 		<link href="/css/readbymood.css" rel="stylesheet">
+		<link href="/css/article.css" rel="stylesheet">
 	    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 	    <!--[if lt IE 9]>
@@ -27,9 +28,10 @@
 			<div class="jumbotron">
 				<h1><a class="mood" href="{{article.url}}" target="_blank">{{article.title}}</a></h1>
 				<p>{{article.headline}}</p>
+				<div id="author">{{article.author}} | {{article.src}}</div>
 			</div>
 			{{#each article.contents}}
-				<p>{{this}}</p>
+				<p class="contents">{{this}}</p>
 		  {{/each}}
 		  <a href="{{article.url}}" target="_blank">Visit website</a>
 		</div>
