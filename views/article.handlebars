@@ -26,14 +26,14 @@
 	   </div>
 		<div class="container page-top-default">
 			<div class="jumbotron">
-				<h1><a class="mood" href="{{article.url}}" target="_blank">{{article.title}}</a></h1>
+				<h1><a class="mood" href="/external/{{article.id}}">{{article.title}}</a></h1>
 				<p>{{article.headline}}</p>
 				<div id="author">{{article.author}} | {{article.src}}</div>
 			</div>
 			{{#each article.contents}}
 				<p class="contents">{{this}}</p>
 		  {{/each}}
-		  <a href="{{article.url}}" target="_blank">Visit website</a>
+		  <a href="/external/{{article.id}}">Visit website</a>
 		</div>
 
 		<script src="https://code.jquery.com/jquery.js"></script>

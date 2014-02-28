@@ -10,6 +10,7 @@ var handlebars = require('express3-handlebars');
 
 var results = require('./routes/results');
 var article = require ('./routes/article');
+var external = require ('./routes/external');
 var choosemood = require('./routes/choosemood');
 
 var app = express();
@@ -64,6 +65,7 @@ handlebars.registerHelper('getValueByKey', function(array, key) {
 //app.get('/', index.view);
 app.get('/results', results.viewResults);
 app.get('/article/:id', article.view);
+app.get('/external/:id', external.view);
 app.get('/', choosemood.view);
 app.post('/choosemood', choosemood.post);
 
