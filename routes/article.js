@@ -5,6 +5,12 @@
 
 exports.view = function(req, res){
 	var id = req.params.id;
+	var tags = req.query.tags;
+  var query='';
+  for (var i in tags)
+    query=query+'tags[]='+tags[i]+'&';
+  query = query.slice(0,-1);
+
 
 	// Simulating db here - will replace with proper db later
 	var db_data = require("../data.json");
@@ -18,6 +24,7 @@ exports.view = function(req, res){
 
 	res.render('article', {
 		'article': article,
-		'referer': req.headers.referer
+		'referer': req.headers.referer,
+		'query': query
 	});
 };

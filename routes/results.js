@@ -2,6 +2,10 @@ var _ = require('../underscore-min.js');
 
 exports.viewResults = function(req, res) {
 	var tags = req.query.tags;
+  var query='';
+  for (var i in tags)
+    query=query+'tags[]='+tags[i]+'&';
+  query = query.slice(0,-1);
 
 	// Simulating db here - will replace with proper db later
 	var db_data = require("../data.json");
@@ -28,6 +32,7 @@ exports.viewResults = function(req, res) {
 	    'query': req.query,
 	    'articles': articles,
 	    'mood_colors': db_data.mood_colors,
-	    'referer': req.headers.referer
+	    'referer': req.headers.referer,
+	    'query': query
 	});
 }
