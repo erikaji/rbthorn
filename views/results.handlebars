@@ -53,7 +53,10 @@
             </a>
             {{#eachExcept moods ../resultsName}}
                 <a href="/?tag={{this}}">
+                  <!-- Removing color
                   <button class="btn tag buttonTag btn-{{getValueByKey ../../mood_colors this}}">{{this}}</button>
+                  -->
+                  <button class="btn tag buttonTag">{{this}}</button>
                 </a>
             {{/eachExcept}}
           </li>
