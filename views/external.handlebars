@@ -1,0 +1,33 @@
+<!doctype html>
+
+<html>
+	<head>
+		<title>Read By Mood - {{article.title}}</title>	
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<link href="/css/bootstrap.min.css" rel="stylesheet">
+		<link href="/css/bootstrap-theme.min.css" rel="stylesheet">
+		<link href="/css/readbymood.css" rel="stylesheet">
+		<link href="/css/external.css" rel="stylesheet">
+	    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	    <!--[if lt IE 9]>
+	      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+	    <![endif]-->        
+	</head>
+	<body>
+		<div class="navbar navbar-default navbar-fixed-top" role="navigation" style="">
+			<div class="parent">
+			 	<a href="{{referer}}"><span class="glyphicon glyphicon-chevron-left arrow child"></span><img class="logo-thumb" src="/images/logo_thumb.png"></a>
+			</div>
+		</div>
+		<div id="content">
+		  <iframe width="100%" height="100%" frameborder="0" src="{{article.url}}" />
+		</div>
+
+		<script src="https://code.jquery.com/jquery.js"></script>
+		<script src="/js/bootstrap.min.js"></script>
+	</body>
+</html>
