@@ -8,7 +8,7 @@ exports.viewResults = function(req, res) {
   query = query.slice(0,-1);
 
 	// Simulating db here - will replace with proper db later
-	var db_data = require("../data.json");
+	var db_data = require("../dataOLD.json");
 	var articles = [];
 
 	// Go through all articles to set which articles to show
