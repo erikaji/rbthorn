@@ -25,7 +25,7 @@
 
     <div class="container page-top">
       <center>
-        <h1>How do you want to feel?</h1>
+        <h1 id="yourmoods">How do you want to feel?</h1>
       </center>
     </div>
 
@@ -71,8 +71,21 @@
         $(".submit").attr("href", "#");
         submitButton.text("Please Select Moods...");
         $(".tag").parent().fadeIn();
+        $("#yourmoods").fadeOut(function(){
+          $(this).text("How do you want to feel?").fadeIn();
+
+        })
       }
       else {
+
+
+        // set banners
+         $("#yourmoods").fadeOut(function(){
+          $(this).text(dataSent.tags.join(" + ")).fadeIn();
+
+        })
+ 
+
           //retrieve number of articles and available tag list from server
           $.ajax({
             type: 'POST',
