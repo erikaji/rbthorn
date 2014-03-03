@@ -101,10 +101,11 @@
       }
       else {
         // set banners
-         $("#yourmoods").fadeOut(function(){
+        $("#yourmoods").fadeOut(function(){
           $(this).text(dataSent.tags.join(" + ")).fadeIn();
-        })
+        });
 
+        //retrieve number of articles and available tag list from server
         var url;
         {{#if experiment}}
           url = 'choosemoodExperiment';
@@ -112,19 +113,18 @@
           url = 'choosemood';
         {{/if}}
 
-          //retrieve number of articles and available tag list from server
-          $.ajax({
-            type: 'POST',
-            data: JSON.stringify(dataSent),
-            contentType: 'application/json',
-            url: url,            
-            success: function(dataRetrieved) {
-              if (dataRetrieved.articleNumber == 0){
-               submitButton.attr("disabled", true);
-               $(".submit").attr("href", "#");
-               submitButton.text("No articles for the selection");
-             }
-             else{
+        $.ajax({
+          type: 'POST',
+          data: JSON.stringify(dataSent),
+          contentType: 'application/json',
+          url: url,            
+          success: function(dataRetrieved) {
+            if (dataRetrieved.articleNumber == 0){
+              submitButton.attr("disabled", true);
+              $(".submit").attr("href", "#");
+              submitButton.text("No articles for the selection");
+            }
+            else {
               submitButton.attr("disabled", false);
               var textToShow = "Read " + dataRetrieved.articleNumber + " articles";
               if (dataRetrieved.articleNumber == 1)
