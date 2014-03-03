@@ -4,10 +4,28 @@
  */
 
 exports.view = function(req, res){
-	var id = req.params.id;
+	viewFunction(req, res, false);
+};
 
-	// Simulating db here - will replace with proper db later
-	var db_data = require("../dataOLD.json");
+exports.viewExperiment = function(req, res){
+	viewFunction(req, res, true);
+};
+
+function viewFunction(req, res, isExperiment) {
+	var db_data;	// Choose db_data based on experiment or not
+	if (isExperiment) {
+		db_data = require("../data.json");
+	} else {
+		db_data = require("../dataOLD.json");		
+	}
+
+	var id = req.params.id;
+	var tags = req.query.tags;
+  var query='';
+  for (var i in tags)
+    query=query+'tags[]='+tags[i]+'&';
+  query = query.slice(0,-1);
+
 
 	var article;
 	for(var i=0; i < db_data.articles.length; i++) {
@@ -18,6 +36,8 @@ exports.view = function(req, res){
 
 	res.render('external', {
 		'article': article,
-		'referer': req.headers.referer
+		'referer': req.headers.referer,
+		'query': query,
+		'experiment': isExperiment
 	});
 };

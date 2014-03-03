@@ -58,20 +58,17 @@ if ('development' == app.get('env')) {
   app.use(express.errorHandler());
 }
 
-/*
-// Register helpers
-handlebars.registerHelper('getValueByKey', function(array, key) {
-    return array[key];
-});
-*/
-
 // Add routes here
-//app.get('/', index.view);
-app.get('/results', results.viewResults);
-app.get('/article/:id', article.view);
-app.get('/external/:id', external.view);
 app.get('/', choosemood.view);
+app.get('/experiment', choosemood.viewExperiment);
+app.get('/results', results.view);
+app.get('/resultsExperiment', results.viewExperiment);
+app.get('/article/:id', article.view);
+app.get('/articleExperiment/:id', article.viewExperiment);
+app.get('/external/:id', external.view);
+app.get('/externalExperiment/:id', external.viewExperiment);
 app.post('/choosemood', choosemood.post);
+app.post('/choosemoodExperiment', choosemood.postExperiment);
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));

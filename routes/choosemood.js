@@ -1,9 +1,22 @@
 var _ = require('../underscore-min.js');
 
 exports.view = function(req, res){
+	viewFunction(req, res, false);
+};
+
+exports.viewExperiment = function(req, res){
+	viewFunction(req, res, true);
+};
+
+function viewFunction(req, res, isExperiment) {
+	var db_data;	// Choose db_data based on experiment or not
+	if (isExperiment) {
+		db_data = require("../data.json");
+	} else {
+		db_data = require("../dataOLD.json");		
+	}
+
 	var tag = req.query.tag;
-	// Simulating db here - will replace with proper db later
-	var db_data = require("../dataOLD.json");
 	var mood_colors = db_data.mood_colors;
 	var mood_rank = [];
 
@@ -59,12 +72,19 @@ exports.view = function(req, res){
 	res.render('choosemood', {
 		'tags': tier_one_moods.concat(tier_two_moods),
 		'articles': db_data.articles,
-		'selected_tag': tag
+		'selected_tag': tag,
+		'experiment': isExperiment
 	});
 };
 
-exports.post = function(req, res){
-	var db_data = require("../dataOLD.json");
+function postFunction(req, res, isExperiment) {
+	var db_data;	// Choose db_data based on experiment or not
+	if (isExperiment) {
+		db_data = require("../data.json");
+	} else {
+		db_data = require("../dataOLD.json");		
+	}
+
 	var tagList = req.body.tags;
 	var resData = {
 		articleNumber: 0,
@@ -78,4 +98,11 @@ exports.post = function(req, res){
 	});
  
 	res.send(resData);
+};
+
+exports.post = function(req, res){
+	postFunction(req, res, false);
+};
+exports.postExperiment = function(req, res){
+	postFunction(req, res, true);
 };

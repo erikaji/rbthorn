@@ -21,22 +21,87 @@
 	<body>
 		 <div class="navbar navbar-default navbar-fixed-top" role="navigation" style="">
 		 		<div class="parent">
-				 	<a href="/results?{{query}}"><span class="glyphicon glyphicon-chevron-left arrow child"></span><img class="logo-thumb" src="/images/logo_thumb.png"></a>
+          {{#if experiment}}
+					 	<a class="back-button" href="/resultsExperiment?{{../query}}">
+          {{else}}
+					 	<a class="back-button" href="/results?{{../query}}">
+          {{/if}}
+					 		<span class="glyphicon glyphicon-chevron-left arrow child"></span>
+					 		<img class="logo-thumb" src="/images/logo_thumb.png">
+					 	</a>
 	 			</div>
 	   </div>
 		<div class="container page-top-default">
 			<div class="jumbotron">
-				<h1><a class="mood" href="/external/{{article.id}}">{{article.title}}</a></h1>
+				<h1>
+          {{#if experiment}}
+						<a id="external-header-{{article.id}}" class="mood external-button" href="/externalExperiment/{{article.id}}?{{../query}}">{{article.title}}</a>
+          {{else}}
+						<a id="external-header-{{article.id}}" class="mood external-button" href="/external/{{article.id}}?{{../query}}">{{article.title}}</a>
+          {{/if}}
+				</h1>
 				<p>{{article.headline}}</p>
 				<div id="author">{{article.author}} | {{article.src}}</div>
 			</div>
 			{{#each article.contents}}
 				<p class="contents">{{this}}</p>
 		  {{/each}}
-		  <a href="/external/{{article.id}}">Visit website</a>
+        {{#if experiment}}
+				  <a id="external-visit-{{article.id}}" class="external-button" href="/externalExperiment/{{article.id}}?{{../query}}">Visit website</a>
+        {{else}}
+				  <a id="external-visit-{{article.id}}" class="external-button" href="/external/{{article.id}}?{{../query}}">Visit website</a>
+        {{/if}}
 		</div>
 
 		<script src="https://code.jquery.com/jquery.js"></script>
 		<script src="/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+    var startTime;  // For tracking time user spends in page
+
+    $(document).ready(function() {
+      startTime = new Date().getTime();
+    });
+
+    function measure_time() {
+      var endTime = new Date().getTime();
+      var timeSpent = endTime - startTime;
+      ga('send', 'timing', 'Time Spent On Page', 'article', timeSpent);
+    };
+    function callback_follow_href(href_object) {
+      // This is necessary so that form submit below does not occur before events above are registered
+      ga('send', 'event', 'callback', 'article', {
+        'hitCallback': function() {
+          window.location = href_object.attr('href');
+        }
+      });
+      return !window.ga;
+    };
+
+    // GA events
+    $(".back-button").click(function(event) {
+      event.preventDefault();    
+      ga("send", "event", "back-button", "click", "article page back button");
+      measure_time();
+      return callback_follow_href($(this));
+    });
+    $(".external-button").click(function(event) {
+      event.preventDefault();    
+      ga("send", "event", "article", "click", "article: " + $(this).attr('id'));
+      measure_time();
+      return callback_follow_href($(this));
+    });
+
+    </script>
+		<script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-48497360-1', 'moodreader.herokuapp.com');
+      //ga('create', 'UA-48497360-1', { 'cookieDomain': 'none' });
+      ga('send', 'pageview');
+
+    </script>
 	</body>
 </html>
