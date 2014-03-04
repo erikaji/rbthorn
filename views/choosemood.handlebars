@@ -101,15 +101,15 @@
         });
 
         //$(".navbar-fixed-bottom").addClass("collapse", 3000, "swing" );
-        //$(".navbar-fixed-bottom").fadeOut("slow");
+        $(".navbar-fixed-bottom").fadeOut("slow");
         //$(".navbar-fixed-bottom").hide("slide", { direction: "down" }, 1000);
-        $(".navbar-fixed-bottom").slideDown();
+        //$(".navbar-fixed-bottom").slideDown();
       }
       else {
         //$(".navbar-fixed-bottom").removeClass("collapse", 3000, "swing" );
-        //$(".navbar-fixed-bottom").fadeIn("slow");
+        $(".navbar-fixed-bottom").fadeIn("slow");
         //$(".navbar-fixed-bottom").show("slide", { direction: "up" }, 1000);
-        $(".navbar-fixed-bottom").slideUp();
+        //$(".navbar-fixed-bottom").slideUp();
 
         // set banners
         $("#yourmoods").fadeOut(function(){
@@ -170,6 +170,7 @@
 
 $(document).ready(function() {
   startTime = new Date().getTime();
+  $(".navbar-fixed-bottom").hide();
 
   {{#if selected_tag}}
   $(".tag").each(function() {
