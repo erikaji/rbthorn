@@ -58,7 +58,7 @@
       {{/each}}
       </div>
     </div>
-    <nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
+    <nav id="bottom-nav" class="navbar navbar-default navbar-fixed-bottom" role="navigation">
       <div class="container">
         <div class="center">
           <a class="submit center" href="#">
@@ -98,10 +98,19 @@
         $(".tag").parent().fadeIn();
         $("#yourmoods").fadeOut(function(){
           $(this).text("How do you want to feel?").fadeIn();
+        });
 
-        })
+        //$(".navbar-fixed-bottom").addClass("collapse", 3000, "swing" );
+        //$(".navbar-fixed-bottom").fadeOut("slow");
+        //$(".navbar-fixed-bottom").hide("slide", { direction: "down" }, 1000);
+        $(".navbar-fixed-bottom").slideDown();
       }
       else {
+        //$(".navbar-fixed-bottom").removeClass("collapse", 3000, "swing" );
+        //$(".navbar-fixed-bottom").fadeIn("slow");
+        //$(".navbar-fixed-bottom").show("slide", { direction: "up" }, 1000);
+        $(".navbar-fixed-bottom").slideUp();
+
         // set banners
         $("#yourmoods").fadeOut(function(){
           $(this).text(dataSent.tags.join(" + ")).fadeIn();
