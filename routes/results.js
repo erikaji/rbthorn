@@ -1,9 +1,7 @@
 var _ = require('../underscore-min.js');
 
 exports.view = function(req, res){
-	//viewFunction(req, res, false);
-	// Using updated based on experiment results
-	viewFunction(req, res, true);
+	viewFunction(req, res, false);
 };
 
 exports.viewExperiment = function(req, res){
@@ -12,11 +10,14 @@ exports.viewExperiment = function(req, res){
 
 function viewFunction(req, res, isExperiment) {
 	var db_data;	// Choose db_data based on experiment or not
+	db_data = require("../data.json");
+	/*
 	if (isExperiment) {
 		db_data = require("../data.json");
 	} else {
 		db_data = require("../dataOLD.json");		
 	}
+	*/
 
 	var tags = req.query.tags;
   var query='';
