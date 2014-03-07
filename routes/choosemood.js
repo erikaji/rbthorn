@@ -3,7 +3,7 @@ var _ = require('../underscore-min.js');
 exports.view = function(req, res){
 	//viewFunction(req, res, false);
 	// Using updated based on experiment results
-	viewFunction(req, res, true;
+	viewFunction(req, res, true);
 };
 
 exports.viewExperiment = function(req, res){
