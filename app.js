@@ -8,10 +8,18 @@ var http = require('http');
 var path = require('path');
 var handlebars = require('express3-handlebars');
 
-var results = require('./routes/results');
-var article = require ('./routes/article');
-var external = require ('./routes/external');
-var choosemood = require('./routes/choosemood');
+//mysql reference - https://github.com/felixge/node-mysql
+/*var mysql      = require('mysql');
+var connection = mysql.createConnection({
+    host: "us-cdbr-east-05.cleardb.net",
+    user: "ba3bd950dbfbed", 
+    password: "573b449f",
+    database: "heroku_f6c3e56bf244b8e"
+});*/
+
+var edit = require('./routes/edit');
+var feed = require('./routes/feed');
+var profile = require('./routes/profile');
 
 var app = express();
 var hbs = handlebars.create({
@@ -40,7 +48,7 @@ var hbs = handlebars.create({
 // all environments
 app.set('port', process.env.PORT || 3000);
 app.set('views', path.join(__dirname, 'views'));
-//app.engine('handlebars', handlebars());
+//app.set('connection', connection);
 app.engine('handlebars', hbs.engine);
 app.set('view engine', 'handlebars');
 app.use(express.favicon());
@@ -59,16 +67,10 @@ if ('development' == app.get('env')) {
 }
 
 // Add routes here
-app.get('/', choosemood.view);
-app.get('/experiment', choosemood.viewExperiment);
-app.get('/results', results.view);
-app.get('/resultsExperiment', results.viewExperiment);
-app.get('/article/:id', article.view);
-app.get('/articleExperiment/:id', article.viewExperiment);
-app.get('/external/:id', external.view);
-app.get('/externalExperiment/:id', external.viewExperiment);
-app.post('/choosemood', choosemood.post);
-app.post('/choosemoodExperiment', choosemood.postExperiment);
+app.get('/', feed.view);
+app.get('/profile', profile.view);
+app.get('/edit', edit.view);
+app.post('/profile', profile.post);
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));

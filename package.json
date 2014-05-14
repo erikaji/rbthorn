@@ -1,11 +1,11 @@
 {
-  "name": "readbymood",
+  "name": "rbthorn",
   "version": "0.0.1",
-  "author": "Erika, Jack & Ted",
+  "author": "Priya, Yiju, Erika",
 
   "repository": {
     "type": "git",
-    "url": "https://github.com/IntroHCI/lab4"
+    "url": "https://github.com/erikaji/rbthorn.git"
   },
   "license": "MIT",
 
@@ -17,7 +17,8 @@
     "express": "3.x",
     "express3-handlebars": "*",
     "mongodb": "*",
-    "mongoose": "*"
+    "mongoose": "*",
+    // "mysql": "*"
   },
   "engines": {
     "node": "0.10.x"
