@@ -21,33 +21,33 @@
       <br /><br /><br />
       <h1 class="text-center">Rose Bud Thorn</h1>
       <br />
-RBT Page
-<!--      {{#each rbt}}
+
+      {{#each rbt}}
       <div class="well">
-        <img src={{photo_user}} width="50" height="50">
-        <h5>{{name}}</h5>
+        <img src={{user_photo}} width="50" height="50">
+        <h5>{{user_firstname}} {{user_lastname}}</h5>
         <div class="container">
-          <img src={{photo_rbt}} width="100%">
+          <img src={{rbt_photo}} width="100%">
           <table class="table">
             <tbody>
               <tr>
                 <td><span class="label label-danger">Rose</span></td>
-                <td>{{rose}}</td>
+                <td>{{rbt_rose}}</td>
               </tr>
               <tr>
                 <td><span class="label label-success">Bud</span></td>
-                <td>{{bud}}</td>
+                <td>{{rbt_bud}}</td>
               </tr>
               <tr>
                 <td><span class="label label-warning">Thorn</span></td>
-                <td>{{thorn}}</td>
+                <td>{{rbt_thorn}}</td>
               </tr>
             </tbody>
           </table>
         </div>
       </div>
       {{/each}}
-    </div>-->
+    </div>
 
     <script src="https://code.jquery.com/jquery.js"></script>
     <script src="/js/bootstrap.min.js"></script>

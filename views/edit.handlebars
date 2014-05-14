@@ -21,11 +21,11 @@
       <br /><br /><br />
       <h1 class="text-center">Rose Bud Thorn</h1>
       <br />
-Edit Page
-      <!--{{#each rbt}}
+
+      {{#each rbt}}
       <center>
-        <img src={{photo_user}} style="width: 150px; height: 150px;">
-        <h3>{{name}}</h3>
+        <img src={{user_photo}} style="width: 150px; height: 150px;">
+        <h3>{{user_firstname}} {{user_lastname}}</h3>
       </center>
       {{/each}}
 
@@ -58,9 +58,7 @@ Edit Page
         <center><input type="submit" value="Submit"></center>
         <br />
       </form>
-
-
-    </div>-->
+    </div>
 
     <script src="https://code.jquery.com/jquery.js"></script>
     <script src="/js/bootstrap.min.js"></script>

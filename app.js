@@ -9,13 +9,13 @@ var path = require('path');
 var handlebars = require('express3-handlebars');
 
 //mysql reference - https://github.com/felixge/node-mysql
-/*var mysql      = require('mysql');
-var connection = mysql.createConnection({
+var mysql      = require('mysql');
+var pool = mysql.createPool({
     host: "us-cdbr-east-05.cleardb.net",
-    user: "ba3bd950dbfbed", 
-    password: "573b449f",
-    database: "heroku_f6c3e56bf244b8e"
-});*/
+    user: "bcb5f0b4b28f7b", 
+    password: "511459f4",
+    database: "heroku_446c4262d4a3a8f"
+});
 
 var edit = require('./routes/edit');
 var feed = require('./routes/feed');
@@ -48,7 +48,7 @@ var hbs = handlebars.create({
 // all environments
 app.set('port', process.env.PORT || 3000);
 app.set('views', path.join(__dirname, 'views'));
-//app.set('connection', connection);
+app.set('pool', pool);
 app.engine('handlebars', hbs.engine);
 app.set('view engine', 'handlebars');
 app.use(express.favicon());
