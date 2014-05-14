@@ -2,13 +2,11 @@
   "name": "rbthorn",
   "version": "0.0.1",
   "author": "Priya, Yiju, Erika",
-
   "repository": {
     "type": "git",
     "url": "https://github.com/erikaji/rbthorn.git"
   },
   "license": "MIT",
-
   "private": true,
   "scripts": {
     "start": "node app.js"
@@ -18,7 +16,6 @@
     "express3-handlebars": "*",
     "mongodb": "*",
     "mongoose": "*"
-    // "mysql": "*"
   },
   "engines": {
     "node": "0.10.x"
